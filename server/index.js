@@ -185,27 +185,16 @@ app.get('/api/health', asyncRoute((_req, res) => {
 
 app.get('/api/stats', asyncRoute((_req, res) => {
   const counts = getCounts();
-  const moduleLevels = tableExists('modules')
-    ? getDb().prepare('SELECT level, COUNT(*) AS count FROM modules GROUP BY level ORDER BY level').all()
-    : [];
-  const questionDifficulty = tableExists('questions')
-    ? getDb().prepare('SELECT difficulty_1_to_5 AS difficulty, COUNT(*) AS count FROM questions GROUP BY difficulty_1_to_5 ORDER BY CAST(difficulty_1_to_5 AS INTEGER)').all()
-    : [];
-
   res.json({
-    ok: true,
-    database: {
-      connected: true,
-      path: databasePath,
-    },
-    counts,
-    totals: {
-      studyRecords: Object.values(counts).reduce((total, count) => total + count, 0),
-    },
-    breakdowns: {
-      moduleLevels,
-      questionDifficulty,
-    },
+    modules: counts.modules,
+    lessons: counts.lessons,
+    scenarios: counts.scenarios,
+    questions: counts.questions,
+    drugs: counts.drugs,
+    skills: counts.skills,
+    ecg: counts.ecg,
+    foundations: counts.foundations,
+    media: counts.media,
   });
 }));
 
@@ -277,6 +266,27 @@ app.get('/api/questions/:questionId', asyncRoute((req, res) => {
   });
 }));
 
+app.get('/api/questions/:questionId/options', asyncRoute((req, res) => {
+  res.json({
+    table: 'question_options',
+    data: getRowsByColumn(relatedTables.question_options, 'question_id', req.params.questionId, 'display_order'),
+  });
+}));
+
+app.get('/api/questions/:questionId/rationales', asyncRoute((req, res) => {
+  res.json({
+    table: 'question_rationales',
+    data: getRowsByColumn(relatedTables.question_rationales, 'question_id', req.params.questionId),
+  });
+}));
+
+app.get('/api/scenarios/:scenarioId/steps', asyncRoute((req, res) => {
+  res.json({
+    table: 'scenario_steps',
+    data: getRowsByColumn(relatedTables.scenario_steps, 'scenario_id', req.params.scenarioId, 'step_id'),
+  });
+}));
+
 app.get('/api/skills/:skillId', asyncRoute((req, res) => {
   const skill = getRowsByColumn('skills', 'skill_id', req.params.skillId)[0];
   if (!skill) {
@@ -290,6 +300,43 @@ app.get('/api/skills/:skillId', asyncRoute((req, res) => {
       steps: getRowsByColumn(relatedTables.skill_steps, 'skill_id', req.params.skillId, 'step_order'),
     },
   });
+}));
+
+app.get('/api/skills/:skillId/steps', asyncRoute((req, res) => {
+  res.json({
+    table: 'skill_steps',
+    data: getRowsByColumn(relatedTables.skill_steps, 'skill_id', req.params.skillId, 'step_order'),
+  });
+}));
+
+app.get('/api/drugs/:drugId', asyncRoute((req, res) => {
+  const drug = getRowsByColumn('drugs', 'drug_id', req.params.drugId)[0];
+  if (!drug) {
+    res.status(404).json({ error: 'Drug not found' });
+    return;
+  }
+
+  res.json({ data: drug, related: {} });
+}));
+
+app.get('/api/ecg/:ecgId', asyncRoute((req, res) => {
+  const ecg = getRowsByColumn('ecg_bank', 'ecg_id', req.params.ecgId)[0];
+  if (!ecg) {
+    res.status(404).json({ error: 'ECG record not found' });
+    return;
+  }
+
+  res.json({ data: ecg, related: {} });
+}));
+
+app.get('/api/foundations/:foundationId', asyncRoute((req, res) => {
+  const foundation = getRowsByColumn('foundations', 'foundation_id', req.params.foundationId)[0];
+  if (!foundation) {
+    res.status(404).json({ error: 'Foundation not found' });
+    return;
+  }
+
+  res.json({ data: foundation, related: {} });
 }));
 
 app.use((err, _req, res, _next) => {

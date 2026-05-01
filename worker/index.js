@@ -26,7 +26,11 @@ export default {
       references: 'references',
     };
 
-    if (url.pathname === '/api/health' || url.pathname === '/api/stats') {
+    if (url.pathname === '/api/stats') {
+      return Response.json(counts);
+    }
+
+    if (url.pathname === '/api/health') {
       return Response.json({
         ok: true,
         runtime: 'cloudflare-worker',
@@ -35,9 +39,6 @@ export default {
           path: 'Local SQLite database is used by the Node/Express backend.',
         },
         counts,
-        totals: {
-          studyRecords: Object.values(counts).reduce((total, count) => total + count, 0),
-        },
       });
     }
 

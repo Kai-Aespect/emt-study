@@ -4,10 +4,14 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"npm run start\" \"vite --host 127.0.0.1\"",
-    "build": "vite build",
+    "server": "node server/index.js",
+    "client": "vite --host 127.0.0.1",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "npm run import:data && vite build",
     "deploy": "wrangler deploy",
-    "import:data": "node scripts/import-csv-to-sqlite.js",
+    "import:data": "node scripts/import-data.mjs",
+    "verify:data": "node scripts/verify-database.mjs",
+    "reset:data": "node scripts/reset-database.mjs",
     "start": "node server/index.js"
   },
   "dependencies": {
@@ -19,7 +23,8 @@
     "express": "^5.2.1",
     "lucide-react": "^0.561.0",
     "react": "^19.2.3",
-    "react-dom": "^19.2.3"
+    "react-dom": "^19.2.3",
+    "xlsx": "^0.18.5"
   },
   "devDependencies": {
     "@types/react": "^19.2.7",

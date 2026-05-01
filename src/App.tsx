@@ -389,6 +389,7 @@ function Panel({
 
 export function App() {
   const [health, setHealth] = useState<HealthResponse | null>(null);
+  const [stats, setStats] = useState<Counts>({});
   const [activePageKey, setActivePageKey] = useState<PageKey>('dashboard');
   const [query, setQuery] = useState('');
   const [filters, setFilters] = useState<Record<string, string>>({});
@@ -404,7 +405,7 @@ export function App() {
 
   const activePage = useMemo(() => getPage(activePageKey), [activePageKey]);
   const activeApiKey = activePage.apiKey ?? 'modules';
-  const counts = health?.counts ?? {};
+  const counts = Object.keys(stats).length ? stats : (health?.counts ?? {});
   const totalRecords = apiPages.reduce((total, page) => total + getCount(counts, page), 0);
 
   function updateProgress(updater: (progress: ProgressState) => ProgressState) {
@@ -425,7 +426,7 @@ export function App() {
     setDetailError('');
 
     const id = getRecordId(record);
-    const detailRoutes = new Set<PageKey>(['modules', 'lessons', 'scenarios', 'questions', 'skills']);
+    const detailRoutes = new Set<PageKey>(['modules', 'lessons', 'scenarios', 'questions', 'drugs', 'skills', 'ecg', 'foundations']);
     if (!id || !activePage.apiKey || !detailRoutes.has(activePage.key)) {
       setDetail({ data: record, related: {} });
       return;
@@ -451,10 +452,10 @@ export function App() {
   }
 
   useEffect(() => {
-    fetch('/api/stats')
+    fetch('/api/health')
       .then((response) => {
         if (!response.ok) {
-          throw new Error(`Stats request failed with ${response.status}`);
+          throw new Error(`Health check failed with ${response.status}`);
         }
         return response.json();
       })
@@ -462,6 +463,18 @@ export function App() {
         setHealth(payload);
         setHealthError('');
       })
+      .catch((err) => setHealthError(err.message));
+  }, []);
+
+  useEffect(() => {
+    fetch('/api/stats')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Stats request failed with ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(setStats)
       .catch((err) => setHealthError(err.message));
   }, []);
 
