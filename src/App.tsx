@@ -56,6 +56,21 @@ type ListResponse = {
   data: Record<string, string>[];
 };
 
+type DetailResponse = {
+  data: Record<string, string>;
+  related: Record<string, Record<string, string>[]>;
+};
+
+type ProgressState = {
+  completedLessons: string[];
+  completedScenarios: string[];
+  answeredQuestions: Record<string, boolean>;
+  flaggedQuestions: string[];
+  savedEcgs: string[];
+  checkedSkillSteps: Record<string, string[]>;
+  lastActivityDate: string;
+};
+
 type PageConfig = {
   key: PageKey;
   apiKey?: ApiKey;
@@ -67,6 +82,7 @@ type PageConfig = {
   primaryField: string;
   secondaryFields: string[];
   metricLabel: string;
+  filters: string[];
 };
 
 const pages: PageConfig[] = [
@@ -80,6 +96,7 @@ const pages: PageConfig[] = [
     primaryField: 'title',
     secondaryFields: [],
     metricLabel: 'Records',
+    filters: [],
   },
   {
     key: 'modules',
@@ -92,6 +109,7 @@ const pages: PageConfig[] = [
     primaryField: 'title',
     secondaryFields: ['level', 'module_type', 'short_summary'],
     metricLabel: 'Modules',
+    filters: ['level'],
   },
   {
     key: 'lessons',
@@ -104,6 +122,7 @@ const pages: PageConfig[] = [
     primaryField: 'title',
     secondaryFields: ['level', 'difficulty_1_to_5', 'short_summary'],
     metricLabel: 'Lessons',
+    filters: ['level', 'difficulty'],
   },
   {
     key: 'scenarios',
@@ -116,6 +135,7 @@ const pages: PageConfig[] = [
     primaryField: 'dispatch_information',
     secondaryFields: ['level', 'setting', 'initial_impression'],
     metricLabel: 'Scenarios',
+    filters: ['level', 'age_group', 'setting', 'difficulty'],
   },
   {
     key: 'questions',
@@ -128,6 +148,7 @@ const pages: PageConfig[] = [
     primaryField: 'stem',
     secondaryFields: ['level', 'item_type', 'cognitive_level'],
     metricLabel: 'Questions',
+    filters: ['level', 'difficulty', 'item_type'],
   },
   {
     key: 'drugs',
@@ -140,6 +161,7 @@ const pages: PageConfig[] = [
     primaryField: 'drug_name',
     secondaryFields: ['class_id', 'level_scope', 'indications'],
     metricLabel: 'Drugs',
+    filters: ['level'],
   },
   {
     key: 'skills',
@@ -152,6 +174,7 @@ const pages: PageConfig[] = [
     primaryField: 'skill_name',
     secondaryFields: ['level_scope', 'category', 'description'],
     metricLabel: 'Skills',
+    filters: ['level'],
   },
   {
     key: 'ecg',
@@ -164,6 +187,7 @@ const pages: PageConfig[] = [
     primaryField: 'rhythm_name',
     secondaryFields: ['clinical_label', 'difficulty_1_to_5', 'teaching_points'],
     metricLabel: 'ECG Records',
+    filters: ['difficulty', 'ecg_type'],
   },
   {
     key: 'foundations',
@@ -176,6 +200,7 @@ const pages: PageConfig[] = [
     primaryField: 'foundation_topic',
     secondaryFields: ['category', 'level_scope', 'summary'],
     metricLabel: 'Foundations',
+    filters: ['cluster'],
   },
   {
     key: 'media',
@@ -188,6 +213,7 @@ const pages: PageConfig[] = [
     primaryField: 'clinical_label',
     secondaryFields: ['asset_type', 'file_name', 'caption'],
     metricLabel: 'Media Assets',
+    filters: ['asset_type', 'verification_status'],
   },
 ];
 
@@ -280,6 +306,37 @@ function formatValue(value: string | number | undefined) {
   return value.toString();
 }
 
+const defaultProgress: ProgressState = {
+  completedLessons: [],
+  completedScenarios: [],
+  answeredQuestions: {},
+  flaggedQuestions: [],
+  savedEcgs: [],
+  checkedSkillSteps: {},
+  lastActivityDate: '',
+};
+
+function readProgress(): ProgressState {
+  try {
+    const raw = window.localStorage.getItem('emsStudyProgress');
+    return raw ? { ...defaultProgress, ...JSON.parse(raw) } : defaultProgress;
+  } catch {
+    return defaultProgress;
+  }
+}
+
+function writeProgress(progress: ProgressState) {
+  window.localStorage.setItem('emsStudyProgress', JSON.stringify(progress));
+}
+
+function toggleInArray(items: string[], id: string) {
+  return items.includes(id) ? items.filter((item) => item !== id) : [...items, id];
+}
+
+function isCorrectOption(option: Record<string, string>, question: Record<string, string>) {
+  return option.is_correct === 'True' || option.option_key === question.correct_answer_key;
+}
+
 function SkeletonCards() {
   return (
     <div className="record-grid">
@@ -334,22 +391,70 @@ export function App() {
   const [health, setHealth] = useState<HealthResponse | null>(null);
   const [activePageKey, setActivePageKey] = useState<PageKey>('dashboard');
   const [query, setQuery] = useState('');
-  const [level, setLevel] = useState('');
+  const [filters, setFilters] = useState<Record<string, string>>({});
   const [list, setList] = useState<ListResponse | null>(null);
   const [loading, setLoading] = useState(false);
   const [healthError, setHealthError] = useState('');
   const [listError, setListError] = useState('');
+  const [selectedRecord, setSelectedRecord] = useState<Record<string, string> | null>(null);
+  const [detail, setDetail] = useState<DetailResponse | null>(null);
+  const [detailLoading, setDetailLoading] = useState(false);
+  const [detailError, setDetailError] = useState('');
+  const [progress, setProgress] = useState<ProgressState>(() => readProgress());
 
   const activePage = useMemo(() => getPage(activePageKey), [activePageKey]);
   const activeApiKey = activePage.apiKey ?? 'modules';
   const counts = health?.counts ?? {};
   const totalRecords = apiPages.reduce((total, page) => total + getCount(counts, page), 0);
 
-  useEffect(() => {
-    fetch('/api/health')
+  function updateProgress(updater: (progress: ProgressState) => ProgressState) {
+    setProgress((current) => {
+      const next = updater({ ...current, lastActivityDate: new Date().toISOString().slice(0, 10) });
+      writeProgress(next);
+      return next;
+    });
+  }
+
+  function updateFilter(key: string, value: string) {
+    setFilters((current) => ({ ...current, [key]: value }));
+  }
+
+  function openRecord(record: Record<string, string>) {
+    setSelectedRecord(record);
+    setDetail(null);
+    setDetailError('');
+
+    const id = getRecordId(record);
+    const detailRoutes = new Set<PageKey>(['modules', 'lessons', 'scenarios', 'questions', 'skills']);
+    if (!id || !activePage.apiKey || !detailRoutes.has(activePage.key)) {
+      setDetail({ data: record, related: {} });
+      return;
+    }
+
+    setDetailLoading(true);
+    fetch(`/api/${activePage.apiKey}/${id}`)
       .then((response) => {
         if (!response.ok) {
-          throw new Error(`Health check failed with ${response.status}`);
+          throw new Error(`Detail request failed with ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(setDetail)
+      .catch((err) => setDetailError(err.message))
+      .finally(() => setDetailLoading(false));
+  }
+
+  function closeDetail() {
+    setSelectedRecord(null);
+    setDetail(null);
+    setDetailError('');
+  }
+
+  useEffect(() => {
+    fetch('/api/stats')
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Stats request failed with ${response.status}`);
         }
         return response.json();
       })
@@ -368,8 +473,10 @@ export function App() {
       params.set('q', query);
     }
 
-    if (level) {
-      params.set('level', level);
+    for (const [key, value] of Object.entries(filters)) {
+      if (value && activePage.filters.includes(key)) {
+        params.set(key, value);
+      }
     }
 
     setLoading(true);
@@ -390,7 +497,14 @@ export function App() {
       .finally(() => setLoading(false));
 
     return () => controller.abort();
-  }, [activeApiKey, activePageKey, query, level]);
+  }, [activeApiKey, activePage.filters, activePageKey, filters, query]);
+
+  useEffect(() => {
+    setSelectedRecord(null);
+    setDetail(null);
+    setDetailError('');
+    setFilters({});
+  }, [activePageKey]);
 
   return (
     <div className="dashboard-shell">
@@ -483,20 +597,29 @@ export function App() {
             list={list}
             listError={listError}
             loading={loading}
+            progress={progress}
             query={query}
             setActivePageKey={setActivePageKey}
             totalRecords={totalRecords}
           />
         ) : (
           <DataPage
+            closeDetail={closeDetail}
+            detail={detail}
+            detailError={detailError}
+            detailLoading={detailLoading}
+            filters={filters}
             health={health}
-            level={level}
             list={list}
             listError={listError}
             loading={loading}
+            openRecord={openRecord}
             page={activePage}
+            progress={progress}
             query={query}
-            setLevel={setLevel}
+            selectedRecord={selectedRecord}
+            updateFilter={updateFilter}
+            updateProgress={updateProgress}
           />
         )}
       </main>
@@ -510,6 +633,7 @@ function Dashboard({
   list,
   listError,
   loading,
+  progress,
   query,
   setActivePageKey,
   totalRecords,
@@ -519,10 +643,15 @@ function Dashboard({
   list: ListResponse | null;
   listError: string;
   loading: boolean;
+  progress: ProgressState;
   query: string;
   setActivePageKey: (key: PageKey) => void;
   totalRecords: number;
 }) {
+  const moduleRows = list?.data.length ? list.data : [];
+  const scoreTotal = Object.keys(progress.answeredQuestions).length;
+  const scoreCorrect = Object.values(progress.answeredQuestions).filter(Boolean).length;
+
   return (
     <>
       <section className="hero-panel">
@@ -540,12 +669,13 @@ function Dashboard({
 
             <article className="stat-card score-card">
               <span>
-                <Activity aria-hidden="true" /> Readiness Score
+                <Activity aria-hidden="true" /> Local Progress
               </span>
               <strong>
-                86 <small>/100</small>
+                {scoreTotal ? Math.round((scoreCorrect / scoreTotal) * 100) : 0}
+                <small>%</small>
               </strong>
-              <p>High readiness</p>
+              <p>{scoreCorrect} of {scoreTotal} questions correct</p>
               <div className="sparkline" aria-hidden="true">
                 {performancePoints.map((point, index) => (
                   <i key={index} style={{ height: `${point}%` }} />
@@ -604,7 +734,25 @@ function Dashboard({
 
       <section className="grid three">
         <Panel title="Current Modules" action="View all">
-          {dashboardModules.map((module) => {
+          {(moduleRows.length ? moduleRows : dashboardModules).slice(0, 4).map((module, index) => {
+            if ('module_id' in module) {
+              const percent = [67, 57, 45, 38][index] ?? 35;
+              return (
+                <button className="module-row clickable-row" key={module.module_id} onClick={() => setActivePageKey('modules')} type="button">
+                  <div className="round-icon blue">
+                    <BookOpen aria-hidden="true" />
+                  </div>
+                  <div>
+                    <strong>{module.title}</strong>
+                    <span>{module.level} - {module.module_type}</span>
+                  </div>
+                  <div className="mini-progress">
+                    <i style={{ width: `${percent}%` }} />
+                  </div>
+                  <b>{percent}%</b>
+                </button>
+              );
+            }
             const Icon = module.icon;
             return (
               <div className="module-row" key={module.title}>
@@ -702,22 +850,7 @@ function Dashboard({
           </div>
         </Panel>
 
-        <Panel title="Live Module Preview" action={list ? `${list.count} records` : 'Loading'}>
-          {listError ? <ErrorState message={listError} compact /> : null}
-          {loading ? <SkeletonCards /> : null}
-          {!loading && !listError ? (
-            <div className="records compact">
-              {list?.data.map((record, index) => (
-                <article className="record" key={`${getRecordId(record)}-${index}`}>
-                  <span>{getRecordId(record)}</span>
-                  <strong>{getRecordTitle(record, getPage('modules'))}</strong>
-                  <p>{getPreview(record, getPage('modules')) || 'Module preview'}</p>
-                </article>
-              ))}
-              {!list?.data.length ? <EmptyState hasQuery={Boolean(query)} page={getPage('modules')} /> : null}
-            </div>
-          ) : null}
-        </Panel>
+        <DatabaseBrowser initialList={list} initialLoading={loading} initialError={listError} query={query} />
       </section>
 
       <footer>
@@ -730,26 +863,57 @@ function Dashboard({
 }
 
 function DataPage({
+  closeDetail,
+  detail,
+  detailError,
+  detailLoading,
+  filters,
   health,
-  level,
   list,
   listError,
   loading,
+  openRecord,
   page,
+  progress,
   query,
-  setLevel,
+  selectedRecord,
+  updateFilter,
+  updateProgress,
 }: {
+  closeDetail: () => void;
+  detail: DetailResponse | null;
+  detailError: string;
+  detailLoading: boolean;
+  filters: Record<string, string>;
   health: HealthResponse | null;
-  level: string;
   list: ListResponse | null;
   listError: string;
   loading: boolean;
+  openRecord: (record: Record<string, string>) => void;
   page: PageConfig;
+  progress: ProgressState;
   query: string;
-  setLevel: (level: string) => void;
+  selectedRecord: Record<string, string> | null;
+  updateFilter: (key: string, value: string) => void;
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
 }) {
   const Icon = page.icon;
   const shownColumns = [page.primaryField, ...page.secondaryFields].filter((field, index, fields) => fields.indexOf(field) === index);
+
+  if (selectedRecord) {
+    return (
+      <DetailView
+        closeDetail={closeDetail}
+        detail={detail}
+        detailError={detailError}
+        detailLoading={detailLoading}
+        page={page}
+        progress={progress}
+        record={selectedRecord}
+        updateProgress={updateProgress}
+      />
+    );
+  }
 
   return (
     <>
@@ -775,14 +939,13 @@ function DataPage({
           </div>
         </div>
         <label>
-          Level
-          <select onChange={(event) => setLevel(event.target.value)} value={level}>
-            <option value="">All levels</option>
-            <option value="emt">EMT</option>
-            <option value="aemt">AEMT</option>
-            <option value="paramedic">Paramedic</option>
-            <option value="shared">Shared</option>
-          </select>
+          Filters
+          <div className="filter-controls">
+            {page.filters.map((filterKey) => (
+              <FilterSelect filterKey={filterKey} filters={filters} key={filterKey} updateFilter={updateFilter} />
+            ))}
+            {!page.filters.length ? <span className="muted">No structured filters for this page.</span> : null}
+          </div>
         </label>
         <div className={health?.database.connected ? 'route-pill online' : 'route-pill'}>
           <Database aria-hidden="true" />
@@ -806,11 +969,11 @@ function DataPage({
           </div>
 
           {loading ? <SkeletonCards /> : null}
-          {!loading && !listError && list?.data.length === 0 ? <EmptyState hasQuery={Boolean(query || level)} page={page} /> : null}
+          {!loading && !listError && list?.data.length === 0 ? <EmptyState hasQuery={Boolean(query || Object.values(filters).some(Boolean))} page={page} /> : null}
           {!loading && !listError && list?.data.length ? (
             <div className="record-grid">
               {list.data.map((record, index) => (
-                <article className={`record-card ${page.accent}`} key={`${getRecordId(record)}-${index}`}>
+                <button className={`record-card ${page.accent}`} key={`${getRecordId(record)}-${index}`} onClick={() => openRecord(record)} type="button">
                   <div className="record-card-top">
                     <span>{getRecordId(record) || page.label}</span>
                     <CheckCircle2 aria-hidden="true" />
@@ -825,7 +988,7 @@ function DataPage({
                       </span>
                     ))}
                   </div>
-                </article>
+                </button>
               ))}
             </div>
           ) : null}
@@ -874,5 +1037,502 @@ function ErrorState({ message, compact = false }: { message: string; compact?: b
         <p>{message}</p>
       </div>
     </div>
+  );
+}
+
+function FilterSelect({
+  filterKey,
+  filters,
+  updateFilter,
+}: {
+  filterKey: string;
+  filters: Record<string, string>;
+  updateFilter: (key: string, value: string) => void;
+}) {
+  const options: Record<string, string[]> = {
+    level: ['', 'emt', 'aemt', 'paramedic', 'shared'],
+    difficulty: ['', '1', '2', '3', '4', '5'],
+    item_type: ['', 'single_best_answer', 'multi_select', 'calculation'],
+    age_group: ['', 'adult', 'pediatric', 'geriatric'],
+    setting: ['', 'home', 'street', 'clinic', 'ambulance'],
+    ecg_type: ['', 'rhythm_strip', '12_lead'],
+    cluster: ['', 'ap', 'ops', 'clinical', 'safety'],
+    asset_type: ['', 'ecg_raw', 'image', 'audio', 'video'],
+    verification_status: ['', 'draft', 'verified'],
+  };
+
+  return (
+    <select onChange={(event) => updateFilter(filterKey, event.target.value)} value={filters[filterKey] ?? ''}>
+      {(options[filterKey] ?? ['']).map((option) => (
+        <option key={option || 'all'} value={option}>
+          {option ? option.replaceAll('_', ' ') : `All ${filterKey.replaceAll('_', ' ')}`}
+        </option>
+      ))}
+    </select>
+  );
+}
+
+function DetailView({
+  closeDetail,
+  detail,
+  detailError,
+  detailLoading,
+  page,
+  progress,
+  record,
+  updateProgress,
+}: {
+  closeDetail: () => void;
+  detail: DetailResponse | null;
+  detailError: string;
+  detailLoading: boolean;
+  page: PageConfig;
+  progress: ProgressState;
+  record: Record<string, string>;
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
+}) {
+  const data = detail?.data ?? record;
+  const related = detail?.related ?? {};
+  const id = getRecordId(data);
+
+  return (
+    <section className="detail-view">
+      <button className="back-button" onClick={closeDetail} type="button">
+        <ChevronRight aria-hidden="true" />
+        Back to {page.label}
+      </button>
+
+      {detailError ? <ErrorState message={detailError} /> : null}
+      {detailLoading ? <SkeletonCards /> : null}
+
+      {!detailLoading ? (
+        <>
+          <div className={`detail-hero ${page.accent}`}>
+            <span>{id || page.label}</span>
+            <h1>{getRecordTitle(data, page)}</h1>
+            <p>{getPreview(data, page) || data.short_summary || data.indications || data.caption || 'Detailed database record.'}</p>
+          </div>
+
+          {page.key === 'modules' ? <ModuleDetail data={data} lessons={related.lessons ?? []} /> : null}
+          {page.key === 'lessons' ? <LessonDetail data={data} objectives={related.objectives ?? []} progress={progress} updateProgress={updateProgress} /> : null}
+          {page.key === 'scenarios' ? <ScenarioPractice data={data} branches={related.branches ?? []} progress={progress} steps={related.steps ?? []} updateProgress={updateProgress} /> : null}
+          {page.key === 'questions' ? <QuestionPractice data={data} options={related.options ?? []} progress={progress} rationales={related.rationales ?? []} updateProgress={updateProgress} /> : null}
+          {page.key === 'drugs' ? <DrugDetail data={data} /> : null}
+          {page.key === 'skills' ? <SkillChecklist data={data} progress={progress} steps={related.steps ?? []} updateProgress={updateProgress} /> : null}
+          {page.key === 'ecg' ? <EcgDetail data={data} progress={progress} updateProgress={updateProgress} /> : null}
+          {page.key === 'foundations' ? <FoundationDetail data={data} /> : null}
+          {page.key === 'media' ? <MediaDetail data={data} /> : null}
+        </>
+      ) : null}
+    </section>
+  );
+}
+
+function DatabaseBrowser({
+  initialError,
+  initialList,
+  initialLoading,
+  query,
+}: {
+  initialError: string;
+  initialList: ListResponse | null;
+  initialLoading: boolean;
+  query: string;
+}) {
+  const [browserKey, setBrowserKey] = useState<ApiKey>('modules');
+  const [level, setLevel] = useState('');
+  const [browserList, setBrowserList] = useState<ListResponse | null>(initialList);
+  const [browserLoading, setBrowserLoading] = useState(initialLoading);
+  const [browserError, setBrowserError] = useState(initialError);
+  const page = getPage(browserKey);
+
+  useEffect(() => {
+    if (browserKey === 'modules' && initialList && !level) {
+      setBrowserList(initialList);
+      setBrowserLoading(initialLoading);
+      setBrowserError(initialError);
+    }
+  }, [browserKey, initialError, initialList, initialLoading, level]);
+
+  useEffect(() => {
+    const params = new URLSearchParams({ limit: '8' });
+    if (query) {
+      params.set('q', query);
+    }
+    if (level) {
+      params.set('level', level);
+    }
+
+    setBrowserLoading(true);
+    setBrowserError('');
+    fetch(`/api/${browserKey}?${params.toString()}`)
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error(`Database browser request failed with ${response.status}`);
+        }
+        return response.json();
+      })
+      .then(setBrowserList)
+      .catch((err) => setBrowserError(err.message))
+      .finally(() => setBrowserLoading(false));
+  }, [browserKey, level, query]);
+
+  return (
+    <Panel title="Database Browser" action={browserList ? `${browserList.count} records` : 'Loading'}>
+      <div className="browser-controls">
+        <select onChange={(event) => setBrowserKey(event.target.value as ApiKey)} value={browserKey}>
+          {apiPages.map((apiPage) => (
+            <option key={apiPage.key} value={apiPage.key}>
+              {apiPage.label}
+            </option>
+          ))}
+        </select>
+        <select onChange={(event) => setLevel(event.target.value)} value={level}>
+          <option value="">All levels</option>
+          <option value="emt">EMT</option>
+          <option value="aemt">AEMT</option>
+          <option value="paramedic">Paramedic</option>
+          <option value="shared">Shared</option>
+        </select>
+      </div>
+      {browserError ? <ErrorState message={browserError} compact /> : null}
+      {browserLoading ? <SkeletonCards /> : null}
+      {!browserLoading && !browserError ? (
+        <div className="records compact scroll-list">
+          {browserList?.data.map((record, index) => (
+            <article className="record" key={`${getRecordId(record)}-${index}`}>
+              <span>{getRecordId(record)}</span>
+              <strong>{getRecordTitle(record, page)}</strong>
+              <p>{getPreview(record, page) || 'Database record'}</p>
+            </article>
+          ))}
+          {!browserList?.data.length ? <EmptyState hasQuery={Boolean(query || level)} page={page} /> : null}
+        </div>
+      ) : null}
+    </Panel>
+  );
+}
+
+function FieldBlock({ label, value }: { label: string; value?: string }) {
+  return (
+    <div className="field-block">
+      <span>{label}</span>
+      <p>{formatValue(value)}</p>
+    </div>
+  );
+}
+
+function ModuleDetail({ data, lessons }: { data: Record<string, string>; lessons: Record<string, string>[] }) {
+  return (
+    <div className="detail-grid">
+      <Panel title="Module Summary">
+        <FieldBlock label="Level" value={data.level} />
+        <FieldBlock label="Type" value={data.module_type} />
+        <FieldBlock label="Estimated minutes" value={data.est_minutes} />
+        <FieldBlock label="Summary" value={data.short_summary} />
+      </Panel>
+      <Panel title="Related Lessons">
+        <div className="related-list">
+          {lessons.map((lesson) => (
+            <article key={lesson.lesson_id}>
+              <strong>{lesson.title}</strong>
+              <span>{lesson.level} - difficulty {lesson.difficulty_1_to_5}</span>
+            </article>
+          ))}
+          {!lessons.length ? <p className="muted">No related lessons found.</p> : null}
+        </div>
+      </Panel>
+    </div>
+  );
+}
+
+function LessonDetail({
+  data,
+  objectives,
+  progress,
+  updateProgress,
+}: {
+  data: Record<string, string>;
+  objectives: Record<string, string>[];
+  progress: ProgressState;
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
+}) {
+  const completed = progress.completedLessons.includes(data.lesson_id);
+  return (
+    <div className="detail-grid">
+      <Panel title="Lesson Detail">
+        <FieldBlock label="Summary" value={data.short_summary} />
+        <FieldBlock label="Why it matters" value={data.why_it_matters} />
+        <FieldBlock label="Must know points" value={data.must_know_points} />
+        <FieldBlock label="Red flags" value={data.red_flags} />
+        <FieldBlock label="Common mistakes" value={data.common_mistakes} />
+        <FieldBlock label="Field pearls" value={data.field_pearls} />
+        <button
+          className="state-button"
+          onClick={() => updateProgress((current) => ({ ...current, completedLessons: toggleInArray(current.completedLessons, data.lesson_id) }))}
+          type="button"
+        >
+          {completed ? 'Mark incomplete' : 'Mark complete'}
+        </button>
+      </Panel>
+      <Panel title="Objectives">
+        <div className="related-list">
+          {objectives.map((objective) => (
+            <article key={objective.objective_id}>
+              <strong>{objective.objective_text}</strong>
+              <span>{objective.bloom_level} - {objective.assessed_by}</span>
+            </article>
+          ))}
+        </div>
+      </Panel>
+    </div>
+  );
+}
+
+function ScenarioPractice({
+  branches,
+  data,
+  progress,
+  steps,
+  updateProgress,
+}: {
+  branches: Record<string, string>[];
+  data: Record<string, string>;
+  progress: ProgressState;
+  steps: Record<string, string>[];
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
+}) {
+  const [stepIndex, setStepIndex] = useState(0);
+  const [showDebrief, setShowDebrief] = useState(false);
+  const step = steps[stepIndex];
+  const completed = progress.completedScenarios.includes(data.scenario_id);
+
+  return (
+    <div className="practice-panel">
+      <Panel title="Scenario Header">
+        <FieldBlock label="Dispatch" value={data.dispatch_information} />
+        <FieldBlock label="Scene cues" value={data.scene_cues} />
+        <FieldBlock label="Safety hazards" value={data.safety_hazards} />
+      </Panel>
+      <Panel title={`Step ${stepIndex + 1} of ${steps.length || 1}`}>
+        {step ? (
+          <>
+            <FieldBlock label={step.phase || 'Cue'} value={step.cue_text} />
+            <FieldBlock label="Expected action" value={step.expected_action} />
+            <FieldBlock label="Consequence" value={step.consequence_text} />
+          </>
+        ) : (
+          <p className="muted">No scenario steps found. Use scenario header for review.</p>
+        )}
+        <div className="button-row">
+          <button onClick={() => setStepIndex(Math.max(0, stepIndex - 1))} type="button">Previous Step</button>
+          <button onClick={() => setStepIndex(Math.min(Math.max(steps.length - 1, 0), stepIndex + 1))} type="button">Next Step</button>
+          <button onClick={() => { setStepIndex(0); setShowDebrief(false); }} type="button">Restart</button>
+          <button onClick={() => setShowDebrief(true)} type="button">Debrief</button>
+          <button
+            onClick={() => updateProgress((current) => ({ ...current, completedScenarios: toggleInArray(current.completedScenarios, data.scenario_id) }))}
+            type="button"
+          >
+            {completed ? 'Uncomplete' : 'Complete'}
+          </button>
+        </div>
+        {showDebrief ? (
+          <div className="debrief">
+            <strong>Debrief</strong>
+            <p>{branches[0]?.debrief_note || 'Linear scenario complete. Review missed priorities, reassessment, and scope limits.'}</p>
+          </div>
+        ) : null}
+      </Panel>
+    </div>
+  );
+}
+
+function QuestionPractice({
+  data,
+  options,
+  progress,
+  rationales,
+  updateProgress,
+}: {
+  data: Record<string, string>;
+  options: Record<string, string>[];
+  progress: ProgressState;
+  rationales: Record<string, string>[];
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
+}) {
+  const [selected, setSelected] = useState('');
+  const [submitted, setSubmitted] = useState(false);
+  const correct = options.find((option) => isCorrectOption(option, data));
+  const isCorrect = selected && correct && selected === correct.option_key;
+  const flagged = progress.flaggedQuestions.includes(data.question_id);
+
+  return (
+    <Panel title="Practice Question">
+      <h2 className="question-stem">{data.stem}</h2>
+      <div className="option-list">
+        {options.map((option) => (
+          <button
+            className={selected === option.option_key ? 'selected' : ''}
+            key={option.option_id}
+            onClick={() => !submitted && setSelected(option.option_key)}
+            type="button"
+          >
+            <b>{option.option_key}</b>
+            {option.option_text}
+          </button>
+        ))}
+      </div>
+      <div className="button-row">
+        <button
+          onClick={() => {
+            setSubmitted(true);
+            updateProgress((current) => ({ ...current, answeredQuestions: { ...current.answeredQuestions, [data.question_id]: Boolean(isCorrect) } }));
+          }}
+          type="button"
+        >
+          Submit Answer
+        </button>
+        <button
+          onClick={() => updateProgress((current) => ({ ...current, flaggedQuestions: toggleInArray(current.flaggedQuestions, data.question_id) }))}
+          type="button"
+        >
+          {flagged ? 'Unflag' : 'Flag Question'}
+        </button>
+      </div>
+      {submitted ? (
+        <div className={isCorrect ? 'answer-result correct' : 'answer-result incorrect'}>
+          <strong>{isCorrect ? 'Correct' : `Incorrect - correct answer is ${correct?.option_key ?? data.correct_answer_key}`}</strong>
+          {rationales.map((rationale) => (
+            <p key={rationale.rationale_id}>{rationale.rationale_text}</p>
+          ))}
+        </div>
+      ) : null}
+    </Panel>
+  );
+}
+
+function DrugDetail({ data }: { data: Record<string, string> }) {
+  return (
+    <div className="detail-grid">
+      <Panel title="Medication Card">
+        <FieldBlock label="Generic name" value={data.generic_name} />
+        <FieldBlock label="Class" value={data.class_name} />
+        <FieldBlock label="Indications" value={data.indications} />
+        <FieldBlock label="Dose" value={data.adult_dose_text} />
+        <FieldBlock label="Route" value={data.route_text} />
+      </Panel>
+      <Panel title="Safety">
+        <FieldBlock label="Contraindications" value={data.contraindications} />
+        <FieldBlock label="Adverse effects" value={data.adverse_effects} />
+        <FieldBlock label="Monitoring" value={data.monitoring} />
+        <FieldBlock label="Protocol variation note" value={data.protocol_variation_note} />
+      </Panel>
+    </div>
+  );
+}
+
+function SkillChecklist({
+  data,
+  progress,
+  steps,
+  updateProgress,
+}: {
+  data: Record<string, string>;
+  progress: ProgressState;
+  steps: Record<string, string>[];
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
+}) {
+  const checked = progress.checkedSkillSteps[data.skill_id] ?? [];
+  return (
+    <Panel title="Skill Checklist">
+      <FieldBlock label="Indications" value={data.indications} />
+      <div className="checklist">
+        {steps.map((step) => (
+          <label key={step.skill_step_id}>
+            <input
+              checked={checked.includes(step.skill_step_id)}
+              onChange={() => updateProgress((current) => ({
+                ...current,
+                checkedSkillSteps: {
+                  ...current.checkedSkillSteps,
+                  [data.skill_id]: toggleInArray(current.checkedSkillSteps[data.skill_id] ?? [], step.skill_step_id),
+                },
+              }))}
+              type="checkbox"
+            />
+            <span>{step.step_order}. {step.action_text}</span>
+          </label>
+        ))}
+      </div>
+      <button
+        className="state-button"
+        onClick={() => updateProgress((current) => ({ ...current, checkedSkillSteps: { ...current.checkedSkillSteps, [data.skill_id]: [] } }))}
+        type="button"
+      >
+        Reset Checklist
+      </button>
+    </Panel>
+  );
+}
+
+function EcgDetail({
+  data,
+  progress,
+  updateProgress,
+}: {
+  data: Record<string, string>;
+  progress: ProgressState;
+  updateProgress: (updater: (progress: ProgressState) => ProgressState) => void;
+}) {
+  const [revealed, setRevealed] = useState(false);
+  const saved = progress.savedEcgs.includes(data.ecg_id);
+  return (
+    <Panel title="ECG Drill">
+      <FieldBlock label="Type" value={data.ecg_type} />
+      <FieldBlock label="Difficulty" value={data.difficulty_1_to_5} />
+      {revealed ? (
+        <>
+          <FieldBlock label="Rhythm name" value={data.rhythm_name} />
+          <FieldBlock label="Identification pearls" value={data.identification_pearls} />
+          <FieldBlock label="Common confusions" value={data.common_confusions} />
+          <FieldBlock label="Immediate priorities" value={data.immediate_priorities} />
+          <FieldBlock label="Treatment considerations" value={data.treatment_considerations_by_level} />
+        </>
+      ) : (
+        <p className="muted">Review the ECG metadata, then reveal the answer when ready.</p>
+      )}
+      <div className="button-row">
+        <button onClick={() => setRevealed(true)} type="button">Reveal Answer</button>
+        <button onClick={() => updateProgress((current) => ({ ...current, savedEcgs: toggleInArray(current.savedEcgs, data.ecg_id) }))} type="button">
+          {saved ? 'Remove from Review' : 'Save to Review'}
+        </button>
+      </div>
+    </Panel>
+  );
+}
+
+function FoundationDetail({ data }: { data: Record<string, string> }) {
+  return (
+    <Panel title="Foundation Review">
+      <FieldBlock label="Cluster" value={data.cluster} />
+      <FieldBlock label="Summary" value={data.short_summary} />
+      <FieldBlock label="Core concepts" value={data.core_concepts} />
+      <FieldBlock label="Mnemonic" value={data.mnemonic} />
+      <FieldBlock label="Revisit priority" value={data.revisit_priority} />
+    </Panel>
+  );
+}
+
+function MediaDetail({ data }: { data: Record<string, string> }) {
+  return (
+    <Panel title="Media Manifest">
+      <div className="manifest-only">Manifest only</div>
+      <FieldBlock label="Asset type" value={data.asset_type} />
+      <FieldBlock label="File name" value={data.file_name} />
+      <FieldBlock label="Folder path" value={data.folder_path} />
+      <FieldBlock label="Caption" value={data.caption} />
+      <FieldBlock label="Verification status" value={data.verification_status} />
+      <FieldBlock label="Attribution" value={data.attribution_text} />
+    </Panel>
   );
 }

@@ -21,6 +21,16 @@ const endpointTables = {
   ecg: 'ecg_bank',
   foundations: 'foundations',
   media: 'media_manifest',
+  references: 'references',
+};
+
+const relatedTables = {
+  lesson_objectives: 'lesson_objectives',
+  scenario_steps: 'scenario_steps',
+  scenario_branches: 'scenario_branches',
+  question_options: 'question_options',
+  question_rationales: 'question_rationales',
+  skill_steps: 'skill_steps',
 };
 
 function getCount(tableName) {
@@ -32,15 +42,66 @@ function getCount(tableName) {
   return row.count;
 }
 
+function getCounts() {
+  return Object.fromEntries(
+    Object.entries(endpointTables).map(([name, table]) => [name, getCount(table)]),
+  );
+}
+
+function logRouteFailure(req, error) {
+  console.error(
+    JSON.stringify({
+      level: 'error',
+      message: 'API route failed',
+      method: req.method,
+      path: req.path,
+      query: req.query,
+      error: error.message,
+      stack: error.stack,
+    }),
+  );
+}
+
+function asyncRoute(handler) {
+  return (req, res, next) => {
+    try {
+      handler(req, res, next);
+    } catch (error) {
+      logRouteFailure(req, error);
+      next(error);
+    }
+  };
+}
+
+function firstExistingColumn(columns, candidates) {
+  return candidates.find((candidate) => columns.includes(candidate));
+}
+
 function buildListQuery(tableName, query) {
   const columns = getTableColumns(tableName);
   const where = [];
   const params = {};
 
-  for (const key of ['level', 'module_id', 'taxonomy_id']) {
+  for (const key of ['module_id', 'taxonomy_id', 'scenario_id', 'question_id', 'skill_id', 'asset_type', 'verification_status', 'age_group', 'setting', 'item_type', 'ecg_type', 'cluster']) {
     if (query[key] && columns.includes(key)) {
       where.push(`${quoteIdentifier(key)} = @${key}`);
       params[key] = query[key];
+    }
+  }
+
+  if (query.level) {
+    const levelColumn = firstExistingColumn(columns, ['level', 'level_min', 'level_scope', 'scope_allowed']);
+    if (levelColumn) {
+      where.push(`${quoteIdentifier(levelColumn)} = @level`);
+      params.level = query.level;
+    }
+  }
+
+  if (query.difficulty) {
+    const difficultyColumn = firstExistingColumn(columns, ['difficulty_1_to_5', 'psychomotor_complexity']);
+    if (difficultyColumn) {
+      where.push(`${quoteIdentifier(difficultyColumn)} = @difficulty`);
+      params.difficulty = query.difficulty;
     }
   }
 
@@ -65,10 +126,71 @@ function buildListQuery(tableName, query) {
   return { columns, whereSql, params, limit, offset };
 }
 
-app.get('/api/health', (_req, res) => {
-  const counts = Object.fromEntries(
-    Object.entries(endpointTables).map(([name, table]) => [name, getCount(table)]),
-  );
+function listRows(tableName, query = {}) {
+  if (!tableExists(tableName)) {
+    const error = new Error(`Table not found: ${tableName}`);
+    error.statusCode = 404;
+    throw error;
+  }
+
+  const { columns, whereSql, params, limit, offset } = buildListQuery(tableName, query);
+  const tableSql = quoteIdentifier(tableName);
+  const total = getDb()
+    .prepare(`SELECT COUNT(*) AS count FROM ${tableSql} ${whereSql}`)
+    .get(params).count;
+  const data = getDb()
+    .prepare(`SELECT * FROM ${tableSql} ${whereSql} LIMIT @limit OFFSET @offset`)
+    .all({ ...params, limit, offset });
+
+  return {
+    table: tableName,
+    columns,
+    count: total,
+    limit,
+    offset,
+    data,
+    filters: query,
+  };
+}
+
+function getRowsByColumn(tableName, columnName, value, orderByColumn) {
+  if (!tableExists(tableName)) {
+    return [];
+  }
+
+  const columns = getTableColumns(tableName);
+  if (!columns.includes(columnName)) {
+    return [];
+  }
+
+  const orderSql = orderByColumn && columns.includes(orderByColumn)
+    ? ` ORDER BY CAST(${quoteIdentifier(orderByColumn)} AS INTEGER), ${quoteIdentifier(orderByColumn)}`
+    : '';
+
+  return getDb()
+    .prepare(`SELECT * FROM ${quoteIdentifier(tableName)} WHERE ${quoteIdentifier(columnName)} = ?${orderSql}`)
+    .all(value);
+}
+
+app.get('/api/health', asyncRoute((_req, res) => {
+  res.json({
+    ok: true,
+    database: {
+      connected: true,
+      path: databasePath,
+    },
+    counts: getCounts(),
+  });
+}));
+
+app.get('/api/stats', asyncRoute((_req, res) => {
+  const counts = getCounts();
+  const moduleLevels = tableExists('modules')
+    ? getDb().prepare('SELECT level, COUNT(*) AS count FROM modules GROUP BY level ORDER BY level').all()
+    : [];
+  const questionDifficulty = tableExists('questions')
+    ? getDb().prepare('SELECT difficulty_1_to_5 AS difficulty, COUNT(*) AS count FROM questions GROUP BY difficulty_1_to_5 ORDER BY CAST(difficulty_1_to_5 AS INTEGER)').all()
+    : [];
 
   res.json({
     ok: true,
@@ -77,45 +199,105 @@ app.get('/api/health', (_req, res) => {
       path: databasePath,
     },
     counts,
+    totals: {
+      studyRecords: Object.values(counts).reduce((total, count) => total + count, 0),
+    },
+    breakdowns: {
+      moduleLevels,
+      questionDifficulty,
+    },
   });
-});
+}));
 
 for (const [routeName, tableName] of Object.entries(endpointTables)) {
-  app.get(`/api/${routeName}`, (req, res) => {
-    if (!tableExists(tableName)) {
-      res.status(404).json({ error: `Table not found: ${tableName}` });
-      return;
-    }
-
-    const { columns, whereSql, params, limit, offset } = buildListQuery(tableName, req.query);
-    const tableSql = quoteIdentifier(tableName);
-    const total = getDb()
-      .prepare(`SELECT COUNT(*) AS count FROM ${tableSql} ${whereSql}`)
-      .get(params).count;
-    const data = getDb()
-      .prepare(`SELECT * FROM ${tableSql} ${whereSql} LIMIT @limit OFFSET @offset`)
-      .all({ ...params, limit, offset });
-
-    res.json({
-      table: tableName,
-      columns,
-      count: total,
-      limit,
-      offset,
-      data,
-      filters: {
-        q: req.query.q || '',
-        level: req.query.level || '',
-        module_id: req.query.module_id || '',
-        taxonomy_id: req.query.taxonomy_id || '',
-      },
-    });
-  });
+  app.get(`/api/${routeName}`, asyncRoute((req, res) => {
+    res.json(listRows(tableName, req.query));
+  }));
 }
 
+app.get('/api/modules/:moduleId', asyncRoute((req, res) => {
+  const module = getRowsByColumn('modules', 'module_id', req.params.moduleId)[0];
+  if (!module) {
+    res.status(404).json({ error: 'Module not found' });
+    return;
+  }
+
+  res.json({
+    data: module,
+    related: {
+      lessons: getRowsByColumn('lessons', 'module_id', req.params.moduleId),
+    },
+  });
+}));
+
+app.get('/api/lessons/:lessonId', asyncRoute((req, res) => {
+  const lesson = getRowsByColumn('lessons', 'lesson_id', req.params.lessonId)[0];
+  if (!lesson) {
+    res.status(404).json({ error: 'Lesson not found' });
+    return;
+  }
+
+  res.json({
+    data: lesson,
+    related: {
+      objectives: getRowsByColumn(relatedTables.lesson_objectives, 'lesson_id', req.params.lessonId, 'priority_rank'),
+    },
+  });
+}));
+
+app.get('/api/scenarios/:scenarioId', asyncRoute((req, res) => {
+  const scenario = getRowsByColumn('scenarios', 'scenario_id', req.params.scenarioId)[0];
+  if (!scenario) {
+    res.status(404).json({ error: 'Scenario not found' });
+    return;
+  }
+
+  res.json({
+    data: scenario,
+    related: {
+      steps: getRowsByColumn(relatedTables.scenario_steps, 'scenario_id', req.params.scenarioId, 'step_id'),
+      branches: getRowsByColumn(relatedTables.scenario_branches, 'scenario_id', req.params.scenarioId),
+    },
+  });
+}));
+
+app.get('/api/questions/:questionId', asyncRoute((req, res) => {
+  const question = getRowsByColumn('questions', 'question_id', req.params.questionId)[0];
+  if (!question) {
+    res.status(404).json({ error: 'Question not found' });
+    return;
+  }
+
+  res.json({
+    data: question,
+    related: {
+      options: getRowsByColumn(relatedTables.question_options, 'question_id', req.params.questionId, 'display_order'),
+      rationales: getRowsByColumn(relatedTables.question_rationales, 'question_id', req.params.questionId),
+    },
+  });
+}));
+
+app.get('/api/skills/:skillId', asyncRoute((req, res) => {
+  const skill = getRowsByColumn('skills', 'skill_id', req.params.skillId)[0];
+  if (!skill) {
+    res.status(404).json({ error: 'Skill not found' });
+    return;
+  }
+
+  res.json({
+    data: skill,
+    related: {
+      steps: getRowsByColumn(relatedTables.skill_steps, 'skill_id', req.params.skillId, 'step_order'),
+    },
+  });
+}));
+
 app.use((err, _req, res, _next) => {
-  console.error(err);
-  res.status(500).json({ error: 'Internal server error' });
+  const statusCode = err.statusCode || 500;
+  res.status(statusCode).json({
+    error: statusCode === 500 ? 'Internal server error' : err.message,
+    detail: process.env.NODE_ENV === 'production' ? undefined : err.message,
+  });
 });
 
 app.listen(port, () => {
