@@ -1,0 +1,25 @@
+module_id,taxonomy_id,level,module_type,title,short_summary,recommended_order,est_minutes,national_vs_local_flag
+mod_shared_000001,,shared,clinical,"SHARED Airway, Respiration, and Ventilation","Structured module covering Airway, Respiration, and Ventilation for shared.",1,60,core
+mod_shared_000002,,shared,clinical,"SHARED Cardiology, Resuscitation, and ECG","Structured module covering Cardiology, Resuscitation, and ECG for shared.",2,60,core
+mod_shared_000003,,shared,clinical,SHARED Trauma,Structured module covering Trauma for shared.,3,60,core
+mod_shared_000004,,shared,clinical,"SHARED Medical, OB/GYN, and Special Populations","Structured module covering Medical, OB/GYN, and Special Populations for shared.",4,60,core
+mod_shared_000005,,shared,operations,"SHARED Operations, Safety, and Documentation","Structured module covering Operations, Safety, and Documentation for shared.",5,60,core
+mod_shared_000006,,shared,foundations,SHARED Foundations and Preparatory,Structured module covering Foundations and Preparatory for shared.,6,60,core
+mod_emt_000007,,emt,clinical,"EMT Airway, Respiration, and Ventilation","Structured module covering Airway, Respiration, and Ventilation for emt.",7,60,core
+mod_emt_000008,,emt,clinical,"EMT Cardiology, Resuscitation, and ECG","Structured module covering Cardiology, Resuscitation, and ECG for emt.",8,60,core
+mod_emt_000009,,emt,clinical,EMT Trauma,Structured module covering Trauma for emt.,9,60,core
+mod_emt_000010,,emt,clinical,"EMT Medical, OB/GYN, and Special Populations","Structured module covering Medical, OB/GYN, and Special Populations for emt.",10,60,core
+mod_emt_000011,,emt,operations,"EMT Operations, Safety, and Documentation","Structured module covering Operations, Safety, and Documentation for emt.",11,60,core
+mod_emt_000012,,emt,foundations,EMT Foundations and Preparatory,Structured module covering Foundations and Preparatory for emt.,12,60,core
+mod_aemt_000013,,aemt,clinical,"AEMT Airway, Respiration, and Ventilation","Structured module covering Airway, Respiration, and Ventilation for aemt.",13,60,core
+mod_aemt_000014,,aemt,clinical,"AEMT Cardiology, Resuscitation, and ECG","Structured module covering Cardiology, Resuscitation, and ECG for aemt.",14,60,core
+mod_aemt_000015,,aemt,clinical,AEMT Trauma,Structured module covering Trauma for aemt.,15,60,core
+mod_aemt_000016,,aemt,clinical,"AEMT Medical, OB/GYN, and Special Populations","Structured module covering Medical, OB/GYN, and Special Populations for aemt.",16,60,core
+mod_aemt_000017,,aemt,operations,"AEMT Operations, Safety, and Documentation","Structured module covering Operations, Safety, and Documentation for aemt.",17,60,core
+mod_aemt_000018,,aemt,foundations,AEMT Foundations and Preparatory,Structured module covering Foundations and Preparatory for aemt.,18,60,core
+mod_paramedic_000019,,paramedic,clinical,"PARAMEDIC Airway, Respiration, and Ventilation","Structured module covering Airway, Respiration, and Ventilation for paramedic.",19,60,core
+mod_paramedic_000020,,paramedic,clinical,"PARAMEDIC Cardiology, Resuscitation, and ECG","Structured module covering Cardiology, Resuscitation, and ECG for paramedic.",20,60,core
+mod_paramedic_000021,,paramedic,clinical,PARAMEDIC Trauma,Structured module covering Trauma for paramedic.,21,60,core
+mod_paramedic_000022,,paramedic,clinical,"PARAMEDIC Medical, OB/GYN, and Special Populations","Structured module covering Medical, OB/GYN, and Special Populations for paramedic.",22,60,core
+mod_paramedic_000023,,paramedic,operations,"PARAMEDIC Operations, Safety, and Documentation","Structured module covering Operations, Safety, and Documentation for paramedic.",23,60,core
+mod_paramedic_000024,,paramedic,foundations,PARAMEDIC Foundations and Preparatory,Structured module covering Foundations and Preparatory for paramedic.,24,60,core

@@ -1,0 +1,8 @@
+field,value
+workbook_version,1.0.0
+schema_version,ems_app_schema_v1
+build_date,2026-05-01
+purpose,"Database seed for an EMT/AEMT/Paramedic study app with tutorials, scenarios, questions, AI practice mode, media manifest, and Replit Agent ingestion support."
+important_note,"This is a structured v1 database with broad starter content. It is designed to be expanded in chunks. It is not a substitute for local protocol, medical direction, or certified EMS instruction."
+copyright_guardrail,All practice questions are original NREMT-style study items. Do not upload memorized/copyrighted NREMT exam questions.
+local_protocol_rule,National core content is separated from local override content. Add your county/agency protocols to protocol_overrides.

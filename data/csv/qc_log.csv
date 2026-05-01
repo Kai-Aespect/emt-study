@@ -1,0 +1,4 @@
+qc_id,entity_type,entity_id,check_type,result_status,finding_text,reviewer_role,reviewed_at,remediation_ticket
+qc_000001,workbook,all,copyright_guardrail,warn,Do not import memorized NREMT exam questions. Use original items only.,editor,2026-05-01T01:39:45,none
+qc_000002,drugs,all,local_protocol_needed,warn,Medication doses and scope must be reviewed against local protocol before live training use.,medical_director,2026-05-01T01:39:45,local_protocol_review
+qc_000003,media_manifest,media_audio_000002,licence_review,fail,Lung sound placeholder requires verified open license before redistribution.,media_librarian,2026-05-01T01:39:45,media_rights_review

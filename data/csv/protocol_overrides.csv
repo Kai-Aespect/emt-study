@@ -1,0 +1,4 @@
+override_id,jurisdiction_type,jurisdiction_name,content_type,content_id,override_type,override_text,effective_date,expiry_date,approval_reference_id,active
+ovr_ca_000001,state,California,drug,drug_000002,dose,"Nitroglycerin use, assist/admin permissions, and contraindication wording must be replaced with current California local EMS agency protocol.",,,ref_000001,True
+ovr_ca_000002,agency,Local EMS Agency,skill,skl_000006,scope,"IV access authorization varies by credential, accreditation, and local policy. Replace with current agency scope.",,,ref_000001,True
+ovr_ca_000003,medical_director,Medical Director,protocol,all_medications,indication,Medication indications and dosing must be approved by local medical director before live app use.,,,ref_000008,True

@@ -1,0 +1,1881 @@
+option_id,question_id,option_key,option_text,display_order,is_correct
+opt_000001,q_emt_000001,A,Airway compromise,1,True
+opt_000002,q_emt_000001,B,Mild anxiety,2,False
+opt_000003,q_emt_000001,C,Normal skin color,3,False
+opt_000004,q_emt_000001,D,Stable vital signs,4,False
+opt_000005,q_emt_000002,A,Ask a detailed medication history,1,False
+opt_000006,q_emt_000002,B,Perform a primary assessment and correct life threats,2,True
+opt_000007,q_emt_000002,C,Complete the refusal form,3,False
+opt_000008,q_emt_000002,D,Wait for ALS before touching the patient,4,False
+opt_000009,q_emt_000003,A,Hypotension,1,True
+opt_000010,q_emt_000003,B,Mild isolated nausea,2,False
+opt_000011,q_emt_000003,C,Altered mental status,3,True
+opt_000012,q_emt_000003,D,Normal capillary refill,4,False
+opt_000013,q_emt_000004,A,Finish the narrative,1,False
+opt_000014,q_emt_000004,B,Call the supervisor first,2,False
+opt_000015,q_emt_000004,C,Ignore changes if destination is close,3,False
+opt_000016,q_emt_000004,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000017,q_emt_000005,A,Trend in vitals and response to treatment,1,True
+opt_000018,q_emt_000005,B,Your lunch status,2,False
+opt_000019,q_emt_000005,C,Unverified bystander rumor,3,False
+opt_000020,q_emt_000005,D,Exact brand of stretcher,4,False
+opt_000021,q_emt_000006,A,Airway compromise,1,True
+opt_000022,q_emt_000006,B,Mild anxiety,2,False
+opt_000023,q_emt_000006,C,Normal skin color,3,False
+opt_000024,q_emt_000006,D,Stable vital signs,4,False
+opt_000025,q_emt_000007,A,Ask a detailed medication history,1,False
+opt_000026,q_emt_000007,B,Perform a primary assessment and correct life threats,2,True
+opt_000027,q_emt_000007,C,Complete the refusal form,3,False
+opt_000028,q_emt_000007,D,Wait for ALS before touching the patient,4,False
+opt_000029,q_emt_000008,A,Hypotension,1,True
+opt_000030,q_emt_000008,B,Mild isolated nausea,2,False
+opt_000031,q_emt_000008,C,Altered mental status,3,True
+opt_000032,q_emt_000008,D,Normal capillary refill,4,False
+opt_000033,q_emt_000009,A,Finish the narrative,1,False
+opt_000034,q_emt_000009,B,Call the supervisor first,2,False
+opt_000035,q_emt_000009,C,Ignore changes if destination is close,3,False
+opt_000036,q_emt_000009,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000037,q_emt_000010,A,Trend in vitals and response to treatment,1,True
+opt_000038,q_emt_000010,B,Your lunch status,2,False
+opt_000039,q_emt_000010,C,Unverified bystander rumor,3,False
+opt_000040,q_emt_000010,D,Exact brand of stretcher,4,False
+opt_000041,q_emt_000011,A,Airway compromise,1,True
+opt_000042,q_emt_000011,B,Mild anxiety,2,False
+opt_000043,q_emt_000011,C,Normal skin color,3,False
+opt_000044,q_emt_000011,D,Stable vital signs,4,False
+opt_000045,q_emt_000012,A,Ask a detailed medication history,1,False
+opt_000046,q_emt_000012,B,Perform a primary assessment and correct life threats,2,True
+opt_000047,q_emt_000012,C,Complete the refusal form,3,False
+opt_000048,q_emt_000012,D,Wait for ALS before touching the patient,4,False
+opt_000049,q_emt_000013,A,Hypotension,1,True
+opt_000050,q_emt_000013,B,Mild isolated nausea,2,False
+opt_000051,q_emt_000013,C,Altered mental status,3,True
+opt_000052,q_emt_000013,D,Normal capillary refill,4,False
+opt_000053,q_emt_000014,A,Finish the narrative,1,False
+opt_000054,q_emt_000014,B,Call the supervisor first,2,False
+opt_000055,q_emt_000014,C,Ignore changes if destination is close,3,False
+opt_000056,q_emt_000014,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000057,q_emt_000015,A,Trend in vitals and response to treatment,1,True
+opt_000058,q_emt_000015,B,Your lunch status,2,False
+opt_000059,q_emt_000015,C,Unverified bystander rumor,3,False
+opt_000060,q_emt_000015,D,Exact brand of stretcher,4,False
+opt_000061,q_emt_000016,A,Airway compromise,1,True
+opt_000062,q_emt_000016,B,Mild anxiety,2,False
+opt_000063,q_emt_000016,C,Normal skin color,3,False
+opt_000064,q_emt_000016,D,Stable vital signs,4,False
+opt_000065,q_emt_000017,A,Ask a detailed medication history,1,False
+opt_000066,q_emt_000017,B,Perform a primary assessment and correct life threats,2,True
+opt_000067,q_emt_000017,C,Complete the refusal form,3,False
+opt_000068,q_emt_000017,D,Wait for ALS before touching the patient,4,False
+opt_000069,q_emt_000018,A,Hypotension,1,True
+opt_000070,q_emt_000018,B,Mild isolated nausea,2,False
+opt_000071,q_emt_000018,C,Altered mental status,3,True
+opt_000072,q_emt_000018,D,Normal capillary refill,4,False
+opt_000073,q_emt_000019,A,Finish the narrative,1,False
+opt_000074,q_emt_000019,B,Call the supervisor first,2,False
+opt_000075,q_emt_000019,C,Ignore changes if destination is close,3,False
+opt_000076,q_emt_000019,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000077,q_emt_000020,A,Trend in vitals and response to treatment,1,True
+opt_000078,q_emt_000020,B,Your lunch status,2,False
+opt_000079,q_emt_000020,C,Unverified bystander rumor,3,False
+opt_000080,q_emt_000020,D,Exact brand of stretcher,4,False
+opt_000081,q_emt_000021,A,Airway compromise,1,True
+opt_000082,q_emt_000021,B,Mild anxiety,2,False
+opt_000083,q_emt_000021,C,Normal skin color,3,False
+opt_000084,q_emt_000021,D,Stable vital signs,4,False
+opt_000085,q_emt_000022,A,Ask a detailed medication history,1,False
+opt_000086,q_emt_000022,B,Perform a primary assessment and correct life threats,2,True
+opt_000087,q_emt_000022,C,Complete the refusal form,3,False
+opt_000088,q_emt_000022,D,Wait for ALS before touching the patient,4,False
+opt_000089,q_emt_000023,A,Hypotension,1,True
+opt_000090,q_emt_000023,B,Mild isolated nausea,2,False
+opt_000091,q_emt_000023,C,Altered mental status,3,True
+opt_000092,q_emt_000023,D,Normal capillary refill,4,False
+opt_000093,q_emt_000024,A,Finish the narrative,1,False
+opt_000094,q_emt_000024,B,Call the supervisor first,2,False
+opt_000095,q_emt_000024,C,Ignore changes if destination is close,3,False
+opt_000096,q_emt_000024,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000097,q_emt_000025,A,Trend in vitals and response to treatment,1,True
+opt_000098,q_emt_000025,B,Your lunch status,2,False
+opt_000099,q_emt_000025,C,Unverified bystander rumor,3,False
+opt_000100,q_emt_000025,D,Exact brand of stretcher,4,False
+opt_000101,q_emt_000026,A,Airway compromise,1,True
+opt_000102,q_emt_000026,B,Mild anxiety,2,False
+opt_000103,q_emt_000026,C,Normal skin color,3,False
+opt_000104,q_emt_000026,D,Stable vital signs,4,False
+opt_000105,q_emt_000027,A,Ask a detailed medication history,1,False
+opt_000106,q_emt_000027,B,Perform a primary assessment and correct life threats,2,True
+opt_000107,q_emt_000027,C,Complete the refusal form,3,False
+opt_000108,q_emt_000027,D,Wait for ALS before touching the patient,4,False
+opt_000109,q_emt_000028,A,Hypotension,1,True
+opt_000110,q_emt_000028,B,Mild isolated nausea,2,False
+opt_000111,q_emt_000028,C,Altered mental status,3,True
+opt_000112,q_emt_000028,D,Normal capillary refill,4,False
+opt_000113,q_emt_000029,A,Finish the narrative,1,False
+opt_000114,q_emt_000029,B,Call the supervisor first,2,False
+opt_000115,q_emt_000029,C,Ignore changes if destination is close,3,False
+opt_000116,q_emt_000029,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000117,q_emt_000030,A,Trend in vitals and response to treatment,1,True
+opt_000118,q_emt_000030,B,Your lunch status,2,False
+opt_000119,q_emt_000030,C,Unverified bystander rumor,3,False
+opt_000120,q_emt_000030,D,Exact brand of stretcher,4,False
+opt_000121,q_emt_000031,A,Airway compromise,1,True
+opt_000122,q_emt_000031,B,Mild anxiety,2,False
+opt_000123,q_emt_000031,C,Normal skin color,3,False
+opt_000124,q_emt_000031,D,Stable vital signs,4,False
+opt_000125,q_emt_000032,A,Ask a detailed medication history,1,False
+opt_000126,q_emt_000032,B,Perform a primary assessment and correct life threats,2,True
+opt_000127,q_emt_000032,C,Complete the refusal form,3,False
+opt_000128,q_emt_000032,D,Wait for ALS before touching the patient,4,False
+opt_000129,q_emt_000033,A,Hypotension,1,True
+opt_000130,q_emt_000033,B,Mild isolated nausea,2,False
+opt_000131,q_emt_000033,C,Altered mental status,3,True
+opt_000132,q_emt_000033,D,Normal capillary refill,4,False
+opt_000133,q_emt_000034,A,Finish the narrative,1,False
+opt_000134,q_emt_000034,B,Call the supervisor first,2,False
+opt_000135,q_emt_000034,C,Ignore changes if destination is close,3,False
+opt_000136,q_emt_000034,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000137,q_emt_000035,A,Trend in vitals and response to treatment,1,True
+opt_000138,q_emt_000035,B,Your lunch status,2,False
+opt_000139,q_emt_000035,C,Unverified bystander rumor,3,False
+opt_000140,q_emt_000035,D,Exact brand of stretcher,4,False
+opt_000141,q_emt_000036,A,Airway compromise,1,True
+opt_000142,q_emt_000036,B,Mild anxiety,2,False
+opt_000143,q_emt_000036,C,Normal skin color,3,False
+opt_000144,q_emt_000036,D,Stable vital signs,4,False
+opt_000145,q_emt_000037,A,Ask a detailed medication history,1,False
+opt_000146,q_emt_000037,B,Perform a primary assessment and correct life threats,2,True
+opt_000147,q_emt_000037,C,Complete the refusal form,3,False
+opt_000148,q_emt_000037,D,Wait for ALS before touching the patient,4,False
+opt_000149,q_emt_000038,A,Hypotension,1,True
+opt_000150,q_emt_000038,B,Mild isolated nausea,2,False
+opt_000151,q_emt_000038,C,Altered mental status,3,True
+opt_000152,q_emt_000038,D,Normal capillary refill,4,False
+opt_000153,q_emt_000039,A,Finish the narrative,1,False
+opt_000154,q_emt_000039,B,Call the supervisor first,2,False
+opt_000155,q_emt_000039,C,Ignore changes if destination is close,3,False
+opt_000156,q_emt_000039,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000157,q_emt_000040,A,Trend in vitals and response to treatment,1,True
+opt_000158,q_emt_000040,B,Your lunch status,2,False
+opt_000159,q_emt_000040,C,Unverified bystander rumor,3,False
+opt_000160,q_emt_000040,D,Exact brand of stretcher,4,False
+opt_000161,q_emt_000041,A,Airway compromise,1,True
+opt_000162,q_emt_000041,B,Mild anxiety,2,False
+opt_000163,q_emt_000041,C,Normal skin color,3,False
+opt_000164,q_emt_000041,D,Stable vital signs,4,False
+opt_000165,q_emt_000042,A,Ask a detailed medication history,1,False
+opt_000166,q_emt_000042,B,Perform a primary assessment and correct life threats,2,True
+opt_000167,q_emt_000042,C,Complete the refusal form,3,False
+opt_000168,q_emt_000042,D,Wait for ALS before touching the patient,4,False
+opt_000169,q_emt_000043,A,Hypotension,1,True
+opt_000170,q_emt_000043,B,Mild isolated nausea,2,False
+opt_000171,q_emt_000043,C,Altered mental status,3,True
+opt_000172,q_emt_000043,D,Normal capillary refill,4,False
+opt_000173,q_emt_000044,A,Finish the narrative,1,False
+opt_000174,q_emt_000044,B,Call the supervisor first,2,False
+opt_000175,q_emt_000044,C,Ignore changes if destination is close,3,False
+opt_000176,q_emt_000044,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000177,q_emt_000045,A,Trend in vitals and response to treatment,1,True
+opt_000178,q_emt_000045,B,Your lunch status,2,False
+opt_000179,q_emt_000045,C,Unverified bystander rumor,3,False
+opt_000180,q_emt_000045,D,Exact brand of stretcher,4,False
+opt_000181,q_emt_000046,A,Airway compromise,1,True
+opt_000182,q_emt_000046,B,Mild anxiety,2,False
+opt_000183,q_emt_000046,C,Normal skin color,3,False
+opt_000184,q_emt_000046,D,Stable vital signs,4,False
+opt_000185,q_emt_000047,A,Ask a detailed medication history,1,False
+opt_000186,q_emt_000047,B,Perform a primary assessment and correct life threats,2,True
+opt_000187,q_emt_000047,C,Complete the refusal form,3,False
+opt_000188,q_emt_000047,D,Wait for ALS before touching the patient,4,False
+opt_000189,q_emt_000048,A,Hypotension,1,True
+opt_000190,q_emt_000048,B,Mild isolated nausea,2,False
+opt_000191,q_emt_000048,C,Altered mental status,3,True
+opt_000192,q_emt_000048,D,Normal capillary refill,4,False
+opt_000193,q_emt_000049,A,Finish the narrative,1,False
+opt_000194,q_emt_000049,B,Call the supervisor first,2,False
+opt_000195,q_emt_000049,C,Ignore changes if destination is close,3,False
+opt_000196,q_emt_000049,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000197,q_emt_000050,A,Trend in vitals and response to treatment,1,True
+opt_000198,q_emt_000050,B,Your lunch status,2,False
+opt_000199,q_emt_000050,C,Unverified bystander rumor,3,False
+opt_000200,q_emt_000050,D,Exact brand of stretcher,4,False
+opt_000201,q_emt_000051,A,Airway compromise,1,True
+opt_000202,q_emt_000051,B,Mild anxiety,2,False
+opt_000203,q_emt_000051,C,Normal skin color,3,False
+opt_000204,q_emt_000051,D,Stable vital signs,4,False
+opt_000205,q_emt_000052,A,Ask a detailed medication history,1,False
+opt_000206,q_emt_000052,B,Perform a primary assessment and correct life threats,2,True
+opt_000207,q_emt_000052,C,Complete the refusal form,3,False
+opt_000208,q_emt_000052,D,Wait for ALS before touching the patient,4,False
+opt_000209,q_emt_000053,A,Hypotension,1,True
+opt_000210,q_emt_000053,B,Mild isolated nausea,2,False
+opt_000211,q_emt_000053,C,Altered mental status,3,True
+opt_000212,q_emt_000053,D,Normal capillary refill,4,False
+opt_000213,q_emt_000054,A,Finish the narrative,1,False
+opt_000214,q_emt_000054,B,Call the supervisor first,2,False
+opt_000215,q_emt_000054,C,Ignore changes if destination is close,3,False
+opt_000216,q_emt_000054,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000217,q_emt_000055,A,Trend in vitals and response to treatment,1,True
+opt_000218,q_emt_000055,B,Your lunch status,2,False
+opt_000219,q_emt_000055,C,Unverified bystander rumor,3,False
+opt_000220,q_emt_000055,D,Exact brand of stretcher,4,False
+opt_000221,q_emt_000056,A,Airway compromise,1,True
+opt_000222,q_emt_000056,B,Mild anxiety,2,False
+opt_000223,q_emt_000056,C,Normal skin color,3,False
+opt_000224,q_emt_000056,D,Stable vital signs,4,False
+opt_000225,q_emt_000057,A,Ask a detailed medication history,1,False
+opt_000226,q_emt_000057,B,Perform a primary assessment and correct life threats,2,True
+opt_000227,q_emt_000057,C,Complete the refusal form,3,False
+opt_000228,q_emt_000057,D,Wait for ALS before touching the patient,4,False
+opt_000229,q_emt_000058,A,Hypotension,1,True
+opt_000230,q_emt_000058,B,Mild isolated nausea,2,False
+opt_000231,q_emt_000058,C,Altered mental status,3,True
+opt_000232,q_emt_000058,D,Normal capillary refill,4,False
+opt_000233,q_emt_000059,A,Finish the narrative,1,False
+opt_000234,q_emt_000059,B,Call the supervisor first,2,False
+opt_000235,q_emt_000059,C,Ignore changes if destination is close,3,False
+opt_000236,q_emt_000059,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000237,q_emt_000060,A,Trend in vitals and response to treatment,1,True
+opt_000238,q_emt_000060,B,Your lunch status,2,False
+opt_000239,q_emt_000060,C,Unverified bystander rumor,3,False
+opt_000240,q_emt_000060,D,Exact brand of stretcher,4,False
+opt_000241,q_emt_000061,A,Airway compromise,1,True
+opt_000242,q_emt_000061,B,Mild anxiety,2,False
+opt_000243,q_emt_000061,C,Normal skin color,3,False
+opt_000244,q_emt_000061,D,Stable vital signs,4,False
+opt_000245,q_emt_000062,A,Ask a detailed medication history,1,False
+opt_000246,q_emt_000062,B,Perform a primary assessment and correct life threats,2,True
+opt_000247,q_emt_000062,C,Complete the refusal form,3,False
+opt_000248,q_emt_000062,D,Wait for ALS before touching the patient,4,False
+opt_000249,q_emt_000063,A,Hypotension,1,True
+opt_000250,q_emt_000063,B,Mild isolated nausea,2,False
+opt_000251,q_emt_000063,C,Altered mental status,3,True
+opt_000252,q_emt_000063,D,Normal capillary refill,4,False
+opt_000253,q_emt_000064,A,Finish the narrative,1,False
+opt_000254,q_emt_000064,B,Call the supervisor first,2,False
+opt_000255,q_emt_000064,C,Ignore changes if destination is close,3,False
+opt_000256,q_emt_000064,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000257,q_emt_000065,A,Trend in vitals and response to treatment,1,True
+opt_000258,q_emt_000065,B,Your lunch status,2,False
+opt_000259,q_emt_000065,C,Unverified bystander rumor,3,False
+opt_000260,q_emt_000065,D,Exact brand of stretcher,4,False
+opt_000261,q_emt_000066,A,Airway compromise,1,True
+opt_000262,q_emt_000066,B,Mild anxiety,2,False
+opt_000263,q_emt_000066,C,Normal skin color,3,False
+opt_000264,q_emt_000066,D,Stable vital signs,4,False
+opt_000265,q_emt_000067,A,Ask a detailed medication history,1,False
+opt_000266,q_emt_000067,B,Perform a primary assessment and correct life threats,2,True
+opt_000267,q_emt_000067,C,Complete the refusal form,3,False
+opt_000268,q_emt_000067,D,Wait for ALS before touching the patient,4,False
+opt_000269,q_emt_000068,A,Hypotension,1,True
+opt_000270,q_emt_000068,B,Mild isolated nausea,2,False
+opt_000271,q_emt_000068,C,Altered mental status,3,True
+opt_000272,q_emt_000068,D,Normal capillary refill,4,False
+opt_000273,q_emt_000069,A,Finish the narrative,1,False
+opt_000274,q_emt_000069,B,Call the supervisor first,2,False
+opt_000275,q_emt_000069,C,Ignore changes if destination is close,3,False
+opt_000276,q_emt_000069,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000277,q_emt_000070,A,Trend in vitals and response to treatment,1,True
+opt_000278,q_emt_000070,B,Your lunch status,2,False
+opt_000279,q_emt_000070,C,Unverified bystander rumor,3,False
+opt_000280,q_emt_000070,D,Exact brand of stretcher,4,False
+opt_000281,q_emt_000071,A,Airway compromise,1,True
+opt_000282,q_emt_000071,B,Mild anxiety,2,False
+opt_000283,q_emt_000071,C,Normal skin color,3,False
+opt_000284,q_emt_000071,D,Stable vital signs,4,False
+opt_000285,q_emt_000072,A,Ask a detailed medication history,1,False
+opt_000286,q_emt_000072,B,Perform a primary assessment and correct life threats,2,True
+opt_000287,q_emt_000072,C,Complete the refusal form,3,False
+opt_000288,q_emt_000072,D,Wait for ALS before touching the patient,4,False
+opt_000289,q_emt_000073,A,Hypotension,1,True
+opt_000290,q_emt_000073,B,Mild isolated nausea,2,False
+opt_000291,q_emt_000073,C,Altered mental status,3,True
+opt_000292,q_emt_000073,D,Normal capillary refill,4,False
+opt_000293,q_emt_000074,A,Finish the narrative,1,False
+opt_000294,q_emt_000074,B,Call the supervisor first,2,False
+opt_000295,q_emt_000074,C,Ignore changes if destination is close,3,False
+opt_000296,q_emt_000074,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000297,q_emt_000075,A,Trend in vitals and response to treatment,1,True
+opt_000298,q_emt_000075,B,Your lunch status,2,False
+opt_000299,q_emt_000075,C,Unverified bystander rumor,3,False
+opt_000300,q_emt_000075,D,Exact brand of stretcher,4,False
+opt_000301,q_emt_000076,A,Airway compromise,1,True
+opt_000302,q_emt_000076,B,Mild anxiety,2,False
+opt_000303,q_emt_000076,C,Normal skin color,3,False
+opt_000304,q_emt_000076,D,Stable vital signs,4,False
+opt_000305,q_emt_000077,A,Ask a detailed medication history,1,False
+opt_000306,q_emt_000077,B,Perform a primary assessment and correct life threats,2,True
+opt_000307,q_emt_000077,C,Complete the refusal form,3,False
+opt_000308,q_emt_000077,D,Wait for ALS before touching the patient,4,False
+opt_000309,q_emt_000078,A,Hypotension,1,True
+opt_000310,q_emt_000078,B,Mild isolated nausea,2,False
+opt_000311,q_emt_000078,C,Altered mental status,3,True
+opt_000312,q_emt_000078,D,Normal capillary refill,4,False
+opt_000313,q_emt_000079,A,Finish the narrative,1,False
+opt_000314,q_emt_000079,B,Call the supervisor first,2,False
+opt_000315,q_emt_000079,C,Ignore changes if destination is close,3,False
+opt_000316,q_emt_000079,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000317,q_emt_000080,A,Trend in vitals and response to treatment,1,True
+opt_000318,q_emt_000080,B,Your lunch status,2,False
+opt_000319,q_emt_000080,C,Unverified bystander rumor,3,False
+opt_000320,q_emt_000080,D,Exact brand of stretcher,4,False
+opt_000321,q_emt_000081,A,Airway compromise,1,True
+opt_000322,q_emt_000081,B,Mild anxiety,2,False
+opt_000323,q_emt_000081,C,Normal skin color,3,False
+opt_000324,q_emt_000081,D,Stable vital signs,4,False
+opt_000325,q_emt_000082,A,Ask a detailed medication history,1,False
+opt_000326,q_emt_000082,B,Perform a primary assessment and correct life threats,2,True
+opt_000327,q_emt_000082,C,Complete the refusal form,3,False
+opt_000328,q_emt_000082,D,Wait for ALS before touching the patient,4,False
+opt_000329,q_emt_000083,A,Hypotension,1,True
+opt_000330,q_emt_000083,B,Mild isolated nausea,2,False
+opt_000331,q_emt_000083,C,Altered mental status,3,True
+opt_000332,q_emt_000083,D,Normal capillary refill,4,False
+opt_000333,q_emt_000084,A,Finish the narrative,1,False
+opt_000334,q_emt_000084,B,Call the supervisor first,2,False
+opt_000335,q_emt_000084,C,Ignore changes if destination is close,3,False
+opt_000336,q_emt_000084,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000337,q_emt_000085,A,Trend in vitals and response to treatment,1,True
+opt_000338,q_emt_000085,B,Your lunch status,2,False
+opt_000339,q_emt_000085,C,Unverified bystander rumor,3,False
+opt_000340,q_emt_000085,D,Exact brand of stretcher,4,False
+opt_000341,q_emt_000086,A,Airway compromise,1,True
+opt_000342,q_emt_000086,B,Mild anxiety,2,False
+opt_000343,q_emt_000086,C,Normal skin color,3,False
+opt_000344,q_emt_000086,D,Stable vital signs,4,False
+opt_000345,q_emt_000087,A,Ask a detailed medication history,1,False
+opt_000346,q_emt_000087,B,Perform a primary assessment and correct life threats,2,True
+opt_000347,q_emt_000087,C,Complete the refusal form,3,False
+opt_000348,q_emt_000087,D,Wait for ALS before touching the patient,4,False
+opt_000349,q_emt_000088,A,Hypotension,1,True
+opt_000350,q_emt_000088,B,Mild isolated nausea,2,False
+opt_000351,q_emt_000088,C,Altered mental status,3,True
+opt_000352,q_emt_000088,D,Normal capillary refill,4,False
+opt_000353,q_emt_000089,A,Finish the narrative,1,False
+opt_000354,q_emt_000089,B,Call the supervisor first,2,False
+opt_000355,q_emt_000089,C,Ignore changes if destination is close,3,False
+opt_000356,q_emt_000089,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000357,q_emt_000090,A,Trend in vitals and response to treatment,1,True
+opt_000358,q_emt_000090,B,Your lunch status,2,False
+opt_000359,q_emt_000090,C,Unverified bystander rumor,3,False
+opt_000360,q_emt_000090,D,Exact brand of stretcher,4,False
+opt_000361,q_emt_000091,A,Airway compromise,1,True
+opt_000362,q_emt_000091,B,Mild anxiety,2,False
+opt_000363,q_emt_000091,C,Normal skin color,3,False
+opt_000364,q_emt_000091,D,Stable vital signs,4,False
+opt_000365,q_emt_000092,A,Ask a detailed medication history,1,False
+opt_000366,q_emt_000092,B,Perform a primary assessment and correct life threats,2,True
+opt_000367,q_emt_000092,C,Complete the refusal form,3,False
+opt_000368,q_emt_000092,D,Wait for ALS before touching the patient,4,False
+opt_000369,q_emt_000093,A,Hypotension,1,True
+opt_000370,q_emt_000093,B,Mild isolated nausea,2,False
+opt_000371,q_emt_000093,C,Altered mental status,3,True
+opt_000372,q_emt_000093,D,Normal capillary refill,4,False
+opt_000373,q_emt_000094,A,Finish the narrative,1,False
+opt_000374,q_emt_000094,B,Call the supervisor first,2,False
+opt_000375,q_emt_000094,C,Ignore changes if destination is close,3,False
+opt_000376,q_emt_000094,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000377,q_emt_000095,A,Trend in vitals and response to treatment,1,True
+opt_000378,q_emt_000095,B,Your lunch status,2,False
+opt_000379,q_emt_000095,C,Unverified bystander rumor,3,False
+opt_000380,q_emt_000095,D,Exact brand of stretcher,4,False
+opt_000381,q_emt_000096,A,Airway compromise,1,True
+opt_000382,q_emt_000096,B,Mild anxiety,2,False
+opt_000383,q_emt_000096,C,Normal skin color,3,False
+opt_000384,q_emt_000096,D,Stable vital signs,4,False
+opt_000385,q_emt_000097,A,Ask a detailed medication history,1,False
+opt_000386,q_emt_000097,B,Perform a primary assessment and correct life threats,2,True
+opt_000387,q_emt_000097,C,Complete the refusal form,3,False
+opt_000388,q_emt_000097,D,Wait for ALS before touching the patient,4,False
+opt_000389,q_emt_000098,A,Hypotension,1,True
+opt_000390,q_emt_000098,B,Mild isolated nausea,2,False
+opt_000391,q_emt_000098,C,Altered mental status,3,True
+opt_000392,q_emt_000098,D,Normal capillary refill,4,False
+opt_000393,q_emt_000099,A,Finish the narrative,1,False
+opt_000394,q_emt_000099,B,Call the supervisor first,2,False
+opt_000395,q_emt_000099,C,Ignore changes if destination is close,3,False
+opt_000396,q_emt_000099,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000397,q_emt_000100,A,Trend in vitals and response to treatment,1,True
+opt_000398,q_emt_000100,B,Your lunch status,2,False
+opt_000399,q_emt_000100,C,Unverified bystander rumor,3,False
+opt_000400,q_emt_000100,D,Exact brand of stretcher,4,False
+opt_000401,q_emt_000101,A,Airway compromise,1,True
+opt_000402,q_emt_000101,B,Mild anxiety,2,False
+opt_000403,q_emt_000101,C,Normal skin color,3,False
+opt_000404,q_emt_000101,D,Stable vital signs,4,False
+opt_000405,q_emt_000102,A,Ask a detailed medication history,1,False
+opt_000406,q_emt_000102,B,Perform a primary assessment and correct life threats,2,True
+opt_000407,q_emt_000102,C,Complete the refusal form,3,False
+opt_000408,q_emt_000102,D,Wait for ALS before touching the patient,4,False
+opt_000409,q_emt_000103,A,Hypotension,1,True
+opt_000410,q_emt_000103,B,Mild isolated nausea,2,False
+opt_000411,q_emt_000103,C,Altered mental status,3,True
+opt_000412,q_emt_000103,D,Normal capillary refill,4,False
+opt_000413,q_emt_000104,A,Finish the narrative,1,False
+opt_000414,q_emt_000104,B,Call the supervisor first,2,False
+opt_000415,q_emt_000104,C,Ignore changes if destination is close,3,False
+opt_000416,q_emt_000104,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000417,q_emt_000105,A,Trend in vitals and response to treatment,1,True
+opt_000418,q_emt_000105,B,Your lunch status,2,False
+opt_000419,q_emt_000105,C,Unverified bystander rumor,3,False
+opt_000420,q_emt_000105,D,Exact brand of stretcher,4,False
+opt_000421,q_emt_000106,A,Airway compromise,1,True
+opt_000422,q_emt_000106,B,Mild anxiety,2,False
+opt_000423,q_emt_000106,C,Normal skin color,3,False
+opt_000424,q_emt_000106,D,Stable vital signs,4,False
+opt_000425,q_emt_000107,A,Ask a detailed medication history,1,False
+opt_000426,q_emt_000107,B,Perform a primary assessment and correct life threats,2,True
+opt_000427,q_emt_000107,C,Complete the refusal form,3,False
+opt_000428,q_emt_000107,D,Wait for ALS before touching the patient,4,False
+opt_000429,q_emt_000108,A,Hypotension,1,True
+opt_000430,q_emt_000108,B,Mild isolated nausea,2,False
+opt_000431,q_emt_000108,C,Altered mental status,3,True
+opt_000432,q_emt_000108,D,Normal capillary refill,4,False
+opt_000433,q_emt_000109,A,Finish the narrative,1,False
+opt_000434,q_emt_000109,B,Call the supervisor first,2,False
+opt_000435,q_emt_000109,C,Ignore changes if destination is close,3,False
+opt_000436,q_emt_000109,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000437,q_emt_000110,A,Trend in vitals and response to treatment,1,True
+opt_000438,q_emt_000110,B,Your lunch status,2,False
+opt_000439,q_emt_000110,C,Unverified bystander rumor,3,False
+opt_000440,q_emt_000110,D,Exact brand of stretcher,4,False
+opt_000441,q_emt_000111,A,Airway compromise,1,True
+opt_000442,q_emt_000111,B,Mild anxiety,2,False
+opt_000443,q_emt_000111,C,Normal skin color,3,False
+opt_000444,q_emt_000111,D,Stable vital signs,4,False
+opt_000445,q_emt_000112,A,Ask a detailed medication history,1,False
+opt_000446,q_emt_000112,B,Perform a primary assessment and correct life threats,2,True
+opt_000447,q_emt_000112,C,Complete the refusal form,3,False
+opt_000448,q_emt_000112,D,Wait for ALS before touching the patient,4,False
+opt_000449,q_emt_000113,A,Hypotension,1,True
+opt_000450,q_emt_000113,B,Mild isolated nausea,2,False
+opt_000451,q_emt_000113,C,Altered mental status,3,True
+opt_000452,q_emt_000113,D,Normal capillary refill,4,False
+opt_000453,q_emt_000114,A,Finish the narrative,1,False
+opt_000454,q_emt_000114,B,Call the supervisor first,2,False
+opt_000455,q_emt_000114,C,Ignore changes if destination is close,3,False
+opt_000456,q_emt_000114,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000457,q_emt_000115,A,Trend in vitals and response to treatment,1,True
+opt_000458,q_emt_000115,B,Your lunch status,2,False
+opt_000459,q_emt_000115,C,Unverified bystander rumor,3,False
+opt_000460,q_emt_000115,D,Exact brand of stretcher,4,False
+opt_000461,q_emt_000116,A,Airway compromise,1,True
+opt_000462,q_emt_000116,B,Mild anxiety,2,False
+opt_000463,q_emt_000116,C,Normal skin color,3,False
+opt_000464,q_emt_000116,D,Stable vital signs,4,False
+opt_000465,q_emt_000117,A,Ask a detailed medication history,1,False
+opt_000466,q_emt_000117,B,Perform a primary assessment and correct life threats,2,True
+opt_000467,q_emt_000117,C,Complete the refusal form,3,False
+opt_000468,q_emt_000117,D,Wait for ALS before touching the patient,4,False
+opt_000469,q_emt_000118,A,Hypotension,1,True
+opt_000470,q_emt_000118,B,Mild isolated nausea,2,False
+opt_000471,q_emt_000118,C,Altered mental status,3,True
+opt_000472,q_emt_000118,D,Normal capillary refill,4,False
+opt_000473,q_emt_000119,A,Finish the narrative,1,False
+opt_000474,q_emt_000119,B,Call the supervisor first,2,False
+opt_000475,q_emt_000119,C,Ignore changes if destination is close,3,False
+opt_000476,q_emt_000119,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000477,q_emt_000120,A,Trend in vitals and response to treatment,1,True
+opt_000478,q_emt_000120,B,Your lunch status,2,False
+opt_000479,q_emt_000120,C,Unverified bystander rumor,3,False
+opt_000480,q_emt_000120,D,Exact brand of stretcher,4,False
+opt_000481,q_emt_000121,A,Airway compromise,1,True
+opt_000482,q_emt_000121,B,Mild anxiety,2,False
+opt_000483,q_emt_000121,C,Normal skin color,3,False
+opt_000484,q_emt_000121,D,Stable vital signs,4,False
+opt_000485,q_emt_000122,A,Ask a detailed medication history,1,False
+opt_000486,q_emt_000122,B,Perform a primary assessment and correct life threats,2,True
+opt_000487,q_emt_000122,C,Complete the refusal form,3,False
+opt_000488,q_emt_000122,D,Wait for ALS before touching the patient,4,False
+opt_000489,q_emt_000123,A,Hypotension,1,True
+opt_000490,q_emt_000123,B,Mild isolated nausea,2,False
+opt_000491,q_emt_000123,C,Altered mental status,3,True
+opt_000492,q_emt_000123,D,Normal capillary refill,4,False
+opt_000493,q_emt_000124,A,Finish the narrative,1,False
+opt_000494,q_emt_000124,B,Call the supervisor first,2,False
+opt_000495,q_emt_000124,C,Ignore changes if destination is close,3,False
+opt_000496,q_emt_000124,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000497,q_emt_000125,A,Trend in vitals and response to treatment,1,True
+opt_000498,q_emt_000125,B,Your lunch status,2,False
+opt_000499,q_emt_000125,C,Unverified bystander rumor,3,False
+opt_000500,q_emt_000125,D,Exact brand of stretcher,4,False
+opt_000501,q_emt_000126,A,Airway compromise,1,True
+opt_000502,q_emt_000126,B,Mild anxiety,2,False
+opt_000503,q_emt_000126,C,Normal skin color,3,False
+opt_000504,q_emt_000126,D,Stable vital signs,4,False
+opt_000505,q_emt_000127,A,Ask a detailed medication history,1,False
+opt_000506,q_emt_000127,B,Perform a primary assessment and correct life threats,2,True
+opt_000507,q_emt_000127,C,Complete the refusal form,3,False
+opt_000508,q_emt_000127,D,Wait for ALS before touching the patient,4,False
+opt_000509,q_emt_000128,A,Hypotension,1,True
+opt_000510,q_emt_000128,B,Mild isolated nausea,2,False
+opt_000511,q_emt_000128,C,Altered mental status,3,True
+opt_000512,q_emt_000128,D,Normal capillary refill,4,False
+opt_000513,q_emt_000129,A,Finish the narrative,1,False
+opt_000514,q_emt_000129,B,Call the supervisor first,2,False
+opt_000515,q_emt_000129,C,Ignore changes if destination is close,3,False
+opt_000516,q_emt_000129,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000517,q_emt_000130,A,Trend in vitals and response to treatment,1,True
+opt_000518,q_emt_000130,B,Your lunch status,2,False
+opt_000519,q_emt_000130,C,Unverified bystander rumor,3,False
+opt_000520,q_emt_000130,D,Exact brand of stretcher,4,False
+opt_000521,q_emt_000131,A,Airway compromise,1,True
+opt_000522,q_emt_000131,B,Mild anxiety,2,False
+opt_000523,q_emt_000131,C,Normal skin color,3,False
+opt_000524,q_emt_000131,D,Stable vital signs,4,False
+opt_000525,q_emt_000132,A,Ask a detailed medication history,1,False
+opt_000526,q_emt_000132,B,Perform a primary assessment and correct life threats,2,True
+opt_000527,q_emt_000132,C,Complete the refusal form,3,False
+opt_000528,q_emt_000132,D,Wait for ALS before touching the patient,4,False
+opt_000529,q_emt_000133,A,Hypotension,1,True
+opt_000530,q_emt_000133,B,Mild isolated nausea,2,False
+opt_000531,q_emt_000133,C,Altered mental status,3,True
+opt_000532,q_emt_000133,D,Normal capillary refill,4,False
+opt_000533,q_emt_000134,A,Finish the narrative,1,False
+opt_000534,q_emt_000134,B,Call the supervisor first,2,False
+opt_000535,q_emt_000134,C,Ignore changes if destination is close,3,False
+opt_000536,q_emt_000134,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000537,q_emt_000135,A,Trend in vitals and response to treatment,1,True
+opt_000538,q_emt_000135,B,Your lunch status,2,False
+opt_000539,q_emt_000135,C,Unverified bystander rumor,3,False
+opt_000540,q_emt_000135,D,Exact brand of stretcher,4,False
+opt_000541,q_emt_000136,A,Airway compromise,1,True
+opt_000542,q_emt_000136,B,Mild anxiety,2,False
+opt_000543,q_emt_000136,C,Normal skin color,3,False
+opt_000544,q_emt_000136,D,Stable vital signs,4,False
+opt_000545,q_emt_000137,A,Ask a detailed medication history,1,False
+opt_000546,q_emt_000137,B,Perform a primary assessment and correct life threats,2,True
+opt_000547,q_emt_000137,C,Complete the refusal form,3,False
+opt_000548,q_emt_000137,D,Wait for ALS before touching the patient,4,False
+opt_000549,q_emt_000138,A,Hypotension,1,True
+opt_000550,q_emt_000138,B,Mild isolated nausea,2,False
+opt_000551,q_emt_000138,C,Altered mental status,3,True
+opt_000552,q_emt_000138,D,Normal capillary refill,4,False
+opt_000553,q_emt_000139,A,Finish the narrative,1,False
+opt_000554,q_emt_000139,B,Call the supervisor first,2,False
+opt_000555,q_emt_000139,C,Ignore changes if destination is close,3,False
+opt_000556,q_emt_000139,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000557,q_emt_000140,A,Trend in vitals and response to treatment,1,True
+opt_000558,q_emt_000140,B,Your lunch status,2,False
+opt_000559,q_emt_000140,C,Unverified bystander rumor,3,False
+opt_000560,q_emt_000140,D,Exact brand of stretcher,4,False
+opt_000561,q_emt_000141,A,Airway compromise,1,True
+opt_000562,q_emt_000141,B,Mild anxiety,2,False
+opt_000563,q_emt_000141,C,Normal skin color,3,False
+opt_000564,q_emt_000141,D,Stable vital signs,4,False
+opt_000565,q_emt_000142,A,Ask a detailed medication history,1,False
+opt_000566,q_emt_000142,B,Perform a primary assessment and correct life threats,2,True
+opt_000567,q_emt_000142,C,Complete the refusal form,3,False
+opt_000568,q_emt_000142,D,Wait for ALS before touching the patient,4,False
+opt_000569,q_emt_000143,A,Hypotension,1,True
+opt_000570,q_emt_000143,B,Mild isolated nausea,2,False
+opt_000571,q_emt_000143,C,Altered mental status,3,True
+opt_000572,q_emt_000143,D,Normal capillary refill,4,False
+opt_000573,q_emt_000144,A,Finish the narrative,1,False
+opt_000574,q_emt_000144,B,Call the supervisor first,2,False
+opt_000575,q_emt_000144,C,Ignore changes if destination is close,3,False
+opt_000576,q_emt_000144,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000577,q_emt_000145,A,Trend in vitals and response to treatment,1,True
+opt_000578,q_emt_000145,B,Your lunch status,2,False
+opt_000579,q_emt_000145,C,Unverified bystander rumor,3,False
+opt_000580,q_emt_000145,D,Exact brand of stretcher,4,False
+opt_000581,q_emt_000146,A,Airway compromise,1,True
+opt_000582,q_emt_000146,B,Mild anxiety,2,False
+opt_000583,q_emt_000146,C,Normal skin color,3,False
+opt_000584,q_emt_000146,D,Stable vital signs,4,False
+opt_000585,q_emt_000147,A,Ask a detailed medication history,1,False
+opt_000586,q_emt_000147,B,Perform a primary assessment and correct life threats,2,True
+opt_000587,q_emt_000147,C,Complete the refusal form,3,False
+opt_000588,q_emt_000147,D,Wait for ALS before touching the patient,4,False
+opt_000589,q_emt_000148,A,Hypotension,1,True
+opt_000590,q_emt_000148,B,Mild isolated nausea,2,False
+opt_000591,q_emt_000148,C,Altered mental status,3,True
+opt_000592,q_emt_000148,D,Normal capillary refill,4,False
+opt_000593,q_emt_000149,A,Finish the narrative,1,False
+opt_000594,q_emt_000149,B,Call the supervisor first,2,False
+opt_000595,q_emt_000149,C,Ignore changes if destination is close,3,False
+opt_000596,q_emt_000149,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000597,q_emt_000150,A,Trend in vitals and response to treatment,1,True
+opt_000598,q_emt_000150,B,Your lunch status,2,False
+opt_000599,q_emt_000150,C,Unverified bystander rumor,3,False
+opt_000600,q_emt_000150,D,Exact brand of stretcher,4,False
+opt_000601,q_emt_000151,A,Airway compromise,1,True
+opt_000602,q_emt_000151,B,Mild anxiety,2,False
+opt_000603,q_emt_000151,C,Normal skin color,3,False
+opt_000604,q_emt_000151,D,Stable vital signs,4,False
+opt_000605,q_emt_000152,A,Ask a detailed medication history,1,False
+opt_000606,q_emt_000152,B,Perform a primary assessment and correct life threats,2,True
+opt_000607,q_emt_000152,C,Complete the refusal form,3,False
+opt_000608,q_emt_000152,D,Wait for ALS before touching the patient,4,False
+opt_000609,q_emt_000153,A,Hypotension,1,True
+opt_000610,q_emt_000153,B,Mild isolated nausea,2,False
+opt_000611,q_emt_000153,C,Altered mental status,3,True
+opt_000612,q_emt_000153,D,Normal capillary refill,4,False
+opt_000613,q_emt_000154,A,Finish the narrative,1,False
+opt_000614,q_emt_000154,B,Call the supervisor first,2,False
+opt_000615,q_emt_000154,C,Ignore changes if destination is close,3,False
+opt_000616,q_emt_000154,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000617,q_emt_000155,A,Trend in vitals and response to treatment,1,True
+opt_000618,q_emt_000155,B,Your lunch status,2,False
+opt_000619,q_emt_000155,C,Unverified bystander rumor,3,False
+opt_000620,q_emt_000155,D,Exact brand of stretcher,4,False
+opt_000621,q_emt_000156,A,Airway compromise,1,True
+opt_000622,q_emt_000156,B,Mild anxiety,2,False
+opt_000623,q_emt_000156,C,Normal skin color,3,False
+opt_000624,q_emt_000156,D,Stable vital signs,4,False
+opt_000625,q_emt_000157,A,Ask a detailed medication history,1,False
+opt_000626,q_emt_000157,B,Perform a primary assessment and correct life threats,2,True
+opt_000627,q_emt_000157,C,Complete the refusal form,3,False
+opt_000628,q_emt_000157,D,Wait for ALS before touching the patient,4,False
+opt_000629,q_emt_000158,A,Hypotension,1,True
+opt_000630,q_emt_000158,B,Mild isolated nausea,2,False
+opt_000631,q_emt_000158,C,Altered mental status,3,True
+opt_000632,q_emt_000158,D,Normal capillary refill,4,False
+opt_000633,q_emt_000159,A,Finish the narrative,1,False
+opt_000634,q_emt_000159,B,Call the supervisor first,2,False
+opt_000635,q_emt_000159,C,Ignore changes if destination is close,3,False
+opt_000636,q_emt_000159,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000637,q_emt_000160,A,Trend in vitals and response to treatment,1,True
+opt_000638,q_emt_000160,B,Your lunch status,2,False
+opt_000639,q_emt_000160,C,Unverified bystander rumor,3,False
+opt_000640,q_emt_000160,D,Exact brand of stretcher,4,False
+opt_000641,q_aemt_000161,A,Airway compromise,1,True
+opt_000642,q_aemt_000161,B,Mild anxiety,2,False
+opt_000643,q_aemt_000161,C,Normal skin color,3,False
+opt_000644,q_aemt_000161,D,Stable vital signs,4,False
+opt_000645,q_aemt_000162,A,Ask a detailed medication history,1,False
+opt_000646,q_aemt_000162,B,Perform a primary assessment and correct life threats,2,True
+opt_000647,q_aemt_000162,C,Complete the refusal form,3,False
+opt_000648,q_aemt_000162,D,Wait for ALS before touching the patient,4,False
+opt_000649,q_aemt_000163,A,Hypotension,1,True
+opt_000650,q_aemt_000163,B,Mild isolated nausea,2,False
+opt_000651,q_aemt_000163,C,Altered mental status,3,True
+opt_000652,q_aemt_000163,D,Normal capillary refill,4,False
+opt_000653,q_aemt_000164,A,Finish the narrative,1,False
+opt_000654,q_aemt_000164,B,Call the supervisor first,2,False
+opt_000655,q_aemt_000164,C,Ignore changes if destination is close,3,False
+opt_000656,q_aemt_000164,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000657,q_aemt_000165,A,Trend in vitals and response to treatment,1,True
+opt_000658,q_aemt_000165,B,Your lunch status,2,False
+opt_000659,q_aemt_000165,C,Unverified bystander rumor,3,False
+opt_000660,q_aemt_000165,D,Exact brand of stretcher,4,False
+opt_000661,q_aemt_000166,A,Airway compromise,1,True
+opt_000662,q_aemt_000166,B,Mild anxiety,2,False
+opt_000663,q_aemt_000166,C,Normal skin color,3,False
+opt_000664,q_aemt_000166,D,Stable vital signs,4,False
+opt_000665,q_aemt_000167,A,Ask a detailed medication history,1,False
+opt_000666,q_aemt_000167,B,Perform a primary assessment and correct life threats,2,True
+opt_000667,q_aemt_000167,C,Complete the refusal form,3,False
+opt_000668,q_aemt_000167,D,Wait for ALS before touching the patient,4,False
+opt_000669,q_aemt_000168,A,Hypotension,1,True
+opt_000670,q_aemt_000168,B,Mild isolated nausea,2,False
+opt_000671,q_aemt_000168,C,Altered mental status,3,True
+opt_000672,q_aemt_000168,D,Normal capillary refill,4,False
+opt_000673,q_aemt_000169,A,Finish the narrative,1,False
+opt_000674,q_aemt_000169,B,Call the supervisor first,2,False
+opt_000675,q_aemt_000169,C,Ignore changes if destination is close,3,False
+opt_000676,q_aemt_000169,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000677,q_aemt_000170,A,Trend in vitals and response to treatment,1,True
+opt_000678,q_aemt_000170,B,Your lunch status,2,False
+opt_000679,q_aemt_000170,C,Unverified bystander rumor,3,False
+opt_000680,q_aemt_000170,D,Exact brand of stretcher,4,False
+opt_000681,q_aemt_000171,A,Airway compromise,1,True
+opt_000682,q_aemt_000171,B,Mild anxiety,2,False
+opt_000683,q_aemt_000171,C,Normal skin color,3,False
+opt_000684,q_aemt_000171,D,Stable vital signs,4,False
+opt_000685,q_aemt_000172,A,Ask a detailed medication history,1,False
+opt_000686,q_aemt_000172,B,Perform a primary assessment and correct life threats,2,True
+opt_000687,q_aemt_000172,C,Complete the refusal form,3,False
+opt_000688,q_aemt_000172,D,Wait for ALS before touching the patient,4,False
+opt_000689,q_aemt_000173,A,Hypotension,1,True
+opt_000690,q_aemt_000173,B,Mild isolated nausea,2,False
+opt_000691,q_aemt_000173,C,Altered mental status,3,True
+opt_000692,q_aemt_000173,D,Normal capillary refill,4,False
+opt_000693,q_aemt_000174,A,Finish the narrative,1,False
+opt_000694,q_aemt_000174,B,Call the supervisor first,2,False
+opt_000695,q_aemt_000174,C,Ignore changes if destination is close,3,False
+opt_000696,q_aemt_000174,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000697,q_aemt_000175,A,Trend in vitals and response to treatment,1,True
+opt_000698,q_aemt_000175,B,Your lunch status,2,False
+opt_000699,q_aemt_000175,C,Unverified bystander rumor,3,False
+opt_000700,q_aemt_000175,D,Exact brand of stretcher,4,False
+opt_000701,q_aemt_000176,A,Airway compromise,1,True
+opt_000702,q_aemt_000176,B,Mild anxiety,2,False
+opt_000703,q_aemt_000176,C,Normal skin color,3,False
+opt_000704,q_aemt_000176,D,Stable vital signs,4,False
+opt_000705,q_aemt_000177,A,Ask a detailed medication history,1,False
+opt_000706,q_aemt_000177,B,Perform a primary assessment and correct life threats,2,True
+opt_000707,q_aemt_000177,C,Complete the refusal form,3,False
+opt_000708,q_aemt_000177,D,Wait for ALS before touching the patient,4,False
+opt_000709,q_aemt_000178,A,Hypotension,1,True
+opt_000710,q_aemt_000178,B,Mild isolated nausea,2,False
+opt_000711,q_aemt_000178,C,Altered mental status,3,True
+opt_000712,q_aemt_000178,D,Normal capillary refill,4,False
+opt_000713,q_aemt_000179,A,Finish the narrative,1,False
+opt_000714,q_aemt_000179,B,Call the supervisor first,2,False
+opt_000715,q_aemt_000179,C,Ignore changes if destination is close,3,False
+opt_000716,q_aemt_000179,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000717,q_aemt_000180,A,Trend in vitals and response to treatment,1,True
+opt_000718,q_aemt_000180,B,Your lunch status,2,False
+opt_000719,q_aemt_000180,C,Unverified bystander rumor,3,False
+opt_000720,q_aemt_000180,D,Exact brand of stretcher,4,False
+opt_000721,q_aemt_000181,A,Airway compromise,1,True
+opt_000722,q_aemt_000181,B,Mild anxiety,2,False
+opt_000723,q_aemt_000181,C,Normal skin color,3,False
+opt_000724,q_aemt_000181,D,Stable vital signs,4,False
+opt_000725,q_aemt_000182,A,Ask a detailed medication history,1,False
+opt_000726,q_aemt_000182,B,Perform a primary assessment and correct life threats,2,True
+opt_000727,q_aemt_000182,C,Complete the refusal form,3,False
+opt_000728,q_aemt_000182,D,Wait for ALS before touching the patient,4,False
+opt_000729,q_aemt_000183,A,Hypotension,1,True
+opt_000730,q_aemt_000183,B,Mild isolated nausea,2,False
+opt_000731,q_aemt_000183,C,Altered mental status,3,True
+opt_000732,q_aemt_000183,D,Normal capillary refill,4,False
+opt_000733,q_aemt_000184,A,Finish the narrative,1,False
+opt_000734,q_aemt_000184,B,Call the supervisor first,2,False
+opt_000735,q_aemt_000184,C,Ignore changes if destination is close,3,False
+opt_000736,q_aemt_000184,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000737,q_aemt_000185,A,Trend in vitals and response to treatment,1,True
+opt_000738,q_aemt_000185,B,Your lunch status,2,False
+opt_000739,q_aemt_000185,C,Unverified bystander rumor,3,False
+opt_000740,q_aemt_000185,D,Exact brand of stretcher,4,False
+opt_000741,q_aemt_000186,A,Airway compromise,1,True
+opt_000742,q_aemt_000186,B,Mild anxiety,2,False
+opt_000743,q_aemt_000186,C,Normal skin color,3,False
+opt_000744,q_aemt_000186,D,Stable vital signs,4,False
+opt_000745,q_aemt_000187,A,Ask a detailed medication history,1,False
+opt_000746,q_aemt_000187,B,Perform a primary assessment and correct life threats,2,True
+opt_000747,q_aemt_000187,C,Complete the refusal form,3,False
+opt_000748,q_aemt_000187,D,Wait for ALS before touching the patient,4,False
+opt_000749,q_aemt_000188,A,Hypotension,1,True
+opt_000750,q_aemt_000188,B,Mild isolated nausea,2,False
+opt_000751,q_aemt_000188,C,Altered mental status,3,True
+opt_000752,q_aemt_000188,D,Normal capillary refill,4,False
+opt_000753,q_aemt_000189,A,Finish the narrative,1,False
+opt_000754,q_aemt_000189,B,Call the supervisor first,2,False
+opt_000755,q_aemt_000189,C,Ignore changes if destination is close,3,False
+opt_000756,q_aemt_000189,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000757,q_aemt_000190,A,Trend in vitals and response to treatment,1,True
+opt_000758,q_aemt_000190,B,Your lunch status,2,False
+opt_000759,q_aemt_000190,C,Unverified bystander rumor,3,False
+opt_000760,q_aemt_000190,D,Exact brand of stretcher,4,False
+opt_000761,q_aemt_000191,A,Airway compromise,1,True
+opt_000762,q_aemt_000191,B,Mild anxiety,2,False
+opt_000763,q_aemt_000191,C,Normal skin color,3,False
+opt_000764,q_aemt_000191,D,Stable vital signs,4,False
+opt_000765,q_aemt_000192,A,Ask a detailed medication history,1,False
+opt_000766,q_aemt_000192,B,Perform a primary assessment and correct life threats,2,True
+opt_000767,q_aemt_000192,C,Complete the refusal form,3,False
+opt_000768,q_aemt_000192,D,Wait for ALS before touching the patient,4,False
+opt_000769,q_aemt_000193,A,Hypotension,1,True
+opt_000770,q_aemt_000193,B,Mild isolated nausea,2,False
+opt_000771,q_aemt_000193,C,Altered mental status,3,True
+opt_000772,q_aemt_000193,D,Normal capillary refill,4,False
+opt_000773,q_aemt_000194,A,Finish the narrative,1,False
+opt_000774,q_aemt_000194,B,Call the supervisor first,2,False
+opt_000775,q_aemt_000194,C,Ignore changes if destination is close,3,False
+opt_000776,q_aemt_000194,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000777,q_aemt_000195,A,Trend in vitals and response to treatment,1,True
+opt_000778,q_aemt_000195,B,Your lunch status,2,False
+opt_000779,q_aemt_000195,C,Unverified bystander rumor,3,False
+opt_000780,q_aemt_000195,D,Exact brand of stretcher,4,False
+opt_000781,q_aemt_000196,A,Airway compromise,1,True
+opt_000782,q_aemt_000196,B,Mild anxiety,2,False
+opt_000783,q_aemt_000196,C,Normal skin color,3,False
+opt_000784,q_aemt_000196,D,Stable vital signs,4,False
+opt_000785,q_aemt_000197,A,Ask a detailed medication history,1,False
+opt_000786,q_aemt_000197,B,Perform a primary assessment and correct life threats,2,True
+opt_000787,q_aemt_000197,C,Complete the refusal form,3,False
+opt_000788,q_aemt_000197,D,Wait for ALS before touching the patient,4,False
+opt_000789,q_aemt_000198,A,Hypotension,1,True
+opt_000790,q_aemt_000198,B,Mild isolated nausea,2,False
+opt_000791,q_aemt_000198,C,Altered mental status,3,True
+opt_000792,q_aemt_000198,D,Normal capillary refill,4,False
+opt_000793,q_aemt_000199,A,Finish the narrative,1,False
+opt_000794,q_aemt_000199,B,Call the supervisor first,2,False
+opt_000795,q_aemt_000199,C,Ignore changes if destination is close,3,False
+opt_000796,q_aemt_000199,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000797,q_aemt_000200,A,Trend in vitals and response to treatment,1,True
+opt_000798,q_aemt_000200,B,Your lunch status,2,False
+opt_000799,q_aemt_000200,C,Unverified bystander rumor,3,False
+opt_000800,q_aemt_000200,D,Exact brand of stretcher,4,False
+opt_000801,q_aemt_000201,A,Airway compromise,1,True
+opt_000802,q_aemt_000201,B,Mild anxiety,2,False
+opt_000803,q_aemt_000201,C,Normal skin color,3,False
+opt_000804,q_aemt_000201,D,Stable vital signs,4,False
+opt_000805,q_aemt_000202,A,Ask a detailed medication history,1,False
+opt_000806,q_aemt_000202,B,Perform a primary assessment and correct life threats,2,True
+opt_000807,q_aemt_000202,C,Complete the refusal form,3,False
+opt_000808,q_aemt_000202,D,Wait for ALS before touching the patient,4,False
+opt_000809,q_aemt_000203,A,Hypotension,1,True
+opt_000810,q_aemt_000203,B,Mild isolated nausea,2,False
+opt_000811,q_aemt_000203,C,Altered mental status,3,True
+opt_000812,q_aemt_000203,D,Normal capillary refill,4,False
+opt_000813,q_aemt_000204,A,Finish the narrative,1,False
+opt_000814,q_aemt_000204,B,Call the supervisor first,2,False
+opt_000815,q_aemt_000204,C,Ignore changes if destination is close,3,False
+opt_000816,q_aemt_000204,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000817,q_aemt_000205,A,Trend in vitals and response to treatment,1,True
+opt_000818,q_aemt_000205,B,Your lunch status,2,False
+opt_000819,q_aemt_000205,C,Unverified bystander rumor,3,False
+opt_000820,q_aemt_000205,D,Exact brand of stretcher,4,False
+opt_000821,q_aemt_000206,A,Airway compromise,1,True
+opt_000822,q_aemt_000206,B,Mild anxiety,2,False
+opt_000823,q_aemt_000206,C,Normal skin color,3,False
+opt_000824,q_aemt_000206,D,Stable vital signs,4,False
+opt_000825,q_aemt_000207,A,Ask a detailed medication history,1,False
+opt_000826,q_aemt_000207,B,Perform a primary assessment and correct life threats,2,True
+opt_000827,q_aemt_000207,C,Complete the refusal form,3,False
+opt_000828,q_aemt_000207,D,Wait for ALS before touching the patient,4,False
+opt_000829,q_aemt_000208,A,Hypotension,1,True
+opt_000830,q_aemt_000208,B,Mild isolated nausea,2,False
+opt_000831,q_aemt_000208,C,Altered mental status,3,True
+opt_000832,q_aemt_000208,D,Normal capillary refill,4,False
+opt_000833,q_aemt_000209,A,Finish the narrative,1,False
+opt_000834,q_aemt_000209,B,Call the supervisor first,2,False
+opt_000835,q_aemt_000209,C,Ignore changes if destination is close,3,False
+opt_000836,q_aemt_000209,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000837,q_aemt_000210,A,Trend in vitals and response to treatment,1,True
+opt_000838,q_aemt_000210,B,Your lunch status,2,False
+opt_000839,q_aemt_000210,C,Unverified bystander rumor,3,False
+opt_000840,q_aemt_000210,D,Exact brand of stretcher,4,False
+opt_000841,q_aemt_000211,A,Airway compromise,1,True
+opt_000842,q_aemt_000211,B,Mild anxiety,2,False
+opt_000843,q_aemt_000211,C,Normal skin color,3,False
+opt_000844,q_aemt_000211,D,Stable vital signs,4,False
+opt_000845,q_aemt_000212,A,Ask a detailed medication history,1,False
+opt_000846,q_aemt_000212,B,Perform a primary assessment and correct life threats,2,True
+opt_000847,q_aemt_000212,C,Complete the refusal form,3,False
+opt_000848,q_aemt_000212,D,Wait for ALS before touching the patient,4,False
+opt_000849,q_aemt_000213,A,Hypotension,1,True
+opt_000850,q_aemt_000213,B,Mild isolated nausea,2,False
+opt_000851,q_aemt_000213,C,Altered mental status,3,True
+opt_000852,q_aemt_000213,D,Normal capillary refill,4,False
+opt_000853,q_aemt_000214,A,Finish the narrative,1,False
+opt_000854,q_aemt_000214,B,Call the supervisor first,2,False
+opt_000855,q_aemt_000214,C,Ignore changes if destination is close,3,False
+opt_000856,q_aemt_000214,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000857,q_aemt_000215,A,Trend in vitals and response to treatment,1,True
+opt_000858,q_aemt_000215,B,Your lunch status,2,False
+opt_000859,q_aemt_000215,C,Unverified bystander rumor,3,False
+opt_000860,q_aemt_000215,D,Exact brand of stretcher,4,False
+opt_000861,q_aemt_000216,A,Airway compromise,1,True
+opt_000862,q_aemt_000216,B,Mild anxiety,2,False
+opt_000863,q_aemt_000216,C,Normal skin color,3,False
+opt_000864,q_aemt_000216,D,Stable vital signs,4,False
+opt_000865,q_aemt_000217,A,Ask a detailed medication history,1,False
+opt_000866,q_aemt_000217,B,Perform a primary assessment and correct life threats,2,True
+opt_000867,q_aemt_000217,C,Complete the refusal form,3,False
+opt_000868,q_aemt_000217,D,Wait for ALS before touching the patient,4,False
+opt_000869,q_aemt_000218,A,Hypotension,1,True
+opt_000870,q_aemt_000218,B,Mild isolated nausea,2,False
+opt_000871,q_aemt_000218,C,Altered mental status,3,True
+opt_000872,q_aemt_000218,D,Normal capillary refill,4,False
+opt_000873,q_aemt_000219,A,Finish the narrative,1,False
+opt_000874,q_aemt_000219,B,Call the supervisor first,2,False
+opt_000875,q_aemt_000219,C,Ignore changes if destination is close,3,False
+opt_000876,q_aemt_000219,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000877,q_aemt_000220,A,Trend in vitals and response to treatment,1,True
+opt_000878,q_aemt_000220,B,Your lunch status,2,False
+opt_000879,q_aemt_000220,C,Unverified bystander rumor,3,False
+opt_000880,q_aemt_000220,D,Exact brand of stretcher,4,False
+opt_000881,q_aemt_000221,A,Airway compromise,1,True
+opt_000882,q_aemt_000221,B,Mild anxiety,2,False
+opt_000883,q_aemt_000221,C,Normal skin color,3,False
+opt_000884,q_aemt_000221,D,Stable vital signs,4,False
+opt_000885,q_aemt_000222,A,Ask a detailed medication history,1,False
+opt_000886,q_aemt_000222,B,Perform a primary assessment and correct life threats,2,True
+opt_000887,q_aemt_000222,C,Complete the refusal form,3,False
+opt_000888,q_aemt_000222,D,Wait for ALS before touching the patient,4,False
+opt_000889,q_aemt_000223,A,Hypotension,1,True
+opt_000890,q_aemt_000223,B,Mild isolated nausea,2,False
+opt_000891,q_aemt_000223,C,Altered mental status,3,True
+opt_000892,q_aemt_000223,D,Normal capillary refill,4,False
+opt_000893,q_aemt_000224,A,Finish the narrative,1,False
+opt_000894,q_aemt_000224,B,Call the supervisor first,2,False
+opt_000895,q_aemt_000224,C,Ignore changes if destination is close,3,False
+opt_000896,q_aemt_000224,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000897,q_aemt_000225,A,Trend in vitals and response to treatment,1,True
+opt_000898,q_aemt_000225,B,Your lunch status,2,False
+opt_000899,q_aemt_000225,C,Unverified bystander rumor,3,False
+opt_000900,q_aemt_000225,D,Exact brand of stretcher,4,False
+opt_000901,q_aemt_000226,A,Airway compromise,1,True
+opt_000902,q_aemt_000226,B,Mild anxiety,2,False
+opt_000903,q_aemt_000226,C,Normal skin color,3,False
+opt_000904,q_aemt_000226,D,Stable vital signs,4,False
+opt_000905,q_aemt_000227,A,Ask a detailed medication history,1,False
+opt_000906,q_aemt_000227,B,Perform a primary assessment and correct life threats,2,True
+opt_000907,q_aemt_000227,C,Complete the refusal form,3,False
+opt_000908,q_aemt_000227,D,Wait for ALS before touching the patient,4,False
+opt_000909,q_aemt_000228,A,Hypotension,1,True
+opt_000910,q_aemt_000228,B,Mild isolated nausea,2,False
+opt_000911,q_aemt_000228,C,Altered mental status,3,True
+opt_000912,q_aemt_000228,D,Normal capillary refill,4,False
+opt_000913,q_aemt_000229,A,Finish the narrative,1,False
+opt_000914,q_aemt_000229,B,Call the supervisor first,2,False
+opt_000915,q_aemt_000229,C,Ignore changes if destination is close,3,False
+opt_000916,q_aemt_000229,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000917,q_aemt_000230,A,Trend in vitals and response to treatment,1,True
+opt_000918,q_aemt_000230,B,Your lunch status,2,False
+opt_000919,q_aemt_000230,C,Unverified bystander rumor,3,False
+opt_000920,q_aemt_000230,D,Exact brand of stretcher,4,False
+opt_000921,q_aemt_000231,A,Airway compromise,1,True
+opt_000922,q_aemt_000231,B,Mild anxiety,2,False
+opt_000923,q_aemt_000231,C,Normal skin color,3,False
+opt_000924,q_aemt_000231,D,Stable vital signs,4,False
+opt_000925,q_aemt_000232,A,Ask a detailed medication history,1,False
+opt_000926,q_aemt_000232,B,Perform a primary assessment and correct life threats,2,True
+opt_000927,q_aemt_000232,C,Complete the refusal form,3,False
+opt_000928,q_aemt_000232,D,Wait for ALS before touching the patient,4,False
+opt_000929,q_aemt_000233,A,Hypotension,1,True
+opt_000930,q_aemt_000233,B,Mild isolated nausea,2,False
+opt_000931,q_aemt_000233,C,Altered mental status,3,True
+opt_000932,q_aemt_000233,D,Normal capillary refill,4,False
+opt_000933,q_aemt_000234,A,Finish the narrative,1,False
+opt_000934,q_aemt_000234,B,Call the supervisor first,2,False
+opt_000935,q_aemt_000234,C,Ignore changes if destination is close,3,False
+opt_000936,q_aemt_000234,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000937,q_aemt_000235,A,Trend in vitals and response to treatment,1,True
+opt_000938,q_aemt_000235,B,Your lunch status,2,False
+opt_000939,q_aemt_000235,C,Unverified bystander rumor,3,False
+opt_000940,q_aemt_000235,D,Exact brand of stretcher,4,False
+opt_000941,q_aemt_000236,A,Airway compromise,1,True
+opt_000942,q_aemt_000236,B,Mild anxiety,2,False
+opt_000943,q_aemt_000236,C,Normal skin color,3,False
+opt_000944,q_aemt_000236,D,Stable vital signs,4,False
+opt_000945,q_aemt_000237,A,Ask a detailed medication history,1,False
+opt_000946,q_aemt_000237,B,Perform a primary assessment and correct life threats,2,True
+opt_000947,q_aemt_000237,C,Complete the refusal form,3,False
+opt_000948,q_aemt_000237,D,Wait for ALS before touching the patient,4,False
+opt_000949,q_aemt_000238,A,Hypotension,1,True
+opt_000950,q_aemt_000238,B,Mild isolated nausea,2,False
+opt_000951,q_aemt_000238,C,Altered mental status,3,True
+opt_000952,q_aemt_000238,D,Normal capillary refill,4,False
+opt_000953,q_aemt_000239,A,Finish the narrative,1,False
+opt_000954,q_aemt_000239,B,Call the supervisor first,2,False
+opt_000955,q_aemt_000239,C,Ignore changes if destination is close,3,False
+opt_000956,q_aemt_000239,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000957,q_aemt_000240,A,Trend in vitals and response to treatment,1,True
+opt_000958,q_aemt_000240,B,Your lunch status,2,False
+opt_000959,q_aemt_000240,C,Unverified bystander rumor,3,False
+opt_000960,q_aemt_000240,D,Exact brand of stretcher,4,False
+opt_000961,q_aemt_000241,A,Airway compromise,1,True
+opt_000962,q_aemt_000241,B,Mild anxiety,2,False
+opt_000963,q_aemt_000241,C,Normal skin color,3,False
+opt_000964,q_aemt_000241,D,Stable vital signs,4,False
+opt_000965,q_aemt_000242,A,Ask a detailed medication history,1,False
+opt_000966,q_aemt_000242,B,Perform a primary assessment and correct life threats,2,True
+opt_000967,q_aemt_000242,C,Complete the refusal form,3,False
+opt_000968,q_aemt_000242,D,Wait for ALS before touching the patient,4,False
+opt_000969,q_aemt_000243,A,Hypotension,1,True
+opt_000970,q_aemt_000243,B,Mild isolated nausea,2,False
+opt_000971,q_aemt_000243,C,Altered mental status,3,True
+opt_000972,q_aemt_000243,D,Normal capillary refill,4,False
+opt_000973,q_aemt_000244,A,Finish the narrative,1,False
+opt_000974,q_aemt_000244,B,Call the supervisor first,2,False
+opt_000975,q_aemt_000244,C,Ignore changes if destination is close,3,False
+opt_000976,q_aemt_000244,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000977,q_aemt_000245,A,Trend in vitals and response to treatment,1,True
+opt_000978,q_aemt_000245,B,Your lunch status,2,False
+opt_000979,q_aemt_000245,C,Unverified bystander rumor,3,False
+opt_000980,q_aemt_000245,D,Exact brand of stretcher,4,False
+opt_000981,q_aemt_000246,A,Airway compromise,1,True
+opt_000982,q_aemt_000246,B,Mild anxiety,2,False
+opt_000983,q_aemt_000246,C,Normal skin color,3,False
+opt_000984,q_aemt_000246,D,Stable vital signs,4,False
+opt_000985,q_aemt_000247,A,Ask a detailed medication history,1,False
+opt_000986,q_aemt_000247,B,Perform a primary assessment and correct life threats,2,True
+opt_000987,q_aemt_000247,C,Complete the refusal form,3,False
+opt_000988,q_aemt_000247,D,Wait for ALS before touching the patient,4,False
+opt_000989,q_aemt_000248,A,Hypotension,1,True
+opt_000990,q_aemt_000248,B,Mild isolated nausea,2,False
+opt_000991,q_aemt_000248,C,Altered mental status,3,True
+opt_000992,q_aemt_000248,D,Normal capillary refill,4,False
+opt_000993,q_aemt_000249,A,Finish the narrative,1,False
+opt_000994,q_aemt_000249,B,Call the supervisor first,2,False
+opt_000995,q_aemt_000249,C,Ignore changes if destination is close,3,False
+opt_000996,q_aemt_000249,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_000997,q_aemt_000250,A,Trend in vitals and response to treatment,1,True
+opt_000998,q_aemt_000250,B,Your lunch status,2,False
+opt_000999,q_aemt_000250,C,Unverified bystander rumor,3,False
+opt_001000,q_aemt_000250,D,Exact brand of stretcher,4,False
+opt_001001,q_aemt_000251,A,Airway compromise,1,True
+opt_001002,q_aemt_000251,B,Mild anxiety,2,False
+opt_001003,q_aemt_000251,C,Normal skin color,3,False
+opt_001004,q_aemt_000251,D,Stable vital signs,4,False
+opt_001005,q_aemt_000252,A,Ask a detailed medication history,1,False
+opt_001006,q_aemt_000252,B,Perform a primary assessment and correct life threats,2,True
+opt_001007,q_aemt_000252,C,Complete the refusal form,3,False
+opt_001008,q_aemt_000252,D,Wait for ALS before touching the patient,4,False
+opt_001009,q_aemt_000253,A,Hypotension,1,True
+opt_001010,q_aemt_000253,B,Mild isolated nausea,2,False
+opt_001011,q_aemt_000253,C,Altered mental status,3,True
+opt_001012,q_aemt_000253,D,Normal capillary refill,4,False
+opt_001013,q_aemt_000254,A,Finish the narrative,1,False
+opt_001014,q_aemt_000254,B,Call the supervisor first,2,False
+opt_001015,q_aemt_000254,C,Ignore changes if destination is close,3,False
+opt_001016,q_aemt_000254,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001017,q_aemt_000255,A,Trend in vitals and response to treatment,1,True
+opt_001018,q_aemt_000255,B,Your lunch status,2,False
+opt_001019,q_aemt_000255,C,Unverified bystander rumor,3,False
+opt_001020,q_aemt_000255,D,Exact brand of stretcher,4,False
+opt_001021,q_aemt_000256,A,Airway compromise,1,True
+opt_001022,q_aemt_000256,B,Mild anxiety,2,False
+opt_001023,q_aemt_000256,C,Normal skin color,3,False
+opt_001024,q_aemt_000256,D,Stable vital signs,4,False
+opt_001025,q_aemt_000257,A,Ask a detailed medication history,1,False
+opt_001026,q_aemt_000257,B,Perform a primary assessment and correct life threats,2,True
+opt_001027,q_aemt_000257,C,Complete the refusal form,3,False
+opt_001028,q_aemt_000257,D,Wait for ALS before touching the patient,4,False
+opt_001029,q_aemt_000258,A,Hypotension,1,True
+opt_001030,q_aemt_000258,B,Mild isolated nausea,2,False
+opt_001031,q_aemt_000258,C,Altered mental status,3,True
+opt_001032,q_aemt_000258,D,Normal capillary refill,4,False
+opt_001033,q_aemt_000259,A,Finish the narrative,1,False
+opt_001034,q_aemt_000259,B,Call the supervisor first,2,False
+opt_001035,q_aemt_000259,C,Ignore changes if destination is close,3,False
+opt_001036,q_aemt_000259,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001037,q_aemt_000260,A,Trend in vitals and response to treatment,1,True
+opt_001038,q_aemt_000260,B,Your lunch status,2,False
+opt_001039,q_aemt_000260,C,Unverified bystander rumor,3,False
+opt_001040,q_aemt_000260,D,Exact brand of stretcher,4,False
+opt_001041,q_aemt_000261,A,Airway compromise,1,True
+opt_001042,q_aemt_000261,B,Mild anxiety,2,False
+opt_001043,q_aemt_000261,C,Normal skin color,3,False
+opt_001044,q_aemt_000261,D,Stable vital signs,4,False
+opt_001045,q_aemt_000262,A,Ask a detailed medication history,1,False
+opt_001046,q_aemt_000262,B,Perform a primary assessment and correct life threats,2,True
+opt_001047,q_aemt_000262,C,Complete the refusal form,3,False
+opt_001048,q_aemt_000262,D,Wait for ALS before touching the patient,4,False
+opt_001049,q_aemt_000263,A,Hypotension,1,True
+opt_001050,q_aemt_000263,B,Mild isolated nausea,2,False
+opt_001051,q_aemt_000263,C,Altered mental status,3,True
+opt_001052,q_aemt_000263,D,Normal capillary refill,4,False
+opt_001053,q_aemt_000264,A,Finish the narrative,1,False
+opt_001054,q_aemt_000264,B,Call the supervisor first,2,False
+opt_001055,q_aemt_000264,C,Ignore changes if destination is close,3,False
+opt_001056,q_aemt_000264,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001057,q_aemt_000265,A,Trend in vitals and response to treatment,1,True
+opt_001058,q_aemt_000265,B,Your lunch status,2,False
+opt_001059,q_aemt_000265,C,Unverified bystander rumor,3,False
+opt_001060,q_aemt_000265,D,Exact brand of stretcher,4,False
+opt_001061,q_aemt_000266,A,Airway compromise,1,True
+opt_001062,q_aemt_000266,B,Mild anxiety,2,False
+opt_001063,q_aemt_000266,C,Normal skin color,3,False
+opt_001064,q_aemt_000266,D,Stable vital signs,4,False
+opt_001065,q_aemt_000267,A,Ask a detailed medication history,1,False
+opt_001066,q_aemt_000267,B,Perform a primary assessment and correct life threats,2,True
+opt_001067,q_aemt_000267,C,Complete the refusal form,3,False
+opt_001068,q_aemt_000267,D,Wait for ALS before touching the patient,4,False
+opt_001069,q_aemt_000268,A,Hypotension,1,True
+opt_001070,q_aemt_000268,B,Mild isolated nausea,2,False
+opt_001071,q_aemt_000268,C,Altered mental status,3,True
+opt_001072,q_aemt_000268,D,Normal capillary refill,4,False
+opt_001073,q_aemt_000269,A,Finish the narrative,1,False
+opt_001074,q_aemt_000269,B,Call the supervisor first,2,False
+opt_001075,q_aemt_000269,C,Ignore changes if destination is close,3,False
+opt_001076,q_aemt_000269,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001077,q_aemt_000270,A,Trend in vitals and response to treatment,1,True
+opt_001078,q_aemt_000270,B,Your lunch status,2,False
+opt_001079,q_aemt_000270,C,Unverified bystander rumor,3,False
+opt_001080,q_aemt_000270,D,Exact brand of stretcher,4,False
+opt_001081,q_aemt_000271,A,Airway compromise,1,True
+opt_001082,q_aemt_000271,B,Mild anxiety,2,False
+opt_001083,q_aemt_000271,C,Normal skin color,3,False
+opt_001084,q_aemt_000271,D,Stable vital signs,4,False
+opt_001085,q_aemt_000272,A,Ask a detailed medication history,1,False
+opt_001086,q_aemt_000272,B,Perform a primary assessment and correct life threats,2,True
+opt_001087,q_aemt_000272,C,Complete the refusal form,3,False
+opt_001088,q_aemt_000272,D,Wait for ALS before touching the patient,4,False
+opt_001089,q_aemt_000273,A,Hypotension,1,True
+opt_001090,q_aemt_000273,B,Mild isolated nausea,2,False
+opt_001091,q_aemt_000273,C,Altered mental status,3,True
+opt_001092,q_aemt_000273,D,Normal capillary refill,4,False
+opt_001093,q_aemt_000274,A,Finish the narrative,1,False
+opt_001094,q_aemt_000274,B,Call the supervisor first,2,False
+opt_001095,q_aemt_000274,C,Ignore changes if destination is close,3,False
+opt_001096,q_aemt_000274,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001097,q_aemt_000275,A,Trend in vitals and response to treatment,1,True
+opt_001098,q_aemt_000275,B,Your lunch status,2,False
+opt_001099,q_aemt_000275,C,Unverified bystander rumor,3,False
+opt_001100,q_aemt_000275,D,Exact brand of stretcher,4,False
+opt_001101,q_aemt_000276,A,Airway compromise,1,True
+opt_001102,q_aemt_000276,B,Mild anxiety,2,False
+opt_001103,q_aemt_000276,C,Normal skin color,3,False
+opt_001104,q_aemt_000276,D,Stable vital signs,4,False
+opt_001105,q_aemt_000277,A,Ask a detailed medication history,1,False
+opt_001106,q_aemt_000277,B,Perform a primary assessment and correct life threats,2,True
+opt_001107,q_aemt_000277,C,Complete the refusal form,3,False
+opt_001108,q_aemt_000277,D,Wait for ALS before touching the patient,4,False
+opt_001109,q_aemt_000278,A,Hypotension,1,True
+opt_001110,q_aemt_000278,B,Mild isolated nausea,2,False
+opt_001111,q_aemt_000278,C,Altered mental status,3,True
+opt_001112,q_aemt_000278,D,Normal capillary refill,4,False
+opt_001113,q_aemt_000279,A,Finish the narrative,1,False
+opt_001114,q_aemt_000279,B,Call the supervisor first,2,False
+opt_001115,q_aemt_000279,C,Ignore changes if destination is close,3,False
+opt_001116,q_aemt_000279,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001117,q_aemt_000280,A,Trend in vitals and response to treatment,1,True
+opt_001118,q_aemt_000280,B,Your lunch status,2,False
+opt_001119,q_aemt_000280,C,Unverified bystander rumor,3,False
+opt_001120,q_aemt_000280,D,Exact brand of stretcher,4,False
+opt_001121,q_aemt_000281,A,Airway compromise,1,True
+opt_001122,q_aemt_000281,B,Mild anxiety,2,False
+opt_001123,q_aemt_000281,C,Normal skin color,3,False
+opt_001124,q_aemt_000281,D,Stable vital signs,4,False
+opt_001125,q_aemt_000282,A,Ask a detailed medication history,1,False
+opt_001126,q_aemt_000282,B,Perform a primary assessment and correct life threats,2,True
+opt_001127,q_aemt_000282,C,Complete the refusal form,3,False
+opt_001128,q_aemt_000282,D,Wait for ALS before touching the patient,4,False
+opt_001129,q_aemt_000283,A,Hypotension,1,True
+opt_001130,q_aemt_000283,B,Mild isolated nausea,2,False
+opt_001131,q_aemt_000283,C,Altered mental status,3,True
+opt_001132,q_aemt_000283,D,Normal capillary refill,4,False
+opt_001133,q_aemt_000284,A,Finish the narrative,1,False
+opt_001134,q_aemt_000284,B,Call the supervisor first,2,False
+opt_001135,q_aemt_000284,C,Ignore changes if destination is close,3,False
+opt_001136,q_aemt_000284,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001137,q_aemt_000285,A,Trend in vitals and response to treatment,1,True
+opt_001138,q_aemt_000285,B,Your lunch status,2,False
+opt_001139,q_aemt_000285,C,Unverified bystander rumor,3,False
+opt_001140,q_aemt_000285,D,Exact brand of stretcher,4,False
+opt_001141,q_aemt_000286,A,Airway compromise,1,True
+opt_001142,q_aemt_000286,B,Mild anxiety,2,False
+opt_001143,q_aemt_000286,C,Normal skin color,3,False
+opt_001144,q_aemt_000286,D,Stable vital signs,4,False
+opt_001145,q_aemt_000287,A,Ask a detailed medication history,1,False
+opt_001146,q_aemt_000287,B,Perform a primary assessment and correct life threats,2,True
+opt_001147,q_aemt_000287,C,Complete the refusal form,3,False
+opt_001148,q_aemt_000287,D,Wait for ALS before touching the patient,4,False
+opt_001149,q_aemt_000288,A,Hypotension,1,True
+opt_001150,q_aemt_000288,B,Mild isolated nausea,2,False
+opt_001151,q_aemt_000288,C,Altered mental status,3,True
+opt_001152,q_aemt_000288,D,Normal capillary refill,4,False
+opt_001153,q_aemt_000289,A,Finish the narrative,1,False
+opt_001154,q_aemt_000289,B,Call the supervisor first,2,False
+opt_001155,q_aemt_000289,C,Ignore changes if destination is close,3,False
+opt_001156,q_aemt_000289,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001157,q_aemt_000290,A,Trend in vitals and response to treatment,1,True
+opt_001158,q_aemt_000290,B,Your lunch status,2,False
+opt_001159,q_aemt_000290,C,Unverified bystander rumor,3,False
+opt_001160,q_aemt_000290,D,Exact brand of stretcher,4,False
+opt_001161,q_paramedic_000291,A,Airway compromise,1,True
+opt_001162,q_paramedic_000291,B,Mild anxiety,2,False
+opt_001163,q_paramedic_000291,C,Normal skin color,3,False
+opt_001164,q_paramedic_000291,D,Stable vital signs,4,False
+opt_001165,q_paramedic_000292,A,Ask a detailed medication history,1,False
+opt_001166,q_paramedic_000292,B,Perform a primary assessment and correct life threats,2,True
+opt_001167,q_paramedic_000292,C,Complete the refusal form,3,False
+opt_001168,q_paramedic_000292,D,Wait for ALS before touching the patient,4,False
+opt_001169,q_paramedic_000293,A,Hypotension,1,True
+opt_001170,q_paramedic_000293,B,Mild isolated nausea,2,False
+opt_001171,q_paramedic_000293,C,Altered mental status,3,True
+opt_001172,q_paramedic_000293,D,Normal capillary refill,4,False
+opt_001173,q_paramedic_000294,A,Finish the narrative,1,False
+opt_001174,q_paramedic_000294,B,Call the supervisor first,2,False
+opt_001175,q_paramedic_000294,C,Ignore changes if destination is close,3,False
+opt_001176,q_paramedic_000294,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001177,q_paramedic_000295,A,Trend in vitals and response to treatment,1,True
+opt_001178,q_paramedic_000295,B,Your lunch status,2,False
+opt_001179,q_paramedic_000295,C,Unverified bystander rumor,3,False
+opt_001180,q_paramedic_000295,D,Exact brand of stretcher,4,False
+opt_001181,q_paramedic_000296,A,Airway compromise,1,True
+opt_001182,q_paramedic_000296,B,Mild anxiety,2,False
+opt_001183,q_paramedic_000296,C,Normal skin color,3,False
+opt_001184,q_paramedic_000296,D,Stable vital signs,4,False
+opt_001185,q_paramedic_000297,A,Ask a detailed medication history,1,False
+opt_001186,q_paramedic_000297,B,Perform a primary assessment and correct life threats,2,True
+opt_001187,q_paramedic_000297,C,Complete the refusal form,3,False
+opt_001188,q_paramedic_000297,D,Wait for ALS before touching the patient,4,False
+opt_001189,q_paramedic_000298,A,Hypotension,1,True
+opt_001190,q_paramedic_000298,B,Mild isolated nausea,2,False
+opt_001191,q_paramedic_000298,C,Altered mental status,3,True
+opt_001192,q_paramedic_000298,D,Normal capillary refill,4,False
+opt_001193,q_paramedic_000299,A,Finish the narrative,1,False
+opt_001194,q_paramedic_000299,B,Call the supervisor first,2,False
+opt_001195,q_paramedic_000299,C,Ignore changes if destination is close,3,False
+opt_001196,q_paramedic_000299,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001197,q_paramedic_000300,A,Trend in vitals and response to treatment,1,True
+opt_001198,q_paramedic_000300,B,Your lunch status,2,False
+opt_001199,q_paramedic_000300,C,Unverified bystander rumor,3,False
+opt_001200,q_paramedic_000300,D,Exact brand of stretcher,4,False
+opt_001201,q_paramedic_000301,A,Airway compromise,1,True
+opt_001202,q_paramedic_000301,B,Mild anxiety,2,False
+opt_001203,q_paramedic_000301,C,Normal skin color,3,False
+opt_001204,q_paramedic_000301,D,Stable vital signs,4,False
+opt_001205,q_paramedic_000302,A,Ask a detailed medication history,1,False
+opt_001206,q_paramedic_000302,B,Perform a primary assessment and correct life threats,2,True
+opt_001207,q_paramedic_000302,C,Complete the refusal form,3,False
+opt_001208,q_paramedic_000302,D,Wait for ALS before touching the patient,4,False
+opt_001209,q_paramedic_000303,A,Hypotension,1,True
+opt_001210,q_paramedic_000303,B,Mild isolated nausea,2,False
+opt_001211,q_paramedic_000303,C,Altered mental status,3,True
+opt_001212,q_paramedic_000303,D,Normal capillary refill,4,False
+opt_001213,q_paramedic_000304,A,Finish the narrative,1,False
+opt_001214,q_paramedic_000304,B,Call the supervisor first,2,False
+opt_001215,q_paramedic_000304,C,Ignore changes if destination is close,3,False
+opt_001216,q_paramedic_000304,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001217,q_paramedic_000305,A,Trend in vitals and response to treatment,1,True
+opt_001218,q_paramedic_000305,B,Your lunch status,2,False
+opt_001219,q_paramedic_000305,C,Unverified bystander rumor,3,False
+opt_001220,q_paramedic_000305,D,Exact brand of stretcher,4,False
+opt_001221,q_paramedic_000306,A,Airway compromise,1,True
+opt_001222,q_paramedic_000306,B,Mild anxiety,2,False
+opt_001223,q_paramedic_000306,C,Normal skin color,3,False
+opt_001224,q_paramedic_000306,D,Stable vital signs,4,False
+opt_001225,q_paramedic_000307,A,Ask a detailed medication history,1,False
+opt_001226,q_paramedic_000307,B,Perform a primary assessment and correct life threats,2,True
+opt_001227,q_paramedic_000307,C,Complete the refusal form,3,False
+opt_001228,q_paramedic_000307,D,Wait for ALS before touching the patient,4,False
+opt_001229,q_paramedic_000308,A,Hypotension,1,True
+opt_001230,q_paramedic_000308,B,Mild isolated nausea,2,False
+opt_001231,q_paramedic_000308,C,Altered mental status,3,True
+opt_001232,q_paramedic_000308,D,Normal capillary refill,4,False
+opt_001233,q_paramedic_000309,A,Finish the narrative,1,False
+opt_001234,q_paramedic_000309,B,Call the supervisor first,2,False
+opt_001235,q_paramedic_000309,C,Ignore changes if destination is close,3,False
+opt_001236,q_paramedic_000309,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001237,q_paramedic_000310,A,Trend in vitals and response to treatment,1,True
+opt_001238,q_paramedic_000310,B,Your lunch status,2,False
+opt_001239,q_paramedic_000310,C,Unverified bystander rumor,3,False
+opt_001240,q_paramedic_000310,D,Exact brand of stretcher,4,False
+opt_001241,q_paramedic_000311,A,Airway compromise,1,True
+opt_001242,q_paramedic_000311,B,Mild anxiety,2,False
+opt_001243,q_paramedic_000311,C,Normal skin color,3,False
+opt_001244,q_paramedic_000311,D,Stable vital signs,4,False
+opt_001245,q_paramedic_000312,A,Ask a detailed medication history,1,False
+opt_001246,q_paramedic_000312,B,Perform a primary assessment and correct life threats,2,True
+opt_001247,q_paramedic_000312,C,Complete the refusal form,3,False
+opt_001248,q_paramedic_000312,D,Wait for ALS before touching the patient,4,False
+opt_001249,q_paramedic_000313,A,Hypotension,1,True
+opt_001250,q_paramedic_000313,B,Mild isolated nausea,2,False
+opt_001251,q_paramedic_000313,C,Altered mental status,3,True
+opt_001252,q_paramedic_000313,D,Normal capillary refill,4,False
+opt_001253,q_paramedic_000314,A,Finish the narrative,1,False
+opt_001254,q_paramedic_000314,B,Call the supervisor first,2,False
+opt_001255,q_paramedic_000314,C,Ignore changes if destination is close,3,False
+opt_001256,q_paramedic_000314,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001257,q_paramedic_000315,A,Trend in vitals and response to treatment,1,True
+opt_001258,q_paramedic_000315,B,Your lunch status,2,False
+opt_001259,q_paramedic_000315,C,Unverified bystander rumor,3,False
+opt_001260,q_paramedic_000315,D,Exact brand of stretcher,4,False
+opt_001261,q_paramedic_000316,A,Airway compromise,1,True
+opt_001262,q_paramedic_000316,B,Mild anxiety,2,False
+opt_001263,q_paramedic_000316,C,Normal skin color,3,False
+opt_001264,q_paramedic_000316,D,Stable vital signs,4,False
+opt_001265,q_paramedic_000317,A,Ask a detailed medication history,1,False
+opt_001266,q_paramedic_000317,B,Perform a primary assessment and correct life threats,2,True
+opt_001267,q_paramedic_000317,C,Complete the refusal form,3,False
+opt_001268,q_paramedic_000317,D,Wait for ALS before touching the patient,4,False
+opt_001269,q_paramedic_000318,A,Hypotension,1,True
+opt_001270,q_paramedic_000318,B,Mild isolated nausea,2,False
+opt_001271,q_paramedic_000318,C,Altered mental status,3,True
+opt_001272,q_paramedic_000318,D,Normal capillary refill,4,False
+opt_001273,q_paramedic_000319,A,Finish the narrative,1,False
+opt_001274,q_paramedic_000319,B,Call the supervisor first,2,False
+opt_001275,q_paramedic_000319,C,Ignore changes if destination is close,3,False
+opt_001276,q_paramedic_000319,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001277,q_paramedic_000320,A,Trend in vitals and response to treatment,1,True
+opt_001278,q_paramedic_000320,B,Your lunch status,2,False
+opt_001279,q_paramedic_000320,C,Unverified bystander rumor,3,False
+opt_001280,q_paramedic_000320,D,Exact brand of stretcher,4,False
+opt_001281,q_paramedic_000321,A,Airway compromise,1,True
+opt_001282,q_paramedic_000321,B,Mild anxiety,2,False
+opt_001283,q_paramedic_000321,C,Normal skin color,3,False
+opt_001284,q_paramedic_000321,D,Stable vital signs,4,False
+opt_001285,q_paramedic_000322,A,Ask a detailed medication history,1,False
+opt_001286,q_paramedic_000322,B,Perform a primary assessment and correct life threats,2,True
+opt_001287,q_paramedic_000322,C,Complete the refusal form,3,False
+opt_001288,q_paramedic_000322,D,Wait for ALS before touching the patient,4,False
+opt_001289,q_paramedic_000323,A,Hypotension,1,True
+opt_001290,q_paramedic_000323,B,Mild isolated nausea,2,False
+opt_001291,q_paramedic_000323,C,Altered mental status,3,True
+opt_001292,q_paramedic_000323,D,Normal capillary refill,4,False
+opt_001293,q_paramedic_000324,A,Finish the narrative,1,False
+opt_001294,q_paramedic_000324,B,Call the supervisor first,2,False
+opt_001295,q_paramedic_000324,C,Ignore changes if destination is close,3,False
+opt_001296,q_paramedic_000324,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001297,q_paramedic_000325,A,Trend in vitals and response to treatment,1,True
+opt_001298,q_paramedic_000325,B,Your lunch status,2,False
+opt_001299,q_paramedic_000325,C,Unverified bystander rumor,3,False
+opt_001300,q_paramedic_000325,D,Exact brand of stretcher,4,False
+opt_001301,q_paramedic_000326,A,Airway compromise,1,True
+opt_001302,q_paramedic_000326,B,Mild anxiety,2,False
+opt_001303,q_paramedic_000326,C,Normal skin color,3,False
+opt_001304,q_paramedic_000326,D,Stable vital signs,4,False
+opt_001305,q_paramedic_000327,A,Ask a detailed medication history,1,False
+opt_001306,q_paramedic_000327,B,Perform a primary assessment and correct life threats,2,True
+opt_001307,q_paramedic_000327,C,Complete the refusal form,3,False
+opt_001308,q_paramedic_000327,D,Wait for ALS before touching the patient,4,False
+opt_001309,q_paramedic_000328,A,Hypotension,1,True
+opt_001310,q_paramedic_000328,B,Mild isolated nausea,2,False
+opt_001311,q_paramedic_000328,C,Altered mental status,3,True
+opt_001312,q_paramedic_000328,D,Normal capillary refill,4,False
+opt_001313,q_paramedic_000329,A,Finish the narrative,1,False
+opt_001314,q_paramedic_000329,B,Call the supervisor first,2,False
+opt_001315,q_paramedic_000329,C,Ignore changes if destination is close,3,False
+opt_001316,q_paramedic_000329,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001317,q_paramedic_000330,A,Trend in vitals and response to treatment,1,True
+opt_001318,q_paramedic_000330,B,Your lunch status,2,False
+opt_001319,q_paramedic_000330,C,Unverified bystander rumor,3,False
+opt_001320,q_paramedic_000330,D,Exact brand of stretcher,4,False
+opt_001321,q_paramedic_000331,A,Airway compromise,1,True
+opt_001322,q_paramedic_000331,B,Mild anxiety,2,False
+opt_001323,q_paramedic_000331,C,Normal skin color,3,False
+opt_001324,q_paramedic_000331,D,Stable vital signs,4,False
+opt_001325,q_paramedic_000332,A,Ask a detailed medication history,1,False
+opt_001326,q_paramedic_000332,B,Perform a primary assessment and correct life threats,2,True
+opt_001327,q_paramedic_000332,C,Complete the refusal form,3,False
+opt_001328,q_paramedic_000332,D,Wait for ALS before touching the patient,4,False
+opt_001329,q_paramedic_000333,A,Hypotension,1,True
+opt_001330,q_paramedic_000333,B,Mild isolated nausea,2,False
+opt_001331,q_paramedic_000333,C,Altered mental status,3,True
+opt_001332,q_paramedic_000333,D,Normal capillary refill,4,False
+opt_001333,q_paramedic_000334,A,Finish the narrative,1,False
+opt_001334,q_paramedic_000334,B,Call the supervisor first,2,False
+opt_001335,q_paramedic_000334,C,Ignore changes if destination is close,3,False
+opt_001336,q_paramedic_000334,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001337,q_paramedic_000335,A,Trend in vitals and response to treatment,1,True
+opt_001338,q_paramedic_000335,B,Your lunch status,2,False
+opt_001339,q_paramedic_000335,C,Unverified bystander rumor,3,False
+opt_001340,q_paramedic_000335,D,Exact brand of stretcher,4,False
+opt_001341,q_paramedic_000336,A,Airway compromise,1,True
+opt_001342,q_paramedic_000336,B,Mild anxiety,2,False
+opt_001343,q_paramedic_000336,C,Normal skin color,3,False
+opt_001344,q_paramedic_000336,D,Stable vital signs,4,False
+opt_001345,q_paramedic_000337,A,Ask a detailed medication history,1,False
+opt_001346,q_paramedic_000337,B,Perform a primary assessment and correct life threats,2,True
+opt_001347,q_paramedic_000337,C,Complete the refusal form,3,False
+opt_001348,q_paramedic_000337,D,Wait for ALS before touching the patient,4,False
+opt_001349,q_paramedic_000338,A,Hypotension,1,True
+opt_001350,q_paramedic_000338,B,Mild isolated nausea,2,False
+opt_001351,q_paramedic_000338,C,Altered mental status,3,True
+opt_001352,q_paramedic_000338,D,Normal capillary refill,4,False
+opt_001353,q_paramedic_000339,A,Finish the narrative,1,False
+opt_001354,q_paramedic_000339,B,Call the supervisor first,2,False
+opt_001355,q_paramedic_000339,C,Ignore changes if destination is close,3,False
+opt_001356,q_paramedic_000339,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001357,q_paramedic_000340,A,Trend in vitals and response to treatment,1,True
+opt_001358,q_paramedic_000340,B,Your lunch status,2,False
+opt_001359,q_paramedic_000340,C,Unverified bystander rumor,3,False
+opt_001360,q_paramedic_000340,D,Exact brand of stretcher,4,False
+opt_001361,q_paramedic_000341,A,Airway compromise,1,True
+opt_001362,q_paramedic_000341,B,Mild anxiety,2,False
+opt_001363,q_paramedic_000341,C,Normal skin color,3,False
+opt_001364,q_paramedic_000341,D,Stable vital signs,4,False
+opt_001365,q_paramedic_000342,A,Ask a detailed medication history,1,False
+opt_001366,q_paramedic_000342,B,Perform a primary assessment and correct life threats,2,True
+opt_001367,q_paramedic_000342,C,Complete the refusal form,3,False
+opt_001368,q_paramedic_000342,D,Wait for ALS before touching the patient,4,False
+opt_001369,q_paramedic_000343,A,Hypotension,1,True
+opt_001370,q_paramedic_000343,B,Mild isolated nausea,2,False
+opt_001371,q_paramedic_000343,C,Altered mental status,3,True
+opt_001372,q_paramedic_000343,D,Normal capillary refill,4,False
+opt_001373,q_paramedic_000344,A,Finish the narrative,1,False
+opt_001374,q_paramedic_000344,B,Call the supervisor first,2,False
+opt_001375,q_paramedic_000344,C,Ignore changes if destination is close,3,False
+opt_001376,q_paramedic_000344,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001377,q_paramedic_000345,A,Trend in vitals and response to treatment,1,True
+opt_001378,q_paramedic_000345,B,Your lunch status,2,False
+opt_001379,q_paramedic_000345,C,Unverified bystander rumor,3,False
+opt_001380,q_paramedic_000345,D,Exact brand of stretcher,4,False
+opt_001381,q_paramedic_000346,A,Airway compromise,1,True
+opt_001382,q_paramedic_000346,B,Mild anxiety,2,False
+opt_001383,q_paramedic_000346,C,Normal skin color,3,False
+opt_001384,q_paramedic_000346,D,Stable vital signs,4,False
+opt_001385,q_paramedic_000347,A,Ask a detailed medication history,1,False
+opt_001386,q_paramedic_000347,B,Perform a primary assessment and correct life threats,2,True
+opt_001387,q_paramedic_000347,C,Complete the refusal form,3,False
+opt_001388,q_paramedic_000347,D,Wait for ALS before touching the patient,4,False
+opt_001389,q_paramedic_000348,A,Hypotension,1,True
+opt_001390,q_paramedic_000348,B,Mild isolated nausea,2,False
+opt_001391,q_paramedic_000348,C,Altered mental status,3,True
+opt_001392,q_paramedic_000348,D,Normal capillary refill,4,False
+opt_001393,q_paramedic_000349,A,Finish the narrative,1,False
+opt_001394,q_paramedic_000349,B,Call the supervisor first,2,False
+opt_001395,q_paramedic_000349,C,Ignore changes if destination is close,3,False
+opt_001396,q_paramedic_000349,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001397,q_paramedic_000350,A,Trend in vitals and response to treatment,1,True
+opt_001398,q_paramedic_000350,B,Your lunch status,2,False
+opt_001399,q_paramedic_000350,C,Unverified bystander rumor,3,False
+opt_001400,q_paramedic_000350,D,Exact brand of stretcher,4,False
+opt_001401,q_paramedic_000351,A,Airway compromise,1,True
+opt_001402,q_paramedic_000351,B,Mild anxiety,2,False
+opt_001403,q_paramedic_000351,C,Normal skin color,3,False
+opt_001404,q_paramedic_000351,D,Stable vital signs,4,False
+opt_001405,q_paramedic_000352,A,Ask a detailed medication history,1,False
+opt_001406,q_paramedic_000352,B,Perform a primary assessment and correct life threats,2,True
+opt_001407,q_paramedic_000352,C,Complete the refusal form,3,False
+opt_001408,q_paramedic_000352,D,Wait for ALS before touching the patient,4,False
+opt_001409,q_paramedic_000353,A,Hypotension,1,True
+opt_001410,q_paramedic_000353,B,Mild isolated nausea,2,False
+opt_001411,q_paramedic_000353,C,Altered mental status,3,True
+opt_001412,q_paramedic_000353,D,Normal capillary refill,4,False
+opt_001413,q_paramedic_000354,A,Finish the narrative,1,False
+opt_001414,q_paramedic_000354,B,Call the supervisor first,2,False
+opt_001415,q_paramedic_000354,C,Ignore changes if destination is close,3,False
+opt_001416,q_paramedic_000354,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001417,q_paramedic_000355,A,Trend in vitals and response to treatment,1,True
+opt_001418,q_paramedic_000355,B,Your lunch status,2,False
+opt_001419,q_paramedic_000355,C,Unverified bystander rumor,3,False
+opt_001420,q_paramedic_000355,D,Exact brand of stretcher,4,False
+opt_001421,q_paramedic_000356,A,Airway compromise,1,True
+opt_001422,q_paramedic_000356,B,Mild anxiety,2,False
+opt_001423,q_paramedic_000356,C,Normal skin color,3,False
+opt_001424,q_paramedic_000356,D,Stable vital signs,4,False
+opt_001425,q_paramedic_000357,A,Ask a detailed medication history,1,False
+opt_001426,q_paramedic_000357,B,Perform a primary assessment and correct life threats,2,True
+opt_001427,q_paramedic_000357,C,Complete the refusal form,3,False
+opt_001428,q_paramedic_000357,D,Wait for ALS before touching the patient,4,False
+opt_001429,q_paramedic_000358,A,Hypotension,1,True
+opt_001430,q_paramedic_000358,B,Mild isolated nausea,2,False
+opt_001431,q_paramedic_000358,C,Altered mental status,3,True
+opt_001432,q_paramedic_000358,D,Normal capillary refill,4,False
+opt_001433,q_paramedic_000359,A,Finish the narrative,1,False
+opt_001434,q_paramedic_000359,B,Call the supervisor first,2,False
+opt_001435,q_paramedic_000359,C,Ignore changes if destination is close,3,False
+opt_001436,q_paramedic_000359,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001437,q_paramedic_000360,A,Trend in vitals and response to treatment,1,True
+opt_001438,q_paramedic_000360,B,Your lunch status,2,False
+opt_001439,q_paramedic_000360,C,Unverified bystander rumor,3,False
+opt_001440,q_paramedic_000360,D,Exact brand of stretcher,4,False
+opt_001441,q_paramedic_000361,A,Airway compromise,1,True
+opt_001442,q_paramedic_000361,B,Mild anxiety,2,False
+opt_001443,q_paramedic_000361,C,Normal skin color,3,False
+opt_001444,q_paramedic_000361,D,Stable vital signs,4,False
+opt_001445,q_paramedic_000362,A,Ask a detailed medication history,1,False
+opt_001446,q_paramedic_000362,B,Perform a primary assessment and correct life threats,2,True
+opt_001447,q_paramedic_000362,C,Complete the refusal form,3,False
+opt_001448,q_paramedic_000362,D,Wait for ALS before touching the patient,4,False
+opt_001449,q_paramedic_000363,A,Hypotension,1,True
+opt_001450,q_paramedic_000363,B,Mild isolated nausea,2,False
+opt_001451,q_paramedic_000363,C,Altered mental status,3,True
+opt_001452,q_paramedic_000363,D,Normal capillary refill,4,False
+opt_001453,q_paramedic_000364,A,Finish the narrative,1,False
+opt_001454,q_paramedic_000364,B,Call the supervisor first,2,False
+opt_001455,q_paramedic_000364,C,Ignore changes if destination is close,3,False
+opt_001456,q_paramedic_000364,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001457,q_paramedic_000365,A,Trend in vitals and response to treatment,1,True
+opt_001458,q_paramedic_000365,B,Your lunch status,2,False
+opt_001459,q_paramedic_000365,C,Unverified bystander rumor,3,False
+opt_001460,q_paramedic_000365,D,Exact brand of stretcher,4,False
+opt_001461,q_paramedic_000366,A,Airway compromise,1,True
+opt_001462,q_paramedic_000366,B,Mild anxiety,2,False
+opt_001463,q_paramedic_000366,C,Normal skin color,3,False
+opt_001464,q_paramedic_000366,D,Stable vital signs,4,False
+opt_001465,q_paramedic_000367,A,Ask a detailed medication history,1,False
+opt_001466,q_paramedic_000367,B,Perform a primary assessment and correct life threats,2,True
+opt_001467,q_paramedic_000367,C,Complete the refusal form,3,False
+opt_001468,q_paramedic_000367,D,Wait for ALS before touching the patient,4,False
+opt_001469,q_paramedic_000368,A,Hypotension,1,True
+opt_001470,q_paramedic_000368,B,Mild isolated nausea,2,False
+opt_001471,q_paramedic_000368,C,Altered mental status,3,True
+opt_001472,q_paramedic_000368,D,Normal capillary refill,4,False
+opt_001473,q_paramedic_000369,A,Finish the narrative,1,False
+opt_001474,q_paramedic_000369,B,Call the supervisor first,2,False
+opt_001475,q_paramedic_000369,C,Ignore changes if destination is close,3,False
+opt_001476,q_paramedic_000369,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001477,q_paramedic_000370,A,Trend in vitals and response to treatment,1,True
+opt_001478,q_paramedic_000370,B,Your lunch status,2,False
+opt_001479,q_paramedic_000370,C,Unverified bystander rumor,3,False
+opt_001480,q_paramedic_000370,D,Exact brand of stretcher,4,False
+opt_001481,q_paramedic_000371,A,Airway compromise,1,True
+opt_001482,q_paramedic_000371,B,Mild anxiety,2,False
+opt_001483,q_paramedic_000371,C,Normal skin color,3,False
+opt_001484,q_paramedic_000371,D,Stable vital signs,4,False
+opt_001485,q_paramedic_000372,A,Ask a detailed medication history,1,False
+opt_001486,q_paramedic_000372,B,Perform a primary assessment and correct life threats,2,True
+opt_001487,q_paramedic_000372,C,Complete the refusal form,3,False
+opt_001488,q_paramedic_000372,D,Wait for ALS before touching the patient,4,False
+opt_001489,q_paramedic_000373,A,Hypotension,1,True
+opt_001490,q_paramedic_000373,B,Mild isolated nausea,2,False
+opt_001491,q_paramedic_000373,C,Altered mental status,3,True
+opt_001492,q_paramedic_000373,D,Normal capillary refill,4,False
+opt_001493,q_paramedic_000374,A,Finish the narrative,1,False
+opt_001494,q_paramedic_000374,B,Call the supervisor first,2,False
+opt_001495,q_paramedic_000374,C,Ignore changes if destination is close,3,False
+opt_001496,q_paramedic_000374,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001497,q_paramedic_000375,A,Trend in vitals and response to treatment,1,True
+opt_001498,q_paramedic_000375,B,Your lunch status,2,False
+opt_001499,q_paramedic_000375,C,Unverified bystander rumor,3,False
+opt_001500,q_paramedic_000375,D,Exact brand of stretcher,4,False
+opt_001501,q_paramedic_000376,A,Airway compromise,1,True
+opt_001502,q_paramedic_000376,B,Mild anxiety,2,False
+opt_001503,q_paramedic_000376,C,Normal skin color,3,False
+opt_001504,q_paramedic_000376,D,Stable vital signs,4,False
+opt_001505,q_paramedic_000377,A,Ask a detailed medication history,1,False
+opt_001506,q_paramedic_000377,B,Perform a primary assessment and correct life threats,2,True
+opt_001507,q_paramedic_000377,C,Complete the refusal form,3,False
+opt_001508,q_paramedic_000377,D,Wait for ALS before touching the patient,4,False
+opt_001509,q_paramedic_000378,A,Hypotension,1,True
+opt_001510,q_paramedic_000378,B,Mild isolated nausea,2,False
+opt_001511,q_paramedic_000378,C,Altered mental status,3,True
+opt_001512,q_paramedic_000378,D,Normal capillary refill,4,False
+opt_001513,q_paramedic_000379,A,Finish the narrative,1,False
+opt_001514,q_paramedic_000379,B,Call the supervisor first,2,False
+opt_001515,q_paramedic_000379,C,Ignore changes if destination is close,3,False
+opt_001516,q_paramedic_000379,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001517,q_paramedic_000380,A,Trend in vitals and response to treatment,1,True
+opt_001518,q_paramedic_000380,B,Your lunch status,2,False
+opt_001519,q_paramedic_000380,C,Unverified bystander rumor,3,False
+opt_001520,q_paramedic_000380,D,Exact brand of stretcher,4,False
+opt_001521,q_paramedic_000381,A,Airway compromise,1,True
+opt_001522,q_paramedic_000381,B,Mild anxiety,2,False
+opt_001523,q_paramedic_000381,C,Normal skin color,3,False
+opt_001524,q_paramedic_000381,D,Stable vital signs,4,False
+opt_001525,q_paramedic_000382,A,Ask a detailed medication history,1,False
+opt_001526,q_paramedic_000382,B,Perform a primary assessment and correct life threats,2,True
+opt_001527,q_paramedic_000382,C,Complete the refusal form,3,False
+opt_001528,q_paramedic_000382,D,Wait for ALS before touching the patient,4,False
+opt_001529,q_paramedic_000383,A,Hypotension,1,True
+opt_001530,q_paramedic_000383,B,Mild isolated nausea,2,False
+opt_001531,q_paramedic_000383,C,Altered mental status,3,True
+opt_001532,q_paramedic_000383,D,Normal capillary refill,4,False
+opt_001533,q_paramedic_000384,A,Finish the narrative,1,False
+opt_001534,q_paramedic_000384,B,Call the supervisor first,2,False
+opt_001535,q_paramedic_000384,C,Ignore changes if destination is close,3,False
+opt_001536,q_paramedic_000384,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001537,q_paramedic_000385,A,Trend in vitals and response to treatment,1,True
+opt_001538,q_paramedic_000385,B,Your lunch status,2,False
+opt_001539,q_paramedic_000385,C,Unverified bystander rumor,3,False
+opt_001540,q_paramedic_000385,D,Exact brand of stretcher,4,False
+opt_001541,q_paramedic_000386,A,Airway compromise,1,True
+opt_001542,q_paramedic_000386,B,Mild anxiety,2,False
+opt_001543,q_paramedic_000386,C,Normal skin color,3,False
+opt_001544,q_paramedic_000386,D,Stable vital signs,4,False
+opt_001545,q_paramedic_000387,A,Ask a detailed medication history,1,False
+opt_001546,q_paramedic_000387,B,Perform a primary assessment and correct life threats,2,True
+opt_001547,q_paramedic_000387,C,Complete the refusal form,3,False
+opt_001548,q_paramedic_000387,D,Wait for ALS before touching the patient,4,False
+opt_001549,q_paramedic_000388,A,Hypotension,1,True
+opt_001550,q_paramedic_000388,B,Mild isolated nausea,2,False
+opt_001551,q_paramedic_000388,C,Altered mental status,3,True
+opt_001552,q_paramedic_000388,D,Normal capillary refill,4,False
+opt_001553,q_paramedic_000389,A,Finish the narrative,1,False
+opt_001554,q_paramedic_000389,B,Call the supervisor first,2,False
+opt_001555,q_paramedic_000389,C,Ignore changes if destination is close,3,False
+opt_001556,q_paramedic_000389,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001557,q_paramedic_000390,A,Trend in vitals and response to treatment,1,True
+opt_001558,q_paramedic_000390,B,Your lunch status,2,False
+opt_001559,q_paramedic_000390,C,Unverified bystander rumor,3,False
+opt_001560,q_paramedic_000390,D,Exact brand of stretcher,4,False
+opt_001561,q_paramedic_000391,A,Airway compromise,1,True
+opt_001562,q_paramedic_000391,B,Mild anxiety,2,False
+opt_001563,q_paramedic_000391,C,Normal skin color,3,False
+opt_001564,q_paramedic_000391,D,Stable vital signs,4,False
+opt_001565,q_paramedic_000392,A,Ask a detailed medication history,1,False
+opt_001566,q_paramedic_000392,B,Perform a primary assessment and correct life threats,2,True
+opt_001567,q_paramedic_000392,C,Complete the refusal form,3,False
+opt_001568,q_paramedic_000392,D,Wait for ALS before touching the patient,4,False
+opt_001569,q_paramedic_000393,A,Hypotension,1,True
+opt_001570,q_paramedic_000393,B,Mild isolated nausea,2,False
+opt_001571,q_paramedic_000393,C,Altered mental status,3,True
+opt_001572,q_paramedic_000393,D,Normal capillary refill,4,False
+opt_001573,q_paramedic_000394,A,Finish the narrative,1,False
+opt_001574,q_paramedic_000394,B,Call the supervisor first,2,False
+opt_001575,q_paramedic_000394,C,Ignore changes if destination is close,3,False
+opt_001576,q_paramedic_000394,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001577,q_paramedic_000395,A,Trend in vitals and response to treatment,1,True
+opt_001578,q_paramedic_000395,B,Your lunch status,2,False
+opt_001579,q_paramedic_000395,C,Unverified bystander rumor,3,False
+opt_001580,q_paramedic_000395,D,Exact brand of stretcher,4,False
+opt_001581,q_paramedic_000396,A,Airway compromise,1,True
+opt_001582,q_paramedic_000396,B,Mild anxiety,2,False
+opt_001583,q_paramedic_000396,C,Normal skin color,3,False
+opt_001584,q_paramedic_000396,D,Stable vital signs,4,False
+opt_001585,q_paramedic_000397,A,Ask a detailed medication history,1,False
+opt_001586,q_paramedic_000397,B,Perform a primary assessment and correct life threats,2,True
+opt_001587,q_paramedic_000397,C,Complete the refusal form,3,False
+opt_001588,q_paramedic_000397,D,Wait for ALS before touching the patient,4,False
+opt_001589,q_paramedic_000398,A,Hypotension,1,True
+opt_001590,q_paramedic_000398,B,Mild isolated nausea,2,False
+opt_001591,q_paramedic_000398,C,Altered mental status,3,True
+opt_001592,q_paramedic_000398,D,Normal capillary refill,4,False
+opt_001593,q_paramedic_000399,A,Finish the narrative,1,False
+opt_001594,q_paramedic_000399,B,Call the supervisor first,2,False
+opt_001595,q_paramedic_000399,C,Ignore changes if destination is close,3,False
+opt_001596,q_paramedic_000399,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001597,q_paramedic_000400,A,Trend in vitals and response to treatment,1,True
+opt_001598,q_paramedic_000400,B,Your lunch status,2,False
+opt_001599,q_paramedic_000400,C,Unverified bystander rumor,3,False
+opt_001600,q_paramedic_000400,D,Exact brand of stretcher,4,False
+opt_001601,q_paramedic_000401,A,Airway compromise,1,True
+opt_001602,q_paramedic_000401,B,Mild anxiety,2,False
+opt_001603,q_paramedic_000401,C,Normal skin color,3,False
+opt_001604,q_paramedic_000401,D,Stable vital signs,4,False
+opt_001605,q_paramedic_000402,A,Ask a detailed medication history,1,False
+opt_001606,q_paramedic_000402,B,Perform a primary assessment and correct life threats,2,True
+opt_001607,q_paramedic_000402,C,Complete the refusal form,3,False
+opt_001608,q_paramedic_000402,D,Wait for ALS before touching the patient,4,False
+opt_001609,q_paramedic_000403,A,Hypotension,1,True
+opt_001610,q_paramedic_000403,B,Mild isolated nausea,2,False
+opt_001611,q_paramedic_000403,C,Altered mental status,3,True
+opt_001612,q_paramedic_000403,D,Normal capillary refill,4,False
+opt_001613,q_paramedic_000404,A,Finish the narrative,1,False
+opt_001614,q_paramedic_000404,B,Call the supervisor first,2,False
+opt_001615,q_paramedic_000404,C,Ignore changes if destination is close,3,False
+opt_001616,q_paramedic_000404,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001617,q_paramedic_000405,A,Trend in vitals and response to treatment,1,True
+opt_001618,q_paramedic_000405,B,Your lunch status,2,False
+opt_001619,q_paramedic_000405,C,Unverified bystander rumor,3,False
+opt_001620,q_paramedic_000405,D,Exact brand of stretcher,4,False
+opt_001621,q_paramedic_000406,A,Airway compromise,1,True
+opt_001622,q_paramedic_000406,B,Mild anxiety,2,False
+opt_001623,q_paramedic_000406,C,Normal skin color,3,False
+opt_001624,q_paramedic_000406,D,Stable vital signs,4,False
+opt_001625,q_paramedic_000407,A,Ask a detailed medication history,1,False
+opt_001626,q_paramedic_000407,B,Perform a primary assessment and correct life threats,2,True
+opt_001627,q_paramedic_000407,C,Complete the refusal form,3,False
+opt_001628,q_paramedic_000407,D,Wait for ALS before touching the patient,4,False
+opt_001629,q_paramedic_000408,A,Hypotension,1,True
+opt_001630,q_paramedic_000408,B,Mild isolated nausea,2,False
+opt_001631,q_paramedic_000408,C,Altered mental status,3,True
+opt_001632,q_paramedic_000408,D,Normal capillary refill,4,False
+opt_001633,q_paramedic_000409,A,Finish the narrative,1,False
+opt_001634,q_paramedic_000409,B,Call the supervisor first,2,False
+opt_001635,q_paramedic_000409,C,Ignore changes if destination is close,3,False
+opt_001636,q_paramedic_000409,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001637,q_paramedic_000410,A,Trend in vitals and response to treatment,1,True
+opt_001638,q_paramedic_000410,B,Your lunch status,2,False
+opt_001639,q_paramedic_000410,C,Unverified bystander rumor,3,False
+opt_001640,q_paramedic_000410,D,Exact brand of stretcher,4,False
+opt_001641,q_paramedic_000411,A,Airway compromise,1,True
+opt_001642,q_paramedic_000411,B,Mild anxiety,2,False
+opt_001643,q_paramedic_000411,C,Normal skin color,3,False
+opt_001644,q_paramedic_000411,D,Stable vital signs,4,False
+opt_001645,q_paramedic_000412,A,Ask a detailed medication history,1,False
+opt_001646,q_paramedic_000412,B,Perform a primary assessment and correct life threats,2,True
+opt_001647,q_paramedic_000412,C,Complete the refusal form,3,False
+opt_001648,q_paramedic_000412,D,Wait for ALS before touching the patient,4,False
+opt_001649,q_paramedic_000413,A,Hypotension,1,True
+opt_001650,q_paramedic_000413,B,Mild isolated nausea,2,False
+opt_001651,q_paramedic_000413,C,Altered mental status,3,True
+opt_001652,q_paramedic_000413,D,Normal capillary refill,4,False
+opt_001653,q_paramedic_000414,A,Finish the narrative,1,False
+opt_001654,q_paramedic_000414,B,Call the supervisor first,2,False
+opt_001655,q_paramedic_000414,C,Ignore changes if destination is close,3,False
+opt_001656,q_paramedic_000414,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001657,q_paramedic_000415,A,Trend in vitals and response to treatment,1,True
+opt_001658,q_paramedic_000415,B,Your lunch status,2,False
+opt_001659,q_paramedic_000415,C,Unverified bystander rumor,3,False
+opt_001660,q_paramedic_000415,D,Exact brand of stretcher,4,False
+opt_001661,q_paramedic_000416,A,Airway compromise,1,True
+opt_001662,q_paramedic_000416,B,Mild anxiety,2,False
+opt_001663,q_paramedic_000416,C,Normal skin color,3,False
+opt_001664,q_paramedic_000416,D,Stable vital signs,4,False
+opt_001665,q_paramedic_000417,A,Ask a detailed medication history,1,False
+opt_001666,q_paramedic_000417,B,Perform a primary assessment and correct life threats,2,True
+opt_001667,q_paramedic_000417,C,Complete the refusal form,3,False
+opt_001668,q_paramedic_000417,D,Wait for ALS before touching the patient,4,False
+opt_001669,q_paramedic_000418,A,Hypotension,1,True
+opt_001670,q_paramedic_000418,B,Mild isolated nausea,2,False
+opt_001671,q_paramedic_000418,C,Altered mental status,3,True
+opt_001672,q_paramedic_000418,D,Normal capillary refill,4,False
+opt_001673,q_paramedic_000419,A,Finish the narrative,1,False
+opt_001674,q_paramedic_000419,B,Call the supervisor first,2,False
+opt_001675,q_paramedic_000419,C,Ignore changes if destination is close,3,False
+opt_001676,q_paramedic_000419,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001677,q_paramedic_000420,A,Trend in vitals and response to treatment,1,True
+opt_001678,q_paramedic_000420,B,Your lunch status,2,False
+opt_001679,q_paramedic_000420,C,Unverified bystander rumor,3,False
+opt_001680,q_paramedic_000420,D,Exact brand of stretcher,4,False
+opt_001681,q_paramedic_000421,A,Airway compromise,1,True
+opt_001682,q_paramedic_000421,B,Mild anxiety,2,False
+opt_001683,q_paramedic_000421,C,Normal skin color,3,False
+opt_001684,q_paramedic_000421,D,Stable vital signs,4,False
+opt_001685,q_paramedic_000422,A,Ask a detailed medication history,1,False
+opt_001686,q_paramedic_000422,B,Perform a primary assessment and correct life threats,2,True
+opt_001687,q_paramedic_000422,C,Complete the refusal form,3,False
+opt_001688,q_paramedic_000422,D,Wait for ALS before touching the patient,4,False
+opt_001689,q_paramedic_000423,A,Hypotension,1,True
+opt_001690,q_paramedic_000423,B,Mild isolated nausea,2,False
+opt_001691,q_paramedic_000423,C,Altered mental status,3,True
+opt_001692,q_paramedic_000423,D,Normal capillary refill,4,False
+opt_001693,q_paramedic_000424,A,Finish the narrative,1,False
+opt_001694,q_paramedic_000424,B,Call the supervisor first,2,False
+opt_001695,q_paramedic_000424,C,Ignore changes if destination is close,3,False
+opt_001696,q_paramedic_000424,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001697,q_paramedic_000425,A,Trend in vitals and response to treatment,1,True
+opt_001698,q_paramedic_000425,B,Your lunch status,2,False
+opt_001699,q_paramedic_000425,C,Unverified bystander rumor,3,False
+opt_001700,q_paramedic_000425,D,Exact brand of stretcher,4,False
+opt_001701,q_paramedic_000426,A,Airway compromise,1,True
+opt_001702,q_paramedic_000426,B,Mild anxiety,2,False
+opt_001703,q_paramedic_000426,C,Normal skin color,3,False
+opt_001704,q_paramedic_000426,D,Stable vital signs,4,False
+opt_001705,q_paramedic_000427,A,Ask a detailed medication history,1,False
+opt_001706,q_paramedic_000427,B,Perform a primary assessment and correct life threats,2,True
+opt_001707,q_paramedic_000427,C,Complete the refusal form,3,False
+opt_001708,q_paramedic_000427,D,Wait for ALS before touching the patient,4,False
+opt_001709,q_paramedic_000428,A,Hypotension,1,True
+opt_001710,q_paramedic_000428,B,Mild isolated nausea,2,False
+opt_001711,q_paramedic_000428,C,Altered mental status,3,True
+opt_001712,q_paramedic_000428,D,Normal capillary refill,4,False
+opt_001713,q_paramedic_000429,A,Finish the narrative,1,False
+opt_001714,q_paramedic_000429,B,Call the supervisor first,2,False
+opt_001715,q_paramedic_000429,C,Ignore changes if destination is close,3,False
+opt_001716,q_paramedic_000429,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001717,q_paramedic_000430,A,Trend in vitals and response to treatment,1,True
+opt_001718,q_paramedic_000430,B,Your lunch status,2,False
+opt_001719,q_paramedic_000430,C,Unverified bystander rumor,3,False
+opt_001720,q_paramedic_000430,D,Exact brand of stretcher,4,False
+opt_001721,q_paramedic_000431,A,Airway compromise,1,True
+opt_001722,q_paramedic_000431,B,Mild anxiety,2,False
+opt_001723,q_paramedic_000431,C,Normal skin color,3,False
+opt_001724,q_paramedic_000431,D,Stable vital signs,4,False
+opt_001725,q_paramedic_000432,A,Ask a detailed medication history,1,False
+opt_001726,q_paramedic_000432,B,Perform a primary assessment and correct life threats,2,True
+opt_001727,q_paramedic_000432,C,Complete the refusal form,3,False
+opt_001728,q_paramedic_000432,D,Wait for ALS before touching the patient,4,False
+opt_001729,q_paramedic_000433,A,Hypotension,1,True
+opt_001730,q_paramedic_000433,B,Mild isolated nausea,2,False
+opt_001731,q_paramedic_000433,C,Altered mental status,3,True
+opt_001732,q_paramedic_000433,D,Normal capillary refill,4,False
+opt_001733,q_paramedic_000434,A,Finish the narrative,1,False
+opt_001734,q_paramedic_000434,B,Call the supervisor first,2,False
+opt_001735,q_paramedic_000434,C,Ignore changes if destination is close,3,False
+opt_001736,q_paramedic_000434,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001737,q_paramedic_000435,A,Trend in vitals and response to treatment,1,True
+opt_001738,q_paramedic_000435,B,Your lunch status,2,False
+opt_001739,q_paramedic_000435,C,Unverified bystander rumor,3,False
+opt_001740,q_paramedic_000435,D,Exact brand of stretcher,4,False
+opt_001741,q_paramedic_000436,A,Airway compromise,1,True
+opt_001742,q_paramedic_000436,B,Mild anxiety,2,False
+opt_001743,q_paramedic_000436,C,Normal skin color,3,False
+opt_001744,q_paramedic_000436,D,Stable vital signs,4,False
+opt_001745,q_paramedic_000437,A,Ask a detailed medication history,1,False
+opt_001746,q_paramedic_000437,B,Perform a primary assessment and correct life threats,2,True
+opt_001747,q_paramedic_000437,C,Complete the refusal form,3,False
+opt_001748,q_paramedic_000437,D,Wait for ALS before touching the patient,4,False
+opt_001749,q_paramedic_000438,A,Hypotension,1,True
+opt_001750,q_paramedic_000438,B,Mild isolated nausea,2,False
+opt_001751,q_paramedic_000438,C,Altered mental status,3,True
+opt_001752,q_paramedic_000438,D,Normal capillary refill,4,False
+opt_001753,q_paramedic_000439,A,Finish the narrative,1,False
+opt_001754,q_paramedic_000439,B,Call the supervisor first,2,False
+opt_001755,q_paramedic_000439,C,Ignore changes if destination is close,3,False
+opt_001756,q_paramedic_000439,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001757,q_paramedic_000440,A,Trend in vitals and response to treatment,1,True
+opt_001758,q_paramedic_000440,B,Your lunch status,2,False
+opt_001759,q_paramedic_000440,C,Unverified bystander rumor,3,False
+opt_001760,q_paramedic_000440,D,Exact brand of stretcher,4,False
+opt_001761,q_paramedic_000441,A,Airway compromise,1,True
+opt_001762,q_paramedic_000441,B,Mild anxiety,2,False
+opt_001763,q_paramedic_000441,C,Normal skin color,3,False
+opt_001764,q_paramedic_000441,D,Stable vital signs,4,False
+opt_001765,q_paramedic_000442,A,Ask a detailed medication history,1,False
+opt_001766,q_paramedic_000442,B,Perform a primary assessment and correct life threats,2,True
+opt_001767,q_paramedic_000442,C,Complete the refusal form,3,False
+opt_001768,q_paramedic_000442,D,Wait for ALS before touching the patient,4,False
+opt_001769,q_paramedic_000443,A,Hypotension,1,True
+opt_001770,q_paramedic_000443,B,Mild isolated nausea,2,False
+opt_001771,q_paramedic_000443,C,Altered mental status,3,True
+opt_001772,q_paramedic_000443,D,Normal capillary refill,4,False
+opt_001773,q_paramedic_000444,A,Finish the narrative,1,False
+opt_001774,q_paramedic_000444,B,Call the supervisor first,2,False
+opt_001775,q_paramedic_000444,C,Ignore changes if destination is close,3,False
+opt_001776,q_paramedic_000444,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001777,q_paramedic_000445,A,Trend in vitals and response to treatment,1,True
+opt_001778,q_paramedic_000445,B,Your lunch status,2,False
+opt_001779,q_paramedic_000445,C,Unverified bystander rumor,3,False
+opt_001780,q_paramedic_000445,D,Exact brand of stretcher,4,False
+opt_001781,q_paramedic_000446,A,Airway compromise,1,True
+opt_001782,q_paramedic_000446,B,Mild anxiety,2,False
+opt_001783,q_paramedic_000446,C,Normal skin color,3,False
+opt_001784,q_paramedic_000446,D,Stable vital signs,4,False
+opt_001785,q_paramedic_000447,A,Ask a detailed medication history,1,False
+opt_001786,q_paramedic_000447,B,Perform a primary assessment and correct life threats,2,True
+opt_001787,q_paramedic_000447,C,Complete the refusal form,3,False
+opt_001788,q_paramedic_000447,D,Wait for ALS before touching the patient,4,False
+opt_001789,q_paramedic_000448,A,Hypotension,1,True
+opt_001790,q_paramedic_000448,B,Mild isolated nausea,2,False
+opt_001791,q_paramedic_000448,C,Altered mental status,3,True
+opt_001792,q_paramedic_000448,D,Normal capillary refill,4,False
+opt_001793,q_paramedic_000449,A,Finish the narrative,1,False
+opt_001794,q_paramedic_000449,B,Call the supervisor first,2,False
+opt_001795,q_paramedic_000449,C,Ignore changes if destination is close,3,False
+opt_001796,q_paramedic_000449,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001797,q_paramedic_000450,A,Trend in vitals and response to treatment,1,True
+opt_001798,q_paramedic_000450,B,Your lunch status,2,False
+opt_001799,q_paramedic_000450,C,Unverified bystander rumor,3,False
+opt_001800,q_paramedic_000450,D,Exact brand of stretcher,4,False
+opt_001801,q_paramedic_000451,A,Airway compromise,1,True
+opt_001802,q_paramedic_000451,B,Mild anxiety,2,False
+opt_001803,q_paramedic_000451,C,Normal skin color,3,False
+opt_001804,q_paramedic_000451,D,Stable vital signs,4,False
+opt_001805,q_paramedic_000452,A,Ask a detailed medication history,1,False
+opt_001806,q_paramedic_000452,B,Perform a primary assessment and correct life threats,2,True
+opt_001807,q_paramedic_000452,C,Complete the refusal form,3,False
+opt_001808,q_paramedic_000452,D,Wait for ALS before touching the patient,4,False
+opt_001809,q_paramedic_000453,A,Hypotension,1,True
+opt_001810,q_paramedic_000453,B,Mild isolated nausea,2,False
+opt_001811,q_paramedic_000453,C,Altered mental status,3,True
+opt_001812,q_paramedic_000453,D,Normal capillary refill,4,False
+opt_001813,q_paramedic_000454,A,Finish the narrative,1,False
+opt_001814,q_paramedic_000454,B,Call the supervisor first,2,False
+opt_001815,q_paramedic_000454,C,Ignore changes if destination is close,3,False
+opt_001816,q_paramedic_000454,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001817,q_paramedic_000455,A,Trend in vitals and response to treatment,1,True
+opt_001818,q_paramedic_000455,B,Your lunch status,2,False
+opt_001819,q_paramedic_000455,C,Unverified bystander rumor,3,False
+opt_001820,q_paramedic_000455,D,Exact brand of stretcher,4,False
+opt_001821,q_paramedic_000456,A,Airway compromise,1,True
+opt_001822,q_paramedic_000456,B,Mild anxiety,2,False
+opt_001823,q_paramedic_000456,C,Normal skin color,3,False
+opt_001824,q_paramedic_000456,D,Stable vital signs,4,False
+opt_001825,q_paramedic_000457,A,Ask a detailed medication history,1,False
+opt_001826,q_paramedic_000457,B,Perform a primary assessment and correct life threats,2,True
+opt_001827,q_paramedic_000457,C,Complete the refusal form,3,False
+opt_001828,q_paramedic_000457,D,Wait for ALS before touching the patient,4,False
+opt_001829,q_paramedic_000458,A,Hypotension,1,True
+opt_001830,q_paramedic_000458,B,Mild isolated nausea,2,False
+opt_001831,q_paramedic_000458,C,Altered mental status,3,True
+opt_001832,q_paramedic_000458,D,Normal capillary refill,4,False
+opt_001833,q_paramedic_000459,A,Finish the narrative,1,False
+opt_001834,q_paramedic_000459,B,Call the supervisor first,2,False
+opt_001835,q_paramedic_000459,C,Ignore changes if destination is close,3,False
+opt_001836,q_paramedic_000459,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001837,q_paramedic_000460,A,Trend in vitals and response to treatment,1,True
+opt_001838,q_paramedic_000460,B,Your lunch status,2,False
+opt_001839,q_paramedic_000460,C,Unverified bystander rumor,3,False
+opt_001840,q_paramedic_000460,D,Exact brand of stretcher,4,False
+opt_001841,q_paramedic_000461,A,Airway compromise,1,True
+opt_001842,q_paramedic_000461,B,Mild anxiety,2,False
+opt_001843,q_paramedic_000461,C,Normal skin color,3,False
+opt_001844,q_paramedic_000461,D,Stable vital signs,4,False
+opt_001845,q_paramedic_000462,A,Ask a detailed medication history,1,False
+opt_001846,q_paramedic_000462,B,Perform a primary assessment and correct life threats,2,True
+opt_001847,q_paramedic_000462,C,Complete the refusal form,3,False
+opt_001848,q_paramedic_000462,D,Wait for ALS before touching the patient,4,False
+opt_001849,q_paramedic_000463,A,Hypotension,1,True
+opt_001850,q_paramedic_000463,B,Mild isolated nausea,2,False
+opt_001851,q_paramedic_000463,C,Altered mental status,3,True
+opt_001852,q_paramedic_000463,D,Normal capillary refill,4,False
+opt_001853,q_paramedic_000464,A,Finish the narrative,1,False
+opt_001854,q_paramedic_000464,B,Call the supervisor first,2,False
+opt_001855,q_paramedic_000464,C,Ignore changes if destination is close,3,False
+opt_001856,q_paramedic_000464,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001857,q_paramedic_000465,A,Trend in vitals and response to treatment,1,True
+opt_001858,q_paramedic_000465,B,Your lunch status,2,False
+opt_001859,q_paramedic_000465,C,Unverified bystander rumor,3,False
+opt_001860,q_paramedic_000465,D,Exact brand of stretcher,4,False
+opt_001861,q_paramedic_000466,A,Airway compromise,1,True
+opt_001862,q_paramedic_000466,B,Mild anxiety,2,False
+opt_001863,q_paramedic_000466,C,Normal skin color,3,False
+opt_001864,q_paramedic_000466,D,Stable vital signs,4,False
+opt_001865,q_paramedic_000467,A,Ask a detailed medication history,1,False
+opt_001866,q_paramedic_000467,B,Perform a primary assessment and correct life threats,2,True
+opt_001867,q_paramedic_000467,C,Complete the refusal form,3,False
+opt_001868,q_paramedic_000467,D,Wait for ALS before touching the patient,4,False
+opt_001869,q_paramedic_000468,A,Hypotension,1,True
+opt_001870,q_paramedic_000468,B,Mild isolated nausea,2,False
+opt_001871,q_paramedic_000468,C,Altered mental status,3,True
+opt_001872,q_paramedic_000468,D,Normal capillary refill,4,False
+opt_001873,q_paramedic_000469,A,Finish the narrative,1,False
+opt_001874,q_paramedic_000469,B,Call the supervisor first,2,False
+opt_001875,q_paramedic_000469,C,Ignore changes if destination is close,3,False
+opt_001876,q_paramedic_000469,D,"Reassess ABCs, treat immediate threats, and update the hospital",4,True
+opt_001877,q_paramedic_000470,A,Trend in vitals and response to treatment,1,True
+opt_001878,q_paramedic_000470,B,Your lunch status,2,False
+opt_001879,q_paramedic_000470,C,Unverified bystander rumor,3,False
+opt_001880,q_paramedic_000470,D,Exact brand of stretcher,4,False

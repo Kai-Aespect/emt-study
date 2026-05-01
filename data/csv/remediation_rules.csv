@@ -1,0 +1,21 @@
+rule_id,trigger_type,level_scope,condition_expression,action_type,target_content_type,target_content_id,cooldown_days,active
+rem_000001,question_missed,mixed,missed_topic_cluster == 'ap' OR missed_foundation_id == 'fdn_000001',assign_foundation,foundation,fdn_000001,1,True
+rem_000002,question_missed,mixed,missed_topic_cluster == 'ap' OR missed_foundation_id == 'fdn_000002',assign_foundation,foundation,fdn_000002,1,True
+rem_000003,question_missed,mixed,missed_topic_cluster == 'ap' OR missed_foundation_id == 'fdn_000003',assign_foundation,foundation,fdn_000003,1,True
+rem_000004,question_missed,mixed,missed_topic_cluster == 'ap' OR missed_foundation_id == 'fdn_000004',assign_foundation,foundation,fdn_000004,1,True
+rem_000005,question_missed,mixed,missed_topic_cluster == 'ap' OR missed_foundation_id == 'fdn_000005',assign_foundation,foundation,fdn_000005,1,True
+rem_000006,question_missed,mixed,missed_topic_cluster == 'ap' OR missed_foundation_id == 'fdn_000006',assign_foundation,foundation,fdn_000006,1,True
+rem_000007,question_missed,mixed,missed_topic_cluster == 'terminology' OR missed_foundation_id == 'fdn_000007',assign_foundation,foundation,fdn_000007,1,True
+rem_000008,question_missed,mixed,missed_topic_cluster == 'abbreviations' OR missed_foundation_id == 'fdn_000008',assign_foundation,foundation,fdn_000008,1,True
+rem_000009,question_missed,mixed,missed_topic_cluster == 'pathophysiology' OR missed_foundation_id == 'fdn_000009',assign_foundation,foundation,fdn_000009,1,True
+rem_000010,question_missed,mixed,missed_topic_cluster == 'pathophysiology' OR missed_foundation_id == 'fdn_000010',assign_foundation,foundation,fdn_000010,1,True
+rem_000011,question_missed,mixed,missed_topic_cluster == 'pharmacology' OR missed_foundation_id == 'fdn_000011',assign_foundation,foundation,fdn_000011,1,True
+rem_000012,question_missed,mixed,missed_topic_cluster == 'pharmacology' OR missed_foundation_id == 'fdn_000012',assign_foundation,foundation,fdn_000012,1,True
+rem_000013,question_missed,mixed,missed_topic_cluster == 'med_math' OR missed_foundation_id == 'fdn_000013',assign_foundation,foundation,fdn_000013,1,True
+rem_000014,question_missed,mixed,missed_topic_cluster == 'med_math' OR missed_foundation_id == 'fdn_000014',assign_foundation,foundation,fdn_000014,1,True
+rem_000015,question_missed,mixed,missed_topic_cluster == 'communication_documentation' OR missed_foundation_id == 'fdn_000015',assign_foundation,foundation,fdn_000015,1,True
+rem_000016,question_missed,mixed,missed_topic_cluster == 'legal_ethics' OR missed_foundation_id == 'fdn_000016',assign_foundation,foundation,fdn_000016,1,True
+rem_000017,question_missed,mixed,missed_topic_cluster == 'safety_wellness' OR missed_foundation_id == 'fdn_000017',assign_foundation,foundation,fdn_000017,1,True
+rem_000018,question_missed,mixed,missed_topic_cluster == 'lifespan' OR missed_foundation_id == 'fdn_000018',assign_foundation,foundation,fdn_000018,1,True
+rem_000019,question_missed,mixed,missed_topic_cluster == 'public_health' OR missed_foundation_id == 'fdn_000019',assign_foundation,foundation,fdn_000019,1,True
+rem_000020,question_missed,mixed,missed_topic_cluster == 'ebm' OR missed_foundation_id == 'fdn_000020',assign_foundation,foundation,fdn_000020,1,True

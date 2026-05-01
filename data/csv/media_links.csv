@@ -1,0 +1,6 @@
+mlink_id,media_id,content_type,content_id,usage_role,display_order
+mlink_000001,media_ecg_000001,ecg,ecg_000001,primary_teaching_image,1
+mlink_000002,media_ecg_000002,ecg,ecg_000010,primary_teaching_image,1
+mlink_000003,media_audio_000001,lesson,les_paramedic_000001,primary_teaching_image,1
+mlink_000004,media_wf_000001,scenario,scn_emt_000001,scenario_monitor,1
+mlink_000005,media_audio_000002,lesson,les_emt_000001,reference_only,1

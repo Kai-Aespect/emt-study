@@ -1,0 +1,471 @@
+psy_id,question_id,item_status,pilot_status,target_blueprint_domain,scope_review_status,bias_review_status,readability_status,p_value_target,discrimination_index,last_item_review_date
+psy_000001,q_emt_000001,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000002,q_emt_000002,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000003,q_emt_000003,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000004,q_emt_000004,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000005,q_emt_000005,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000006,q_emt_000006,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000007,q_emt_000007,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000008,q_emt_000008,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000009,q_emt_000009,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000010,q_emt_000010,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000011,q_emt_000011,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000012,q_emt_000012,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000013,q_emt_000013,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000014,q_emt_000014,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000015,q_emt_000015,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000016,q_emt_000016,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000017,q_emt_000017,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000018,q_emt_000018,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000019,q_emt_000019,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000020,q_emt_000020,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000021,q_emt_000021,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000022,q_emt_000022,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000023,q_emt_000023,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000024,q_emt_000024,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000025,q_emt_000025,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000026,q_emt_000026,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000027,q_emt_000027,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000028,q_emt_000028,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000029,q_emt_000029,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000030,q_emt_000030,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000031,q_emt_000031,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000032,q_emt_000032,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000033,q_emt_000033,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000034,q_emt_000034,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000035,q_emt_000035,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000036,q_emt_000036,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000037,q_emt_000037,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000038,q_emt_000038,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000039,q_emt_000039,draft,not_started,Diabetes,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000040,q_emt_000040,draft,not_started,Toxicology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000041,q_emt_000041,draft,not_started,Sepsis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000042,q_emt_000042,draft,not_started,Abdominal Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000043,q_emt_000043,draft,not_started,Renal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000044,q_emt_000044,draft,not_started,Behavioral Crisis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000045,q_emt_000045,draft,not_started,Ob Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000046,q_emt_000046,draft,not_started,Neonatal Resuscitation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000047,q_emt_000047,draft,not_started,Pediatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000048,q_emt_000048,draft,not_started,Geriatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000049,q_emt_000049,draft,not_started,Allergy Anaphylaxis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000050,q_emt_000050,draft,not_started,Scene Safety,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000051,q_emt_000051,draft,not_started,Ppe Infection Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000052,q_emt_000052,draft,not_started,Hazmat Awareness,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000053,q_emt_000053,draft,not_started,Mci Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000054,q_emt_000054,draft,not_started,Radio Report,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000055,q_emt_000055,draft,not_started,Documentation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000056,q_emt_000056,draft,not_started,Legal Consent,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000057,q_emt_000057,draft,not_started,Refusal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000058,q_emt_000058,draft,not_started,Interfacility,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000059,q_emt_000059,draft,not_started,Wellness Resilience,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000060,q_emt_000060,draft,not_started,Ambulance Ops,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000061,q_emt_000061,draft,not_started,Quality Improvement,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000062,q_emt_000062,draft,not_started,Anatomy Physiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000063,q_emt_000063,draft,not_started,Medical Terminology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000064,q_emt_000064,draft,not_started,Pathophysiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000065,q_emt_000065,draft,not_started,Pharmacology Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000066,q_emt_000066,draft,not_started,Medication Math,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000067,q_emt_000067,draft,not_started,Ecg Fundamentals,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000068,q_emt_000068,draft,not_started,Vital Signs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000069,q_emt_000069,draft,not_started,Assessment Frameworks,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000070,q_emt_000070,draft,not_started,Communication,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000071,q_emt_000071,draft,not_started,Ethics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000072,q_emt_000072,draft,not_started,Airway Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000073,q_emt_000073,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000074,q_emt_000074,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000075,q_emt_000075,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000076,q_emt_000076,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000077,q_emt_000077,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000078,q_emt_000078,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000079,q_emt_000079,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000080,q_emt_000080,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000081,q_emt_000081,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000082,q_emt_000082,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000083,q_emt_000083,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000084,q_emt_000084,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000085,q_emt_000085,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000086,q_emt_000086,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000087,q_emt_000087,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000088,q_emt_000088,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000089,q_emt_000089,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000090,q_emt_000090,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000091,q_emt_000091,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000092,q_emt_000092,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000093,q_emt_000093,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000094,q_emt_000094,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000095,q_emt_000095,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000096,q_emt_000096,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000097,q_emt_000097,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000098,q_emt_000098,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000099,q_emt_000099,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000100,q_emt_000100,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000101,q_emt_000101,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000102,q_emt_000102,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000103,q_emt_000103,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000104,q_emt_000104,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000105,q_emt_000105,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000106,q_emt_000106,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000107,q_emt_000107,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000108,q_emt_000108,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000109,q_emt_000109,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000110,q_emt_000110,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000111,q_emt_000111,draft,not_started,Diabetes,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000112,q_emt_000112,draft,not_started,Toxicology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000113,q_emt_000113,draft,not_started,Sepsis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000114,q_emt_000114,draft,not_started,Abdominal Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000115,q_emt_000115,draft,not_started,Renal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000116,q_emt_000116,draft,not_started,Behavioral Crisis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000117,q_emt_000117,draft,not_started,Ob Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000118,q_emt_000118,draft,not_started,Neonatal Resuscitation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000119,q_emt_000119,draft,not_started,Pediatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000120,q_emt_000120,draft,not_started,Geriatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000121,q_emt_000121,draft,not_started,Allergy Anaphylaxis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000122,q_emt_000122,draft,not_started,Scene Safety,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000123,q_emt_000123,draft,not_started,Ppe Infection Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000124,q_emt_000124,draft,not_started,Hazmat Awareness,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000125,q_emt_000125,draft,not_started,Mci Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000126,q_emt_000126,draft,not_started,Radio Report,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000127,q_emt_000127,draft,not_started,Documentation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000128,q_emt_000128,draft,not_started,Legal Consent,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000129,q_emt_000129,draft,not_started,Refusal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000130,q_emt_000130,draft,not_started,Interfacility,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000131,q_emt_000131,draft,not_started,Wellness Resilience,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000132,q_emt_000132,draft,not_started,Ambulance Ops,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000133,q_emt_000133,draft,not_started,Quality Improvement,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000134,q_emt_000134,draft,not_started,Anatomy Physiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000135,q_emt_000135,draft,not_started,Medical Terminology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000136,q_emt_000136,draft,not_started,Pathophysiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000137,q_emt_000137,draft,not_started,Pharmacology Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000138,q_emt_000138,draft,not_started,Medication Math,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000139,q_emt_000139,draft,not_started,Ecg Fundamentals,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000140,q_emt_000140,draft,not_started,Vital Signs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000141,q_emt_000141,draft,not_started,Assessment Frameworks,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000142,q_emt_000142,draft,not_started,Communication,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000143,q_emt_000143,draft,not_started,Ethics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000144,q_emt_000144,draft,not_started,Airway Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000145,q_emt_000145,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000146,q_emt_000146,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000147,q_emt_000147,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000148,q_emt_000148,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000149,q_emt_000149,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000150,q_emt_000150,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000151,q_emt_000151,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000152,q_emt_000152,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000153,q_emt_000153,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000154,q_emt_000154,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000155,q_emt_000155,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000156,q_emt_000156,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000157,q_emt_000157,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000158,q_emt_000158,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000159,q_emt_000159,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000160,q_emt_000160,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000161,q_aemt_000161,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000162,q_aemt_000162,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000163,q_aemt_000163,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000164,q_aemt_000164,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000165,q_aemt_000165,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000166,q_aemt_000166,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000167,q_aemt_000167,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000168,q_aemt_000168,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000169,q_aemt_000169,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000170,q_aemt_000170,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000171,q_aemt_000171,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000172,q_aemt_000172,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000173,q_aemt_000173,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000174,q_aemt_000174,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000175,q_aemt_000175,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000176,q_aemt_000176,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000177,q_aemt_000177,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000178,q_aemt_000178,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000179,q_aemt_000179,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000180,q_aemt_000180,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000181,q_aemt_000181,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000182,q_aemt_000182,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000183,q_aemt_000183,draft,not_started,Diabetes,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000184,q_aemt_000184,draft,not_started,Toxicology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000185,q_aemt_000185,draft,not_started,Sepsis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000186,q_aemt_000186,draft,not_started,Abdominal Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000187,q_aemt_000187,draft,not_started,Renal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000188,q_aemt_000188,draft,not_started,Behavioral Crisis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000189,q_aemt_000189,draft,not_started,Ob Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000190,q_aemt_000190,draft,not_started,Neonatal Resuscitation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000191,q_aemt_000191,draft,not_started,Pediatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000192,q_aemt_000192,draft,not_started,Geriatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000193,q_aemt_000193,draft,not_started,Allergy Anaphylaxis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000194,q_aemt_000194,draft,not_started,Scene Safety,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000195,q_aemt_000195,draft,not_started,Ppe Infection Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000196,q_aemt_000196,draft,not_started,Hazmat Awareness,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000197,q_aemt_000197,draft,not_started,Mci Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000198,q_aemt_000198,draft,not_started,Radio Report,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000199,q_aemt_000199,draft,not_started,Documentation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000200,q_aemt_000200,draft,not_started,Legal Consent,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000201,q_aemt_000201,draft,not_started,Refusal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000202,q_aemt_000202,draft,not_started,Interfacility,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000203,q_aemt_000203,draft,not_started,Wellness Resilience,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000204,q_aemt_000204,draft,not_started,Ambulance Ops,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000205,q_aemt_000205,draft,not_started,Quality Improvement,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000206,q_aemt_000206,draft,not_started,Anatomy Physiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000207,q_aemt_000207,draft,not_started,Medical Terminology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000208,q_aemt_000208,draft,not_started,Pathophysiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000209,q_aemt_000209,draft,not_started,Pharmacology Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000210,q_aemt_000210,draft,not_started,Medication Math,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000211,q_aemt_000211,draft,not_started,Ecg Fundamentals,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000212,q_aemt_000212,draft,not_started,Vital Signs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000213,q_aemt_000213,draft,not_started,Assessment Frameworks,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000214,q_aemt_000214,draft,not_started,Communication,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000215,q_aemt_000215,draft,not_started,Ethics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000216,q_aemt_000216,draft,not_started,Airway Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000217,q_aemt_000217,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000218,q_aemt_000218,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000219,q_aemt_000219,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000220,q_aemt_000220,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000221,q_aemt_000221,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000222,q_aemt_000222,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000223,q_aemt_000223,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000224,q_aemt_000224,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000225,q_aemt_000225,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000226,q_aemt_000226,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000227,q_aemt_000227,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000228,q_aemt_000228,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000229,q_aemt_000229,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000230,q_aemt_000230,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000231,q_aemt_000231,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000232,q_aemt_000232,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000233,q_aemt_000233,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000234,q_aemt_000234,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000235,q_aemt_000235,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000236,q_aemt_000236,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000237,q_aemt_000237,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000238,q_aemt_000238,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000239,q_aemt_000239,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000240,q_aemt_000240,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000241,q_aemt_000241,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000242,q_aemt_000242,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000243,q_aemt_000243,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000244,q_aemt_000244,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000245,q_aemt_000245,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000246,q_aemt_000246,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000247,q_aemt_000247,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000248,q_aemt_000248,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000249,q_aemt_000249,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000250,q_aemt_000250,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000251,q_aemt_000251,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000252,q_aemt_000252,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000253,q_aemt_000253,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000254,q_aemt_000254,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000255,q_aemt_000255,draft,not_started,Diabetes,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000256,q_aemt_000256,draft,not_started,Toxicology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000257,q_aemt_000257,draft,not_started,Sepsis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000258,q_aemt_000258,draft,not_started,Abdominal Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000259,q_aemt_000259,draft,not_started,Renal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000260,q_aemt_000260,draft,not_started,Behavioral Crisis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000261,q_aemt_000261,draft,not_started,Ob Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000262,q_aemt_000262,draft,not_started,Neonatal Resuscitation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000263,q_aemt_000263,draft,not_started,Pediatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000264,q_aemt_000264,draft,not_started,Geriatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000265,q_aemt_000265,draft,not_started,Allergy Anaphylaxis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000266,q_aemt_000266,draft,not_started,Scene Safety,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000267,q_aemt_000267,draft,not_started,Ppe Infection Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000268,q_aemt_000268,draft,not_started,Hazmat Awareness,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000269,q_aemt_000269,draft,not_started,Mci Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000270,q_aemt_000270,draft,not_started,Radio Report,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000271,q_aemt_000271,draft,not_started,Documentation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000272,q_aemt_000272,draft,not_started,Legal Consent,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000273,q_aemt_000273,draft,not_started,Refusal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000274,q_aemt_000274,draft,not_started,Interfacility,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000275,q_aemt_000275,draft,not_started,Wellness Resilience,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000276,q_aemt_000276,draft,not_started,Ambulance Ops,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000277,q_aemt_000277,draft,not_started,Quality Improvement,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000278,q_aemt_000278,draft,not_started,Anatomy Physiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000279,q_aemt_000279,draft,not_started,Medical Terminology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000280,q_aemt_000280,draft,not_started,Pathophysiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000281,q_aemt_000281,draft,not_started,Pharmacology Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000282,q_aemt_000282,draft,not_started,Medication Math,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000283,q_aemt_000283,draft,not_started,Ecg Fundamentals,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000284,q_aemt_000284,draft,not_started,Vital Signs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000285,q_aemt_000285,draft,not_started,Assessment Frameworks,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000286,q_aemt_000286,draft,not_started,Communication,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000287,q_aemt_000287,draft,not_started,Ethics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000288,q_aemt_000288,draft,not_started,Airway Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000289,q_aemt_000289,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000290,q_aemt_000290,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000291,q_paramedic_000291,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000292,q_paramedic_000292,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000293,q_paramedic_000293,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000294,q_paramedic_000294,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000295,q_paramedic_000295,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000296,q_paramedic_000296,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000297,q_paramedic_000297,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000298,q_paramedic_000298,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000299,q_paramedic_000299,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000300,q_paramedic_000300,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000301,q_paramedic_000301,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000302,q_paramedic_000302,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000303,q_paramedic_000303,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000304,q_paramedic_000304,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000305,q_paramedic_000305,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000306,q_paramedic_000306,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000307,q_paramedic_000307,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000308,q_paramedic_000308,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000309,q_paramedic_000309,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000310,q_paramedic_000310,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000311,q_paramedic_000311,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000312,q_paramedic_000312,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000313,q_paramedic_000313,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000314,q_paramedic_000314,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000315,q_paramedic_000315,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000316,q_paramedic_000316,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000317,q_paramedic_000317,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000318,q_paramedic_000318,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000319,q_paramedic_000319,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000320,q_paramedic_000320,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000321,q_paramedic_000321,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000322,q_paramedic_000322,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000323,q_paramedic_000323,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000324,q_paramedic_000324,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000325,q_paramedic_000325,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000326,q_paramedic_000326,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000327,q_paramedic_000327,draft,not_started,Diabetes,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000328,q_paramedic_000328,draft,not_started,Toxicology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000329,q_paramedic_000329,draft,not_started,Sepsis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000330,q_paramedic_000330,draft,not_started,Abdominal Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000331,q_paramedic_000331,draft,not_started,Renal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000332,q_paramedic_000332,draft,not_started,Behavioral Crisis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000333,q_paramedic_000333,draft,not_started,Ob Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000334,q_paramedic_000334,draft,not_started,Neonatal Resuscitation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000335,q_paramedic_000335,draft,not_started,Pediatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000336,q_paramedic_000336,draft,not_started,Geriatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000337,q_paramedic_000337,draft,not_started,Allergy Anaphylaxis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000338,q_paramedic_000338,draft,not_started,Scene Safety,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000339,q_paramedic_000339,draft,not_started,Ppe Infection Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000340,q_paramedic_000340,draft,not_started,Hazmat Awareness,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000341,q_paramedic_000341,draft,not_started,Mci Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000342,q_paramedic_000342,draft,not_started,Radio Report,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000343,q_paramedic_000343,draft,not_started,Documentation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000344,q_paramedic_000344,draft,not_started,Legal Consent,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000345,q_paramedic_000345,draft,not_started,Refusal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000346,q_paramedic_000346,draft,not_started,Interfacility,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000347,q_paramedic_000347,draft,not_started,Wellness Resilience,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000348,q_paramedic_000348,draft,not_started,Ambulance Ops,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000349,q_paramedic_000349,draft,not_started,Quality Improvement,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000350,q_paramedic_000350,draft,not_started,Anatomy Physiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000351,q_paramedic_000351,draft,not_started,Medical Terminology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000352,q_paramedic_000352,draft,not_started,Pathophysiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000353,q_paramedic_000353,draft,not_started,Pharmacology Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000354,q_paramedic_000354,draft,not_started,Medication Math,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000355,q_paramedic_000355,draft,not_started,Ecg Fundamentals,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000356,q_paramedic_000356,draft,not_started,Vital Signs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000357,q_paramedic_000357,draft,not_started,Assessment Frameworks,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000358,q_paramedic_000358,draft,not_started,Communication,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000359,q_paramedic_000359,draft,not_started,Ethics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000360,q_paramedic_000360,draft,not_started,Airway Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000361,q_paramedic_000361,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000362,q_paramedic_000362,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000363,q_paramedic_000363,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000364,q_paramedic_000364,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000365,q_paramedic_000365,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000366,q_paramedic_000366,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000367,q_paramedic_000367,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000368,q_paramedic_000368,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000369,q_paramedic_000369,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000370,q_paramedic_000370,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000371,q_paramedic_000371,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000372,q_paramedic_000372,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000373,q_paramedic_000373,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000374,q_paramedic_000374,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000375,q_paramedic_000375,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000376,q_paramedic_000376,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000377,q_paramedic_000377,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000378,q_paramedic_000378,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000379,q_paramedic_000379,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000380,q_paramedic_000380,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000381,q_paramedic_000381,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000382,q_paramedic_000382,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000383,q_paramedic_000383,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000384,q_paramedic_000384,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000385,q_paramedic_000385,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000386,q_paramedic_000386,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000387,q_paramedic_000387,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000388,q_paramedic_000388,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000389,q_paramedic_000389,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000390,q_paramedic_000390,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000391,q_paramedic_000391,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000392,q_paramedic_000392,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000393,q_paramedic_000393,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000394,q_paramedic_000394,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000395,q_paramedic_000395,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000396,q_paramedic_000396,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000397,q_paramedic_000397,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000398,q_paramedic_000398,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000399,q_paramedic_000399,draft,not_started,Diabetes,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000400,q_paramedic_000400,draft,not_started,Toxicology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000401,q_paramedic_000401,draft,not_started,Sepsis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000402,q_paramedic_000402,draft,not_started,Abdominal Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000403,q_paramedic_000403,draft,not_started,Renal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000404,q_paramedic_000404,draft,not_started,Behavioral Crisis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000405,q_paramedic_000405,draft,not_started,Ob Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000406,q_paramedic_000406,draft,not_started,Neonatal Resuscitation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000407,q_paramedic_000407,draft,not_started,Pediatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000408,q_paramedic_000408,draft,not_started,Geriatrics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000409,q_paramedic_000409,draft,not_started,Allergy Anaphylaxis,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000410,q_paramedic_000410,draft,not_started,Scene Safety,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000411,q_paramedic_000411,draft,not_started,Ppe Infection Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000412,q_paramedic_000412,draft,not_started,Hazmat Awareness,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000413,q_paramedic_000413,draft,not_started,Mci Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000414,q_paramedic_000414,draft,not_started,Radio Report,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000415,q_paramedic_000415,draft,not_started,Documentation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000416,q_paramedic_000416,draft,not_started,Legal Consent,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000417,q_paramedic_000417,draft,not_started,Refusal,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000418,q_paramedic_000418,draft,not_started,Interfacility,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000419,q_paramedic_000419,draft,not_started,Wellness Resilience,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000420,q_paramedic_000420,draft,not_started,Ambulance Ops,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000421,q_paramedic_000421,draft,not_started,Quality Improvement,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000422,q_paramedic_000422,draft,not_started,Anatomy Physiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000423,q_paramedic_000423,draft,not_started,Medical Terminology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000424,q_paramedic_000424,draft,not_started,Pathophysiology,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000425,q_paramedic_000425,draft,not_started,Pharmacology Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000426,q_paramedic_000426,draft,not_started,Medication Math,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000427,q_paramedic_000427,draft,not_started,Ecg Fundamentals,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000428,q_paramedic_000428,draft,not_started,Vital Signs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000429,q_paramedic_000429,draft,not_started,Assessment Frameworks,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000430,q_paramedic_000430,draft,not_started,Communication,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000431,q_paramedic_000431,draft,not_started,Ethics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000432,q_paramedic_000432,draft,not_started,Airway Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000433,q_paramedic_000433,draft,not_started,Airway Assessment,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000434,q_paramedic_000434,draft,not_started,Oxygen Delivery,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000435,q_paramedic_000435,draft,not_started,Bvm Ventilation,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000436,q_paramedic_000436,draft,not_started,Suctioning,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000437,q_paramedic_000437,draft,not_started,Adjuncts,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000438,q_paramedic_000438,draft,not_started,Cpap,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000439,q_paramedic_000439,draft,not_started,Respiratory Distress,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000440,q_paramedic_000440,draft,not_started,Asthma Copd,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000441,q_paramedic_000441,draft,not_started,Pulmonary Edema,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000442,q_paramedic_000442,draft,not_started,Anaphylaxis Airway,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000443,q_paramedic_000443,draft,not_started,Ventilation Monitoring,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000444,q_paramedic_000444,draft,not_started,Cardiac Anatomy,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000445,q_paramedic_000445,draft,not_started,Chest Pain,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000446,q_paramedic_000446,draft,not_started,Acs,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000447,q_paramedic_000447,draft,not_started,Heart Failure,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000448,q_paramedic_000448,draft,not_started,Cardiac Arrest,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000449,q_paramedic_000449,draft,not_started,Bradycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000450,q_paramedic_000450,draft,not_started,Tachycardia,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000451,q_paramedic_000451,draft,not_started,Shockable Rhythms,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000452,q_paramedic_000452,draft,not_started,Ecg Basics,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000453,q_paramedic_000453,draft,not_started,Twelve Lead,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000454,q_paramedic_000454,draft,not_started,Stemi Recognition,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000455,q_paramedic_000455,draft,not_started,Post Rosc,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000456,q_paramedic_000456,draft,not_started,Bleeding Control,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000457,q_paramedic_000457,draft,not_started,Shock Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000458,q_paramedic_000458,draft,not_started,Head Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000459,q_paramedic_000459,draft,not_started,Spinal Motion,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000460,q_paramedic_000460,draft,not_started,Chest Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000461,q_paramedic_000461,draft,not_started,Abdominal Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000462,q_paramedic_000462,draft,not_started,Pelvic Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000463,q_paramedic_000463,draft,not_started,Extremity Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000464,q_paramedic_000464,draft,not_started,Burns,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000465,q_paramedic_000465,draft,not_started,Crush Injury,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000466,q_paramedic_000466,draft,not_started,Trauma Triage,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000467,q_paramedic_000467,draft,not_started,Special Trauma,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000468,q_paramedic_000468,draft,not_started,Altered Mental Status,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000469,q_paramedic_000469,draft,not_started,Stroke,pending,pending,pending,0.45-0.85,pending,2026-05-01
+psy_000470,q_paramedic_000470,draft,not_started,Seizure,pending,pending,pending,0.45-0.85,pending,2026-05-01

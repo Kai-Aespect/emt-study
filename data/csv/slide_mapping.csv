@@ -1,0 +1,2 @@
+slide_map_id,slide_file_id,slide_number,extracted_title,extracted_topics,mapped_taxonomy_id,mapped_content_type,mapped_content_id,confidence_score,human_review_required
+slide_map_000001,slide_file_000001,0,Pending ingestion,Folder not directly ingested in this workbook build,,reference,pending,0,True

@@ -1,0 +1,9 @@
+drug_class_id,class_name,description,common_examples,notes
+dc_000001,Analgesic,Pain control medications used by scope/protocol.,"acetaminophen, ibuprofen, fentanyl, morphine",Verify local scope and contraindications.
+dc_000002,Adrenergic,Sympathomimetic medications affecting alpha/beta receptors.,"epinephrine, norepinephrine, albuterol","Monitor HR, BP, rhythm, perfusion."
+dc_000003,Antidote,Reversal or targeted toxicity agents.,"naloxone, sodium bicarbonate",Use for specific indications.
+dc_000004,Antiplatelet,Reduces platelet aggregation.,aspirin,ACS use depends on contraindications.
+dc_000005,Vasodilator,Reduces preload/afterload depending drug.,nitroglycerin,BP and contraindications critical.
+dc_000006,Anticonvulsant,Stops or reduces seizure activity.,"midazolam, diazepam, lorazepam",Monitor airway/ventilation.
+dc_000007,Antiemetic,Reduces nausea/vomiting.,ondansetron,Check local dose and QT considerations.
+dc_000008,Crystalloid,IV fluid for volume and medication carrier.,"normal saline, lactated Ringer's",Use judiciously; reassess lungs/perfusion.

@@ -1,0 +1,2 @@
+change_id,entity_type,entity_id,change_type,change_summary,changed_by_role,changed_at,supersedes_id_nullable
+chg_000001,workbook,all,create,Initial EMS study app database v1 generated from blueprint.,data_engineer,2026-05-01T01:39:45,

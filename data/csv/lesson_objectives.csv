@@ -1,0 +1,1153 @@
+objective_id,lesson_id,bloom_level,objective_text,priority_rank,assessed_by
+obj_000001,les_emt_000001,apply,Apply a structured EMS assessment and management plan for airway anatomy at the EMT level.,1,scenario/question
+obj_000002,les_emt_000001,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000003,les_emt_000002,apply,Apply a structured EMS assessment and management plan for airway anatomy at the EMT level.,1,scenario/question
+obj_000004,les_emt_000002,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000005,les_emt_000003,apply,Apply a structured EMS assessment and management plan for airway assessment at the EMT level.,1,scenario/question
+obj_000006,les_emt_000003,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000007,les_emt_000004,apply,Apply a structured EMS assessment and management plan for airway assessment at the EMT level.,1,scenario/question
+obj_000008,les_emt_000004,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000009,les_emt_000005,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the EMT level.,1,scenario/question
+obj_000010,les_emt_000005,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000011,les_emt_000006,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the EMT level.,1,scenario/question
+obj_000012,les_emt_000006,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000013,les_emt_000007,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the EMT level.,1,scenario/question
+obj_000014,les_emt_000007,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000015,les_emt_000008,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the EMT level.,1,scenario/question
+obj_000016,les_emt_000008,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000017,les_emt_000009,apply,Apply a structured EMS assessment and management plan for suctioning at the EMT level.,1,scenario/question
+obj_000018,les_emt_000009,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000019,les_emt_000010,apply,Apply a structured EMS assessment and management plan for suctioning at the EMT level.,1,scenario/question
+obj_000020,les_emt_000010,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000021,les_emt_000011,apply,Apply a structured EMS assessment and management plan for adjuncts at the EMT level.,1,scenario/question
+obj_000022,les_emt_000011,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000023,les_emt_000012,apply,Apply a structured EMS assessment and management plan for adjuncts at the EMT level.,1,scenario/question
+obj_000024,les_emt_000012,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000025,les_emt_000013,apply,Apply a structured EMS assessment and management plan for cpap at the EMT level.,1,scenario/question
+obj_000026,les_emt_000013,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000027,les_emt_000014,apply,Apply a structured EMS assessment and management plan for cpap at the EMT level.,1,scenario/question
+obj_000028,les_emt_000014,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000029,les_emt_000015,apply,Apply a structured EMS assessment and management plan for respiratory distress at the EMT level.,1,scenario/question
+obj_000030,les_emt_000015,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000031,les_emt_000016,apply,Apply a structured EMS assessment and management plan for respiratory distress at the EMT level.,1,scenario/question
+obj_000032,les_emt_000016,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000033,les_emt_000017,apply,Apply a structured EMS assessment and management plan for asthma copd at the EMT level.,1,scenario/question
+obj_000034,les_emt_000017,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000035,les_emt_000018,apply,Apply a structured EMS assessment and management plan for asthma copd at the EMT level.,1,scenario/question
+obj_000036,les_emt_000018,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000037,les_emt_000019,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the EMT level.,1,scenario/question
+obj_000038,les_emt_000019,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000039,les_emt_000020,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the EMT level.,1,scenario/question
+obj_000040,les_emt_000020,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000041,les_emt_000021,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the EMT level.,1,scenario/question
+obj_000042,les_emt_000021,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000043,les_emt_000022,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the EMT level.,1,scenario/question
+obj_000044,les_emt_000022,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000045,les_emt_000023,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the EMT level.,1,scenario/question
+obj_000046,les_emt_000023,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000047,les_emt_000024,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the EMT level.,1,scenario/question
+obj_000048,les_emt_000024,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000049,les_emt_000025,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the EMT level.,1,scenario/question
+obj_000050,les_emt_000025,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000051,les_emt_000026,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the EMT level.,1,scenario/question
+obj_000052,les_emt_000026,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000053,les_emt_000027,apply,Apply a structured EMS assessment and management plan for chest pain at the EMT level.,1,scenario/question
+obj_000054,les_emt_000027,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000055,les_emt_000028,apply,Apply a structured EMS assessment and management plan for chest pain at the EMT level.,1,scenario/question
+obj_000056,les_emt_000028,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000057,les_emt_000029,apply,Apply a structured EMS assessment and management plan for acs at the EMT level.,1,scenario/question
+obj_000058,les_emt_000029,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000059,les_emt_000030,apply,Apply a structured EMS assessment and management plan for acs at the EMT level.,1,scenario/question
+obj_000060,les_emt_000030,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000061,les_emt_000031,apply,Apply a structured EMS assessment and management plan for heart failure at the EMT level.,1,scenario/question
+obj_000062,les_emt_000031,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000063,les_emt_000032,apply,Apply a structured EMS assessment and management plan for heart failure at the EMT level.,1,scenario/question
+obj_000064,les_emt_000032,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000065,les_emt_000033,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the EMT level.,1,scenario/question
+obj_000066,les_emt_000033,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000067,les_emt_000034,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the EMT level.,1,scenario/question
+obj_000068,les_emt_000034,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000069,les_emt_000035,apply,Apply a structured EMS assessment and management plan for bradycardia at the EMT level.,1,scenario/question
+obj_000070,les_emt_000035,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000071,les_emt_000036,apply,Apply a structured EMS assessment and management plan for bradycardia at the EMT level.,1,scenario/question
+obj_000072,les_emt_000036,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000073,les_emt_000037,apply,Apply a structured EMS assessment and management plan for tachycardia at the EMT level.,1,scenario/question
+obj_000074,les_emt_000037,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000075,les_emt_000038,apply,Apply a structured EMS assessment and management plan for tachycardia at the EMT level.,1,scenario/question
+obj_000076,les_emt_000038,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000077,les_emt_000039,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the EMT level.,1,scenario/question
+obj_000078,les_emt_000039,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000079,les_emt_000040,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the EMT level.,1,scenario/question
+obj_000080,les_emt_000040,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000081,les_emt_000041,apply,Apply a structured EMS assessment and management plan for ecg basics at the EMT level.,1,scenario/question
+obj_000082,les_emt_000041,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000083,les_emt_000042,apply,Apply a structured EMS assessment and management plan for ecg basics at the EMT level.,1,scenario/question
+obj_000084,les_emt_000042,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000085,les_emt_000043,apply,Apply a structured EMS assessment and management plan for twelve lead at the EMT level.,1,scenario/question
+obj_000086,les_emt_000043,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000087,les_emt_000044,apply,Apply a structured EMS assessment and management plan for twelve lead at the EMT level.,1,scenario/question
+obj_000088,les_emt_000044,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000089,les_emt_000045,apply,Apply a structured EMS assessment and management plan for stemi recognition at the EMT level.,1,scenario/question
+obj_000090,les_emt_000045,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000091,les_emt_000046,apply,Apply a structured EMS assessment and management plan for stemi recognition at the EMT level.,1,scenario/question
+obj_000092,les_emt_000046,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000093,les_emt_000047,apply,Apply a structured EMS assessment and management plan for post rosc at the EMT level.,1,scenario/question
+obj_000094,les_emt_000047,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000095,les_emt_000048,apply,Apply a structured EMS assessment and management plan for post rosc at the EMT level.,1,scenario/question
+obj_000096,les_emt_000048,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000097,les_emt_000049,apply,Apply a structured EMS assessment and management plan for bleeding control at the EMT level.,1,scenario/question
+obj_000098,les_emt_000049,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000099,les_emt_000050,apply,Apply a structured EMS assessment and management plan for bleeding control at the EMT level.,1,scenario/question
+obj_000100,les_emt_000050,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000101,les_emt_000051,apply,Apply a structured EMS assessment and management plan for shock trauma at the EMT level.,1,scenario/question
+obj_000102,les_emt_000051,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000103,les_emt_000052,apply,Apply a structured EMS assessment and management plan for shock trauma at the EMT level.,1,scenario/question
+obj_000104,les_emt_000052,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000105,les_emt_000053,apply,Apply a structured EMS assessment and management plan for head injury at the EMT level.,1,scenario/question
+obj_000106,les_emt_000053,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000107,les_emt_000054,apply,Apply a structured EMS assessment and management plan for head injury at the EMT level.,1,scenario/question
+obj_000108,les_emt_000054,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000109,les_emt_000055,apply,Apply a structured EMS assessment and management plan for spinal motion at the EMT level.,1,scenario/question
+obj_000110,les_emt_000055,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000111,les_emt_000056,apply,Apply a structured EMS assessment and management plan for spinal motion at the EMT level.,1,scenario/question
+obj_000112,les_emt_000056,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000113,les_emt_000057,apply,Apply a structured EMS assessment and management plan for chest trauma at the EMT level.,1,scenario/question
+obj_000114,les_emt_000057,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000115,les_emt_000058,apply,Apply a structured EMS assessment and management plan for chest trauma at the EMT level.,1,scenario/question
+obj_000116,les_emt_000058,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000117,les_emt_000059,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the EMT level.,1,scenario/question
+obj_000118,les_emt_000059,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000119,les_emt_000060,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the EMT level.,1,scenario/question
+obj_000120,les_emt_000060,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000121,les_emt_000061,apply,Apply a structured EMS assessment and management plan for pelvic injury at the EMT level.,1,scenario/question
+obj_000122,les_emt_000061,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000123,les_emt_000062,apply,Apply a structured EMS assessment and management plan for pelvic injury at the EMT level.,1,scenario/question
+obj_000124,les_emt_000062,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000125,les_emt_000063,apply,Apply a structured EMS assessment and management plan for extremity injury at the EMT level.,1,scenario/question
+obj_000126,les_emt_000063,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000127,les_emt_000064,apply,Apply a structured EMS assessment and management plan for extremity injury at the EMT level.,1,scenario/question
+obj_000128,les_emt_000064,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000129,les_emt_000065,apply,Apply a structured EMS assessment and management plan for burns at the EMT level.,1,scenario/question
+obj_000130,les_emt_000065,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000131,les_emt_000066,apply,Apply a structured EMS assessment and management plan for burns at the EMT level.,1,scenario/question
+obj_000132,les_emt_000066,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000133,les_emt_000067,apply,Apply a structured EMS assessment and management plan for crush injury at the EMT level.,1,scenario/question
+obj_000134,les_emt_000067,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000135,les_emt_000068,apply,Apply a structured EMS assessment and management plan for crush injury at the EMT level.,1,scenario/question
+obj_000136,les_emt_000068,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000137,les_emt_000069,apply,Apply a structured EMS assessment and management plan for trauma triage at the EMT level.,1,scenario/question
+obj_000138,les_emt_000069,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000139,les_emt_000070,apply,Apply a structured EMS assessment and management plan for trauma triage at the EMT level.,1,scenario/question
+obj_000140,les_emt_000070,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000141,les_emt_000071,apply,Apply a structured EMS assessment and management plan for special trauma at the EMT level.,1,scenario/question
+obj_000142,les_emt_000071,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000143,les_emt_000072,apply,Apply a structured EMS assessment and management plan for special trauma at the EMT level.,1,scenario/question
+obj_000144,les_emt_000072,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000145,les_emt_000073,apply,Apply a structured EMS assessment and management plan for altered mental status at the EMT level.,1,scenario/question
+obj_000146,les_emt_000073,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000147,les_emt_000074,apply,Apply a structured EMS assessment and management plan for altered mental status at the EMT level.,1,scenario/question
+obj_000148,les_emt_000074,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000149,les_emt_000075,apply,Apply a structured EMS assessment and management plan for stroke at the EMT level.,1,scenario/question
+obj_000150,les_emt_000075,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000151,les_emt_000076,apply,Apply a structured EMS assessment and management plan for stroke at the EMT level.,1,scenario/question
+obj_000152,les_emt_000076,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000153,les_emt_000077,apply,Apply a structured EMS assessment and management plan for seizure at the EMT level.,1,scenario/question
+obj_000154,les_emt_000077,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000155,les_emt_000078,apply,Apply a structured EMS assessment and management plan for seizure at the EMT level.,1,scenario/question
+obj_000156,les_emt_000078,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000157,les_emt_000079,apply,Apply a structured EMS assessment and management plan for diabetes at the EMT level.,1,scenario/question
+obj_000158,les_emt_000079,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000159,les_emt_000080,apply,Apply a structured EMS assessment and management plan for diabetes at the EMT level.,1,scenario/question
+obj_000160,les_emt_000080,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000161,les_emt_000081,apply,Apply a structured EMS assessment and management plan for toxicology at the EMT level.,1,scenario/question
+obj_000162,les_emt_000081,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000163,les_emt_000082,apply,Apply a structured EMS assessment and management plan for toxicology at the EMT level.,1,scenario/question
+obj_000164,les_emt_000082,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000165,les_emt_000083,apply,Apply a structured EMS assessment and management plan for sepsis at the EMT level.,1,scenario/question
+obj_000166,les_emt_000083,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000167,les_emt_000084,apply,Apply a structured EMS assessment and management plan for sepsis at the EMT level.,1,scenario/question
+obj_000168,les_emt_000084,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000169,les_emt_000085,apply,Apply a structured EMS assessment and management plan for abdominal pain at the EMT level.,1,scenario/question
+obj_000170,les_emt_000085,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000171,les_emt_000086,apply,Apply a structured EMS assessment and management plan for abdominal pain at the EMT level.,1,scenario/question
+obj_000172,les_emt_000086,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000173,les_emt_000087,apply,Apply a structured EMS assessment and management plan for renal at the EMT level.,1,scenario/question
+obj_000174,les_emt_000087,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000175,les_emt_000088,apply,Apply a structured EMS assessment and management plan for renal at the EMT level.,1,scenario/question
+obj_000176,les_emt_000088,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000177,les_emt_000089,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the EMT level.,1,scenario/question
+obj_000178,les_emt_000089,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000179,les_emt_000090,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the EMT level.,1,scenario/question
+obj_000180,les_emt_000090,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000181,les_emt_000091,apply,Apply a structured EMS assessment and management plan for ob delivery at the EMT level.,1,scenario/question
+obj_000182,les_emt_000091,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000183,les_emt_000092,apply,Apply a structured EMS assessment and management plan for ob delivery at the EMT level.,1,scenario/question
+obj_000184,les_emt_000092,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000185,les_emt_000093,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the EMT level.,1,scenario/question
+obj_000186,les_emt_000093,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_000187,les_emt_000094,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the EMT level.,1,scenario/question
+obj_000188,les_emt_000094,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_000189,les_emt_000095,apply,Apply a structured EMS assessment and management plan for pediatrics at the EMT level.,1,scenario/question
+obj_000190,les_emt_000095,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_000191,les_emt_000096,apply,Apply a structured EMS assessment and management plan for pediatrics at the EMT level.,1,scenario/question
+obj_000192,les_emt_000096,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_000193,les_emt_000097,apply,Apply a structured EMS assessment and management plan for geriatrics at the EMT level.,1,scenario/question
+obj_000194,les_emt_000097,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_000195,les_emt_000098,apply,Apply a structured EMS assessment and management plan for geriatrics at the EMT level.,1,scenario/question
+obj_000196,les_emt_000098,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_000197,les_emt_000099,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the EMT level.,1,scenario/question
+obj_000198,les_emt_000099,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_000199,les_emt_000100,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the EMT level.,1,scenario/question
+obj_000200,les_emt_000100,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_000201,les_emt_000101,apply,Apply a structured EMS assessment and management plan for scene safety at the EMT level.,1,scenario/question
+obj_000202,les_emt_000101,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_000203,les_emt_000102,apply,Apply a structured EMS assessment and management plan for scene safety at the EMT level.,1,scenario/question
+obj_000204,les_emt_000102,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_000205,les_emt_000103,apply,Apply a structured EMS assessment and management plan for ppe infection control at the EMT level.,1,scenario/question
+obj_000206,les_emt_000103,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_000207,les_emt_000104,apply,Apply a structured EMS assessment and management plan for ppe infection control at the EMT level.,1,scenario/question
+obj_000208,les_emt_000104,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_000209,les_emt_000105,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the EMT level.,1,scenario/question
+obj_000210,les_emt_000105,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_000211,les_emt_000106,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the EMT level.,1,scenario/question
+obj_000212,les_emt_000106,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_000213,les_emt_000107,apply,Apply a structured EMS assessment and management plan for mci triage at the EMT level.,1,scenario/question
+obj_000214,les_emt_000107,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_000215,les_emt_000108,apply,Apply a structured EMS assessment and management plan for mci triage at the EMT level.,1,scenario/question
+obj_000216,les_emt_000108,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_000217,les_emt_000109,apply,Apply a structured EMS assessment and management plan for radio report at the EMT level.,1,scenario/question
+obj_000218,les_emt_000109,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_000219,les_emt_000110,apply,Apply a structured EMS assessment and management plan for radio report at the EMT level.,1,scenario/question
+obj_000220,les_emt_000110,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_000221,les_emt_000111,apply,Apply a structured EMS assessment and management plan for documentation at the EMT level.,1,scenario/question
+obj_000222,les_emt_000111,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_000223,les_emt_000112,apply,Apply a structured EMS assessment and management plan for documentation at the EMT level.,1,scenario/question
+obj_000224,les_emt_000112,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_000225,les_emt_000113,apply,Apply a structured EMS assessment and management plan for legal consent at the EMT level.,1,scenario/question
+obj_000226,les_emt_000113,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_000227,les_emt_000114,apply,Apply a structured EMS assessment and management plan for legal consent at the EMT level.,1,scenario/question
+obj_000228,les_emt_000114,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_000229,les_emt_000115,apply,Apply a structured EMS assessment and management plan for refusal at the EMT level.,1,scenario/question
+obj_000230,les_emt_000115,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_000231,les_emt_000116,apply,Apply a structured EMS assessment and management plan for refusal at the EMT level.,1,scenario/question
+obj_000232,les_emt_000116,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_000233,les_emt_000117,apply,Apply a structured EMS assessment and management plan for interfacility at the EMT level.,1,scenario/question
+obj_000234,les_emt_000117,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_000235,les_emt_000118,apply,Apply a structured EMS assessment and management plan for interfacility at the EMT level.,1,scenario/question
+obj_000236,les_emt_000118,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_000237,les_emt_000119,apply,Apply a structured EMS assessment and management plan for wellness resilience at the EMT level.,1,scenario/question
+obj_000238,les_emt_000119,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_000239,les_emt_000120,apply,Apply a structured EMS assessment and management plan for wellness resilience at the EMT level.,1,scenario/question
+obj_000240,les_emt_000120,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_000241,les_emt_000121,apply,Apply a structured EMS assessment and management plan for ambulance ops at the EMT level.,1,scenario/question
+obj_000242,les_emt_000121,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_000243,les_emt_000122,apply,Apply a structured EMS assessment and management plan for ambulance ops at the EMT level.,1,scenario/question
+obj_000244,les_emt_000122,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_000245,les_emt_000123,apply,Apply a structured EMS assessment and management plan for quality improvement at the EMT level.,1,scenario/question
+obj_000246,les_emt_000123,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_000247,les_emt_000124,apply,Apply a structured EMS assessment and management plan for quality improvement at the EMT level.,1,scenario/question
+obj_000248,les_emt_000124,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_000249,les_emt_000125,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the EMT level.,1,scenario/question
+obj_000250,les_emt_000125,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_000251,les_emt_000126,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the EMT level.,1,scenario/question
+obj_000252,les_emt_000126,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_000253,les_emt_000127,apply,Apply a structured EMS assessment and management plan for medical terminology at the EMT level.,1,scenario/question
+obj_000254,les_emt_000127,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_000255,les_emt_000128,apply,Apply a structured EMS assessment and management plan for medical terminology at the EMT level.,1,scenario/question
+obj_000256,les_emt_000128,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_000257,les_emt_000129,apply,Apply a structured EMS assessment and management plan for pathophysiology at the EMT level.,1,scenario/question
+obj_000258,les_emt_000129,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_000259,les_emt_000130,apply,Apply a structured EMS assessment and management plan for pathophysiology at the EMT level.,1,scenario/question
+obj_000260,les_emt_000130,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_000261,les_emt_000131,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the EMT level.,1,scenario/question
+obj_000262,les_emt_000131,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_000263,les_emt_000132,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the EMT level.,1,scenario/question
+obj_000264,les_emt_000132,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_000265,les_emt_000133,apply,Apply a structured EMS assessment and management plan for medication math at the EMT level.,1,scenario/question
+obj_000266,les_emt_000133,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_000267,les_emt_000134,apply,Apply a structured EMS assessment and management plan for medication math at the EMT level.,1,scenario/question
+obj_000268,les_emt_000134,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_000269,les_emt_000135,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the EMT level.,1,scenario/question
+obj_000270,les_emt_000135,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_000271,les_emt_000136,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the EMT level.,1,scenario/question
+obj_000272,les_emt_000136,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_000273,les_emt_000137,apply,Apply a structured EMS assessment and management plan for vital signs at the EMT level.,1,scenario/question
+obj_000274,les_emt_000137,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_000275,les_emt_000138,apply,Apply a structured EMS assessment and management plan for vital signs at the EMT level.,1,scenario/question
+obj_000276,les_emt_000138,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_000277,les_emt_000139,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the EMT level.,1,scenario/question
+obj_000278,les_emt_000139,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_000279,les_emt_000140,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the EMT level.,1,scenario/question
+obj_000280,les_emt_000140,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_000281,les_emt_000141,apply,Apply a structured EMS assessment and management plan for communication at the EMT level.,1,scenario/question
+obj_000282,les_emt_000141,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_000283,les_emt_000142,apply,Apply a structured EMS assessment and management plan for communication at the EMT level.,1,scenario/question
+obj_000284,les_emt_000142,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_000285,les_emt_000143,apply,Apply a structured EMS assessment and management plan for ethics at the EMT level.,1,scenario/question
+obj_000286,les_emt_000143,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_000287,les_emt_000144,apply,Apply a structured EMS assessment and management plan for ethics at the EMT level.,1,scenario/question
+obj_000288,les_emt_000144,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_000289,les_aemt_000145,apply,Apply a structured EMS assessment and management plan for airway anatomy at the AEMT level.,1,scenario/question
+obj_000290,les_aemt_000145,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000291,les_aemt_000146,apply,Apply a structured EMS assessment and management plan for airway anatomy at the AEMT level.,1,scenario/question
+obj_000292,les_aemt_000146,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000293,les_aemt_000147,apply,Apply a structured EMS assessment and management plan for airway anatomy at the AEMT level.,1,scenario/question
+obj_000294,les_aemt_000147,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000295,les_aemt_000148,apply,Apply a structured EMS assessment and management plan for airway assessment at the AEMT level.,1,scenario/question
+obj_000296,les_aemt_000148,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000297,les_aemt_000149,apply,Apply a structured EMS assessment and management plan for airway assessment at the AEMT level.,1,scenario/question
+obj_000298,les_aemt_000149,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000299,les_aemt_000150,apply,Apply a structured EMS assessment and management plan for airway assessment at the AEMT level.,1,scenario/question
+obj_000300,les_aemt_000150,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000301,les_aemt_000151,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the AEMT level.,1,scenario/question
+obj_000302,les_aemt_000151,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000303,les_aemt_000152,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the AEMT level.,1,scenario/question
+obj_000304,les_aemt_000152,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000305,les_aemt_000153,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the AEMT level.,1,scenario/question
+obj_000306,les_aemt_000153,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000307,les_aemt_000154,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the AEMT level.,1,scenario/question
+obj_000308,les_aemt_000154,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000309,les_aemt_000155,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the AEMT level.,1,scenario/question
+obj_000310,les_aemt_000155,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000311,les_aemt_000156,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the AEMT level.,1,scenario/question
+obj_000312,les_aemt_000156,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000313,les_aemt_000157,apply,Apply a structured EMS assessment and management plan for suctioning at the AEMT level.,1,scenario/question
+obj_000314,les_aemt_000157,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000315,les_aemt_000158,apply,Apply a structured EMS assessment and management plan for suctioning at the AEMT level.,1,scenario/question
+obj_000316,les_aemt_000158,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000317,les_aemt_000159,apply,Apply a structured EMS assessment and management plan for suctioning at the AEMT level.,1,scenario/question
+obj_000318,les_aemt_000159,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000319,les_aemt_000160,apply,Apply a structured EMS assessment and management plan for adjuncts at the AEMT level.,1,scenario/question
+obj_000320,les_aemt_000160,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000321,les_aemt_000161,apply,Apply a structured EMS assessment and management plan for adjuncts at the AEMT level.,1,scenario/question
+obj_000322,les_aemt_000161,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000323,les_aemt_000162,apply,Apply a structured EMS assessment and management plan for adjuncts at the AEMT level.,1,scenario/question
+obj_000324,les_aemt_000162,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000325,les_aemt_000163,apply,Apply a structured EMS assessment and management plan for cpap at the AEMT level.,1,scenario/question
+obj_000326,les_aemt_000163,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000327,les_aemt_000164,apply,Apply a structured EMS assessment and management plan for cpap at the AEMT level.,1,scenario/question
+obj_000328,les_aemt_000164,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000329,les_aemt_000165,apply,Apply a structured EMS assessment and management plan for cpap at the AEMT level.,1,scenario/question
+obj_000330,les_aemt_000165,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000331,les_aemt_000166,apply,Apply a structured EMS assessment and management plan for respiratory distress at the AEMT level.,1,scenario/question
+obj_000332,les_aemt_000166,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000333,les_aemt_000167,apply,Apply a structured EMS assessment and management plan for respiratory distress at the AEMT level.,1,scenario/question
+obj_000334,les_aemt_000167,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000335,les_aemt_000168,apply,Apply a structured EMS assessment and management plan for respiratory distress at the AEMT level.,1,scenario/question
+obj_000336,les_aemt_000168,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000337,les_aemt_000169,apply,Apply a structured EMS assessment and management plan for asthma copd at the AEMT level.,1,scenario/question
+obj_000338,les_aemt_000169,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000339,les_aemt_000170,apply,Apply a structured EMS assessment and management plan for asthma copd at the AEMT level.,1,scenario/question
+obj_000340,les_aemt_000170,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000341,les_aemt_000171,apply,Apply a structured EMS assessment and management plan for asthma copd at the AEMT level.,1,scenario/question
+obj_000342,les_aemt_000171,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000343,les_aemt_000172,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the AEMT level.,1,scenario/question
+obj_000344,les_aemt_000172,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000345,les_aemt_000173,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the AEMT level.,1,scenario/question
+obj_000346,les_aemt_000173,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000347,les_aemt_000174,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the AEMT level.,1,scenario/question
+obj_000348,les_aemt_000174,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000349,les_aemt_000175,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the AEMT level.,1,scenario/question
+obj_000350,les_aemt_000175,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000351,les_aemt_000176,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the AEMT level.,1,scenario/question
+obj_000352,les_aemt_000176,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000353,les_aemt_000177,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the AEMT level.,1,scenario/question
+obj_000354,les_aemt_000177,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000355,les_aemt_000178,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the AEMT level.,1,scenario/question
+obj_000356,les_aemt_000178,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000357,les_aemt_000179,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the AEMT level.,1,scenario/question
+obj_000358,les_aemt_000179,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000359,les_aemt_000180,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the AEMT level.,1,scenario/question
+obj_000360,les_aemt_000180,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000361,les_aemt_000181,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the AEMT level.,1,scenario/question
+obj_000362,les_aemt_000181,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000363,les_aemt_000182,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the AEMT level.,1,scenario/question
+obj_000364,les_aemt_000182,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000365,les_aemt_000183,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the AEMT level.,1,scenario/question
+obj_000366,les_aemt_000183,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000367,les_aemt_000184,apply,Apply a structured EMS assessment and management plan for chest pain at the AEMT level.,1,scenario/question
+obj_000368,les_aemt_000184,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000369,les_aemt_000185,apply,Apply a structured EMS assessment and management plan for chest pain at the AEMT level.,1,scenario/question
+obj_000370,les_aemt_000185,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000371,les_aemt_000186,apply,Apply a structured EMS assessment and management plan for chest pain at the AEMT level.,1,scenario/question
+obj_000372,les_aemt_000186,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000373,les_aemt_000187,apply,Apply a structured EMS assessment and management plan for acs at the AEMT level.,1,scenario/question
+obj_000374,les_aemt_000187,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000375,les_aemt_000188,apply,Apply a structured EMS assessment and management plan for acs at the AEMT level.,1,scenario/question
+obj_000376,les_aemt_000188,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000377,les_aemt_000189,apply,Apply a structured EMS assessment and management plan for acs at the AEMT level.,1,scenario/question
+obj_000378,les_aemt_000189,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000379,les_aemt_000190,apply,Apply a structured EMS assessment and management plan for heart failure at the AEMT level.,1,scenario/question
+obj_000380,les_aemt_000190,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000381,les_aemt_000191,apply,Apply a structured EMS assessment and management plan for heart failure at the AEMT level.,1,scenario/question
+obj_000382,les_aemt_000191,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000383,les_aemt_000192,apply,Apply a structured EMS assessment and management plan for heart failure at the AEMT level.,1,scenario/question
+obj_000384,les_aemt_000192,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000385,les_aemt_000193,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the AEMT level.,1,scenario/question
+obj_000386,les_aemt_000193,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000387,les_aemt_000194,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the AEMT level.,1,scenario/question
+obj_000388,les_aemt_000194,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000389,les_aemt_000195,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the AEMT level.,1,scenario/question
+obj_000390,les_aemt_000195,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000391,les_aemt_000196,apply,Apply a structured EMS assessment and management plan for bradycardia at the AEMT level.,1,scenario/question
+obj_000392,les_aemt_000196,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000393,les_aemt_000197,apply,Apply a structured EMS assessment and management plan for bradycardia at the AEMT level.,1,scenario/question
+obj_000394,les_aemt_000197,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000395,les_aemt_000198,apply,Apply a structured EMS assessment and management plan for bradycardia at the AEMT level.,1,scenario/question
+obj_000396,les_aemt_000198,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000397,les_aemt_000199,apply,Apply a structured EMS assessment and management plan for tachycardia at the AEMT level.,1,scenario/question
+obj_000398,les_aemt_000199,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000399,les_aemt_000200,apply,Apply a structured EMS assessment and management plan for tachycardia at the AEMT level.,1,scenario/question
+obj_000400,les_aemt_000200,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000401,les_aemt_000201,apply,Apply a structured EMS assessment and management plan for tachycardia at the AEMT level.,1,scenario/question
+obj_000402,les_aemt_000201,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000403,les_aemt_000202,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the AEMT level.,1,scenario/question
+obj_000404,les_aemt_000202,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000405,les_aemt_000203,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the AEMT level.,1,scenario/question
+obj_000406,les_aemt_000203,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000407,les_aemt_000204,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the AEMT level.,1,scenario/question
+obj_000408,les_aemt_000204,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000409,les_aemt_000205,apply,Apply a structured EMS assessment and management plan for ecg basics at the AEMT level.,1,scenario/question
+obj_000410,les_aemt_000205,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000411,les_aemt_000206,apply,Apply a structured EMS assessment and management plan for ecg basics at the AEMT level.,1,scenario/question
+obj_000412,les_aemt_000206,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000413,les_aemt_000207,apply,Apply a structured EMS assessment and management plan for ecg basics at the AEMT level.,1,scenario/question
+obj_000414,les_aemt_000207,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000415,les_aemt_000208,apply,Apply a structured EMS assessment and management plan for twelve lead at the AEMT level.,1,scenario/question
+obj_000416,les_aemt_000208,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000417,les_aemt_000209,apply,Apply a structured EMS assessment and management plan for twelve lead at the AEMT level.,1,scenario/question
+obj_000418,les_aemt_000209,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000419,les_aemt_000210,apply,Apply a structured EMS assessment and management plan for twelve lead at the AEMT level.,1,scenario/question
+obj_000420,les_aemt_000210,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000421,les_aemt_000211,apply,Apply a structured EMS assessment and management plan for stemi recognition at the AEMT level.,1,scenario/question
+obj_000422,les_aemt_000211,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000423,les_aemt_000212,apply,Apply a structured EMS assessment and management plan for stemi recognition at the AEMT level.,1,scenario/question
+obj_000424,les_aemt_000212,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000425,les_aemt_000213,apply,Apply a structured EMS assessment and management plan for stemi recognition at the AEMT level.,1,scenario/question
+obj_000426,les_aemt_000213,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000427,les_aemt_000214,apply,Apply a structured EMS assessment and management plan for post rosc at the AEMT level.,1,scenario/question
+obj_000428,les_aemt_000214,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000429,les_aemt_000215,apply,Apply a structured EMS assessment and management plan for post rosc at the AEMT level.,1,scenario/question
+obj_000430,les_aemt_000215,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000431,les_aemt_000216,apply,Apply a structured EMS assessment and management plan for post rosc at the AEMT level.,1,scenario/question
+obj_000432,les_aemt_000216,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000433,les_aemt_000217,apply,Apply a structured EMS assessment and management plan for bleeding control at the AEMT level.,1,scenario/question
+obj_000434,les_aemt_000217,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000435,les_aemt_000218,apply,Apply a structured EMS assessment and management plan for bleeding control at the AEMT level.,1,scenario/question
+obj_000436,les_aemt_000218,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000437,les_aemt_000219,apply,Apply a structured EMS assessment and management plan for bleeding control at the AEMT level.,1,scenario/question
+obj_000438,les_aemt_000219,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000439,les_aemt_000220,apply,Apply a structured EMS assessment and management plan for shock trauma at the AEMT level.,1,scenario/question
+obj_000440,les_aemt_000220,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000441,les_aemt_000221,apply,Apply a structured EMS assessment and management plan for shock trauma at the AEMT level.,1,scenario/question
+obj_000442,les_aemt_000221,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000443,les_aemt_000222,apply,Apply a structured EMS assessment and management plan for shock trauma at the AEMT level.,1,scenario/question
+obj_000444,les_aemt_000222,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000445,les_aemt_000223,apply,Apply a structured EMS assessment and management plan for head injury at the AEMT level.,1,scenario/question
+obj_000446,les_aemt_000223,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000447,les_aemt_000224,apply,Apply a structured EMS assessment and management plan for head injury at the AEMT level.,1,scenario/question
+obj_000448,les_aemt_000224,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000449,les_aemt_000225,apply,Apply a structured EMS assessment and management plan for head injury at the AEMT level.,1,scenario/question
+obj_000450,les_aemt_000225,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000451,les_aemt_000226,apply,Apply a structured EMS assessment and management plan for spinal motion at the AEMT level.,1,scenario/question
+obj_000452,les_aemt_000226,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000453,les_aemt_000227,apply,Apply a structured EMS assessment and management plan for spinal motion at the AEMT level.,1,scenario/question
+obj_000454,les_aemt_000227,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000455,les_aemt_000228,apply,Apply a structured EMS assessment and management plan for spinal motion at the AEMT level.,1,scenario/question
+obj_000456,les_aemt_000228,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000457,les_aemt_000229,apply,Apply a structured EMS assessment and management plan for chest trauma at the AEMT level.,1,scenario/question
+obj_000458,les_aemt_000229,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000459,les_aemt_000230,apply,Apply a structured EMS assessment and management plan for chest trauma at the AEMT level.,1,scenario/question
+obj_000460,les_aemt_000230,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000461,les_aemt_000231,apply,Apply a structured EMS assessment and management plan for chest trauma at the AEMT level.,1,scenario/question
+obj_000462,les_aemt_000231,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000463,les_aemt_000232,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the AEMT level.,1,scenario/question
+obj_000464,les_aemt_000232,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000465,les_aemt_000233,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the AEMT level.,1,scenario/question
+obj_000466,les_aemt_000233,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000467,les_aemt_000234,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the AEMT level.,1,scenario/question
+obj_000468,les_aemt_000234,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000469,les_aemt_000235,apply,Apply a structured EMS assessment and management plan for pelvic injury at the AEMT level.,1,scenario/question
+obj_000470,les_aemt_000235,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000471,les_aemt_000236,apply,Apply a structured EMS assessment and management plan for pelvic injury at the AEMT level.,1,scenario/question
+obj_000472,les_aemt_000236,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000473,les_aemt_000237,apply,Apply a structured EMS assessment and management plan for pelvic injury at the AEMT level.,1,scenario/question
+obj_000474,les_aemt_000237,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000475,les_aemt_000238,apply,Apply a structured EMS assessment and management plan for extremity injury at the AEMT level.,1,scenario/question
+obj_000476,les_aemt_000238,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000477,les_aemt_000239,apply,Apply a structured EMS assessment and management plan for extremity injury at the AEMT level.,1,scenario/question
+obj_000478,les_aemt_000239,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000479,les_aemt_000240,apply,Apply a structured EMS assessment and management plan for extremity injury at the AEMT level.,1,scenario/question
+obj_000480,les_aemt_000240,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000481,les_aemt_000241,apply,Apply a structured EMS assessment and management plan for burns at the AEMT level.,1,scenario/question
+obj_000482,les_aemt_000241,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000483,les_aemt_000242,apply,Apply a structured EMS assessment and management plan for burns at the AEMT level.,1,scenario/question
+obj_000484,les_aemt_000242,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000485,les_aemt_000243,apply,Apply a structured EMS assessment and management plan for burns at the AEMT level.,1,scenario/question
+obj_000486,les_aemt_000243,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000487,les_aemt_000244,apply,Apply a structured EMS assessment and management plan for crush injury at the AEMT level.,1,scenario/question
+obj_000488,les_aemt_000244,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000489,les_aemt_000245,apply,Apply a structured EMS assessment and management plan for crush injury at the AEMT level.,1,scenario/question
+obj_000490,les_aemt_000245,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000491,les_aemt_000246,apply,Apply a structured EMS assessment and management plan for crush injury at the AEMT level.,1,scenario/question
+obj_000492,les_aemt_000246,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000493,les_aemt_000247,apply,Apply a structured EMS assessment and management plan for trauma triage at the AEMT level.,1,scenario/question
+obj_000494,les_aemt_000247,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000495,les_aemt_000248,apply,Apply a structured EMS assessment and management plan for trauma triage at the AEMT level.,1,scenario/question
+obj_000496,les_aemt_000248,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000497,les_aemt_000249,apply,Apply a structured EMS assessment and management plan for trauma triage at the AEMT level.,1,scenario/question
+obj_000498,les_aemt_000249,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000499,les_aemt_000250,apply,Apply a structured EMS assessment and management plan for special trauma at the AEMT level.,1,scenario/question
+obj_000500,les_aemt_000250,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000501,les_aemt_000251,apply,Apply a structured EMS assessment and management plan for special trauma at the AEMT level.,1,scenario/question
+obj_000502,les_aemt_000251,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000503,les_aemt_000252,apply,Apply a structured EMS assessment and management plan for special trauma at the AEMT level.,1,scenario/question
+obj_000504,les_aemt_000252,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000505,les_aemt_000253,apply,Apply a structured EMS assessment and management plan for altered mental status at the AEMT level.,1,scenario/question
+obj_000506,les_aemt_000253,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000507,les_aemt_000254,apply,Apply a structured EMS assessment and management plan for altered mental status at the AEMT level.,1,scenario/question
+obj_000508,les_aemt_000254,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000509,les_aemt_000255,apply,Apply a structured EMS assessment and management plan for altered mental status at the AEMT level.,1,scenario/question
+obj_000510,les_aemt_000255,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000511,les_aemt_000256,apply,Apply a structured EMS assessment and management plan for stroke at the AEMT level.,1,scenario/question
+obj_000512,les_aemt_000256,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000513,les_aemt_000257,apply,Apply a structured EMS assessment and management plan for stroke at the AEMT level.,1,scenario/question
+obj_000514,les_aemt_000257,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000515,les_aemt_000258,apply,Apply a structured EMS assessment and management plan for stroke at the AEMT level.,1,scenario/question
+obj_000516,les_aemt_000258,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000517,les_aemt_000259,apply,Apply a structured EMS assessment and management plan for seizure at the AEMT level.,1,scenario/question
+obj_000518,les_aemt_000259,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000519,les_aemt_000260,apply,Apply a structured EMS assessment and management plan for seizure at the AEMT level.,1,scenario/question
+obj_000520,les_aemt_000260,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000521,les_aemt_000261,apply,Apply a structured EMS assessment and management plan for seizure at the AEMT level.,1,scenario/question
+obj_000522,les_aemt_000261,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000523,les_aemt_000262,apply,Apply a structured EMS assessment and management plan for diabetes at the AEMT level.,1,scenario/question
+obj_000524,les_aemt_000262,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000525,les_aemt_000263,apply,Apply a structured EMS assessment and management plan for diabetes at the AEMT level.,1,scenario/question
+obj_000526,les_aemt_000263,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000527,les_aemt_000264,apply,Apply a structured EMS assessment and management plan for diabetes at the AEMT level.,1,scenario/question
+obj_000528,les_aemt_000264,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000529,les_aemt_000265,apply,Apply a structured EMS assessment and management plan for toxicology at the AEMT level.,1,scenario/question
+obj_000530,les_aemt_000265,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000531,les_aemt_000266,apply,Apply a structured EMS assessment and management plan for toxicology at the AEMT level.,1,scenario/question
+obj_000532,les_aemt_000266,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000533,les_aemt_000267,apply,Apply a structured EMS assessment and management plan for toxicology at the AEMT level.,1,scenario/question
+obj_000534,les_aemt_000267,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000535,les_aemt_000268,apply,Apply a structured EMS assessment and management plan for sepsis at the AEMT level.,1,scenario/question
+obj_000536,les_aemt_000268,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000537,les_aemt_000269,apply,Apply a structured EMS assessment and management plan for sepsis at the AEMT level.,1,scenario/question
+obj_000538,les_aemt_000269,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000539,les_aemt_000270,apply,Apply a structured EMS assessment and management plan for sepsis at the AEMT level.,1,scenario/question
+obj_000540,les_aemt_000270,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000541,les_aemt_000271,apply,Apply a structured EMS assessment and management plan for abdominal pain at the AEMT level.,1,scenario/question
+obj_000542,les_aemt_000271,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000543,les_aemt_000272,apply,Apply a structured EMS assessment and management plan for abdominal pain at the AEMT level.,1,scenario/question
+obj_000544,les_aemt_000272,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000545,les_aemt_000273,apply,Apply a structured EMS assessment and management plan for abdominal pain at the AEMT level.,1,scenario/question
+obj_000546,les_aemt_000273,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000547,les_aemt_000274,apply,Apply a structured EMS assessment and management plan for renal at the AEMT level.,1,scenario/question
+obj_000548,les_aemt_000274,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000549,les_aemt_000275,apply,Apply a structured EMS assessment and management plan for renal at the AEMT level.,1,scenario/question
+obj_000550,les_aemt_000275,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000551,les_aemt_000276,apply,Apply a structured EMS assessment and management plan for renal at the AEMT level.,1,scenario/question
+obj_000552,les_aemt_000276,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000553,les_aemt_000277,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the AEMT level.,1,scenario/question
+obj_000554,les_aemt_000277,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000555,les_aemt_000278,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the AEMT level.,1,scenario/question
+obj_000556,les_aemt_000278,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000557,les_aemt_000279,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the AEMT level.,1,scenario/question
+obj_000558,les_aemt_000279,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000559,les_aemt_000280,apply,Apply a structured EMS assessment and management plan for ob delivery at the AEMT level.,1,scenario/question
+obj_000560,les_aemt_000280,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000561,les_aemt_000281,apply,Apply a structured EMS assessment and management plan for ob delivery at the AEMT level.,1,scenario/question
+obj_000562,les_aemt_000281,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000563,les_aemt_000282,apply,Apply a structured EMS assessment and management plan for ob delivery at the AEMT level.,1,scenario/question
+obj_000564,les_aemt_000282,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000565,les_aemt_000283,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the AEMT level.,1,scenario/question
+obj_000566,les_aemt_000283,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_000567,les_aemt_000284,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the AEMT level.,1,scenario/question
+obj_000568,les_aemt_000284,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_000569,les_aemt_000285,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the AEMT level.,1,scenario/question
+obj_000570,les_aemt_000285,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_000571,les_aemt_000286,apply,Apply a structured EMS assessment and management plan for pediatrics at the AEMT level.,1,scenario/question
+obj_000572,les_aemt_000286,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_000573,les_aemt_000287,apply,Apply a structured EMS assessment and management plan for pediatrics at the AEMT level.,1,scenario/question
+obj_000574,les_aemt_000287,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_000575,les_aemt_000288,apply,Apply a structured EMS assessment and management plan for pediatrics at the AEMT level.,1,scenario/question
+obj_000576,les_aemt_000288,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_000577,les_aemt_000289,apply,Apply a structured EMS assessment and management plan for geriatrics at the AEMT level.,1,scenario/question
+obj_000578,les_aemt_000289,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_000579,les_aemt_000290,apply,Apply a structured EMS assessment and management plan for geriatrics at the AEMT level.,1,scenario/question
+obj_000580,les_aemt_000290,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_000581,les_aemt_000291,apply,Apply a structured EMS assessment and management plan for geriatrics at the AEMT level.,1,scenario/question
+obj_000582,les_aemt_000291,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_000583,les_aemt_000292,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the AEMT level.,1,scenario/question
+obj_000584,les_aemt_000292,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_000585,les_aemt_000293,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the AEMT level.,1,scenario/question
+obj_000586,les_aemt_000293,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_000587,les_aemt_000294,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the AEMT level.,1,scenario/question
+obj_000588,les_aemt_000294,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_000589,les_aemt_000295,apply,Apply a structured EMS assessment and management plan for scene safety at the AEMT level.,1,scenario/question
+obj_000590,les_aemt_000295,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_000591,les_aemt_000296,apply,Apply a structured EMS assessment and management plan for scene safety at the AEMT level.,1,scenario/question
+obj_000592,les_aemt_000296,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_000593,les_aemt_000297,apply,Apply a structured EMS assessment and management plan for scene safety at the AEMT level.,1,scenario/question
+obj_000594,les_aemt_000297,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_000595,les_aemt_000298,apply,Apply a structured EMS assessment and management plan for ppe infection control at the AEMT level.,1,scenario/question
+obj_000596,les_aemt_000298,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_000597,les_aemt_000299,apply,Apply a structured EMS assessment and management plan for ppe infection control at the AEMT level.,1,scenario/question
+obj_000598,les_aemt_000299,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_000599,les_aemt_000300,apply,Apply a structured EMS assessment and management plan for ppe infection control at the AEMT level.,1,scenario/question
+obj_000600,les_aemt_000300,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_000601,les_aemt_000301,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the AEMT level.,1,scenario/question
+obj_000602,les_aemt_000301,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_000603,les_aemt_000302,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the AEMT level.,1,scenario/question
+obj_000604,les_aemt_000302,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_000605,les_aemt_000303,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the AEMT level.,1,scenario/question
+obj_000606,les_aemt_000303,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_000607,les_aemt_000304,apply,Apply a structured EMS assessment and management plan for mci triage at the AEMT level.,1,scenario/question
+obj_000608,les_aemt_000304,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_000609,les_aemt_000305,apply,Apply a structured EMS assessment and management plan for mci triage at the AEMT level.,1,scenario/question
+obj_000610,les_aemt_000305,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_000611,les_aemt_000306,apply,Apply a structured EMS assessment and management plan for mci triage at the AEMT level.,1,scenario/question
+obj_000612,les_aemt_000306,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_000613,les_aemt_000307,apply,Apply a structured EMS assessment and management plan for radio report at the AEMT level.,1,scenario/question
+obj_000614,les_aemt_000307,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_000615,les_aemt_000308,apply,Apply a structured EMS assessment and management plan for radio report at the AEMT level.,1,scenario/question
+obj_000616,les_aemt_000308,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_000617,les_aemt_000309,apply,Apply a structured EMS assessment and management plan for radio report at the AEMT level.,1,scenario/question
+obj_000618,les_aemt_000309,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_000619,les_aemt_000310,apply,Apply a structured EMS assessment and management plan for documentation at the AEMT level.,1,scenario/question
+obj_000620,les_aemt_000310,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_000621,les_aemt_000311,apply,Apply a structured EMS assessment and management plan for documentation at the AEMT level.,1,scenario/question
+obj_000622,les_aemt_000311,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_000623,les_aemt_000312,apply,Apply a structured EMS assessment and management plan for documentation at the AEMT level.,1,scenario/question
+obj_000624,les_aemt_000312,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_000625,les_aemt_000313,apply,Apply a structured EMS assessment and management plan for legal consent at the AEMT level.,1,scenario/question
+obj_000626,les_aemt_000313,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_000627,les_aemt_000314,apply,Apply a structured EMS assessment and management plan for legal consent at the AEMT level.,1,scenario/question
+obj_000628,les_aemt_000314,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_000629,les_aemt_000315,apply,Apply a structured EMS assessment and management plan for legal consent at the AEMT level.,1,scenario/question
+obj_000630,les_aemt_000315,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_000631,les_aemt_000316,apply,Apply a structured EMS assessment and management plan for refusal at the AEMT level.,1,scenario/question
+obj_000632,les_aemt_000316,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_000633,les_aemt_000317,apply,Apply a structured EMS assessment and management plan for refusal at the AEMT level.,1,scenario/question
+obj_000634,les_aemt_000317,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_000635,les_aemt_000318,apply,Apply a structured EMS assessment and management plan for refusal at the AEMT level.,1,scenario/question
+obj_000636,les_aemt_000318,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_000637,les_aemt_000319,apply,Apply a structured EMS assessment and management plan for interfacility at the AEMT level.,1,scenario/question
+obj_000638,les_aemt_000319,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_000639,les_aemt_000320,apply,Apply a structured EMS assessment and management plan for interfacility at the AEMT level.,1,scenario/question
+obj_000640,les_aemt_000320,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_000641,les_aemt_000321,apply,Apply a structured EMS assessment and management plan for interfacility at the AEMT level.,1,scenario/question
+obj_000642,les_aemt_000321,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_000643,les_aemt_000322,apply,Apply a structured EMS assessment and management plan for wellness resilience at the AEMT level.,1,scenario/question
+obj_000644,les_aemt_000322,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_000645,les_aemt_000323,apply,Apply a structured EMS assessment and management plan for wellness resilience at the AEMT level.,1,scenario/question
+obj_000646,les_aemt_000323,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_000647,les_aemt_000324,apply,Apply a structured EMS assessment and management plan for wellness resilience at the AEMT level.,1,scenario/question
+obj_000648,les_aemt_000324,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_000649,les_aemt_000325,apply,Apply a structured EMS assessment and management plan for ambulance ops at the AEMT level.,1,scenario/question
+obj_000650,les_aemt_000325,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_000651,les_aemt_000326,apply,Apply a structured EMS assessment and management plan for ambulance ops at the AEMT level.,1,scenario/question
+obj_000652,les_aemt_000326,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_000653,les_aemt_000327,apply,Apply a structured EMS assessment and management plan for ambulance ops at the AEMT level.,1,scenario/question
+obj_000654,les_aemt_000327,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_000655,les_aemt_000328,apply,Apply a structured EMS assessment and management plan for quality improvement at the AEMT level.,1,scenario/question
+obj_000656,les_aemt_000328,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_000657,les_aemt_000329,apply,Apply a structured EMS assessment and management plan for quality improvement at the AEMT level.,1,scenario/question
+obj_000658,les_aemt_000329,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_000659,les_aemt_000330,apply,Apply a structured EMS assessment and management plan for quality improvement at the AEMT level.,1,scenario/question
+obj_000660,les_aemt_000330,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_000661,les_aemt_000331,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the AEMT level.,1,scenario/question
+obj_000662,les_aemt_000331,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_000663,les_aemt_000332,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the AEMT level.,1,scenario/question
+obj_000664,les_aemt_000332,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_000665,les_aemt_000333,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the AEMT level.,1,scenario/question
+obj_000666,les_aemt_000333,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_000667,les_aemt_000334,apply,Apply a structured EMS assessment and management plan for medical terminology at the AEMT level.,1,scenario/question
+obj_000668,les_aemt_000334,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_000669,les_aemt_000335,apply,Apply a structured EMS assessment and management plan for medical terminology at the AEMT level.,1,scenario/question
+obj_000670,les_aemt_000335,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_000671,les_aemt_000336,apply,Apply a structured EMS assessment and management plan for medical terminology at the AEMT level.,1,scenario/question
+obj_000672,les_aemt_000336,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_000673,les_aemt_000337,apply,Apply a structured EMS assessment and management plan for pathophysiology at the AEMT level.,1,scenario/question
+obj_000674,les_aemt_000337,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_000675,les_aemt_000338,apply,Apply a structured EMS assessment and management plan for pathophysiology at the AEMT level.,1,scenario/question
+obj_000676,les_aemt_000338,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_000677,les_aemt_000339,apply,Apply a structured EMS assessment and management plan for pathophysiology at the AEMT level.,1,scenario/question
+obj_000678,les_aemt_000339,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_000679,les_aemt_000340,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the AEMT level.,1,scenario/question
+obj_000680,les_aemt_000340,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_000681,les_aemt_000341,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the AEMT level.,1,scenario/question
+obj_000682,les_aemt_000341,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_000683,les_aemt_000342,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the AEMT level.,1,scenario/question
+obj_000684,les_aemt_000342,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_000685,les_aemt_000343,apply,Apply a structured EMS assessment and management plan for medication math at the AEMT level.,1,scenario/question
+obj_000686,les_aemt_000343,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_000687,les_aemt_000344,apply,Apply a structured EMS assessment and management plan for medication math at the AEMT level.,1,scenario/question
+obj_000688,les_aemt_000344,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_000689,les_aemt_000345,apply,Apply a structured EMS assessment and management plan for medication math at the AEMT level.,1,scenario/question
+obj_000690,les_aemt_000345,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_000691,les_aemt_000346,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the AEMT level.,1,scenario/question
+obj_000692,les_aemt_000346,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_000693,les_aemt_000347,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the AEMT level.,1,scenario/question
+obj_000694,les_aemt_000347,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_000695,les_aemt_000348,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the AEMT level.,1,scenario/question
+obj_000696,les_aemt_000348,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_000697,les_aemt_000349,apply,Apply a structured EMS assessment and management plan for vital signs at the AEMT level.,1,scenario/question
+obj_000698,les_aemt_000349,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_000699,les_aemt_000350,apply,Apply a structured EMS assessment and management plan for vital signs at the AEMT level.,1,scenario/question
+obj_000700,les_aemt_000350,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_000701,les_aemt_000351,apply,Apply a structured EMS assessment and management plan for vital signs at the AEMT level.,1,scenario/question
+obj_000702,les_aemt_000351,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_000703,les_aemt_000352,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the AEMT level.,1,scenario/question
+obj_000704,les_aemt_000352,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_000705,les_aemt_000353,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the AEMT level.,1,scenario/question
+obj_000706,les_aemt_000353,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_000707,les_aemt_000354,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the AEMT level.,1,scenario/question
+obj_000708,les_aemt_000354,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_000709,les_aemt_000355,apply,Apply a structured EMS assessment and management plan for communication at the AEMT level.,1,scenario/question
+obj_000710,les_aemt_000355,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_000711,les_aemt_000356,apply,Apply a structured EMS assessment and management plan for communication at the AEMT level.,1,scenario/question
+obj_000712,les_aemt_000356,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_000713,les_aemt_000357,apply,Apply a structured EMS assessment and management plan for communication at the AEMT level.,1,scenario/question
+obj_000714,les_aemt_000357,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_000715,les_aemt_000358,apply,Apply a structured EMS assessment and management plan for ethics at the AEMT level.,1,scenario/question
+obj_000716,les_aemt_000358,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_000717,les_aemt_000359,apply,Apply a structured EMS assessment and management plan for ethics at the AEMT level.,1,scenario/question
+obj_000718,les_aemt_000359,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_000719,les_aemt_000360,apply,Apply a structured EMS assessment and management plan for ethics at the AEMT level.,1,scenario/question
+obj_000720,les_aemt_000360,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_000721,les_paramedic_000361,apply,Apply a structured EMS assessment and management plan for airway anatomy at the PARAMEDIC level.,1,scenario/question
+obj_000722,les_paramedic_000361,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000723,les_paramedic_000362,apply,Apply a structured EMS assessment and management plan for airway anatomy at the PARAMEDIC level.,1,scenario/question
+obj_000724,les_paramedic_000362,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000725,les_paramedic_000363,apply,Apply a structured EMS assessment and management plan for airway anatomy at the PARAMEDIC level.,1,scenario/question
+obj_000726,les_paramedic_000363,analyse,Identify red flags and common pitfalls in airway anatomy scenarios.,2,question/debrief
+obj_000727,les_paramedic_000364,apply,Apply a structured EMS assessment and management plan for airway assessment at the PARAMEDIC level.,1,scenario/question
+obj_000728,les_paramedic_000364,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000729,les_paramedic_000365,apply,Apply a structured EMS assessment and management plan for airway assessment at the PARAMEDIC level.,1,scenario/question
+obj_000730,les_paramedic_000365,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000731,les_paramedic_000366,apply,Apply a structured EMS assessment and management plan for airway assessment at the PARAMEDIC level.,1,scenario/question
+obj_000732,les_paramedic_000366,analyse,Identify red flags and common pitfalls in airway assessment scenarios.,2,question/debrief
+obj_000733,les_paramedic_000367,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the PARAMEDIC level.,1,scenario/question
+obj_000734,les_paramedic_000367,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000735,les_paramedic_000368,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the PARAMEDIC level.,1,scenario/question
+obj_000736,les_paramedic_000368,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000737,les_paramedic_000369,apply,Apply a structured EMS assessment and management plan for oxygen delivery at the PARAMEDIC level.,1,scenario/question
+obj_000738,les_paramedic_000369,analyse,Identify red flags and common pitfalls in oxygen delivery scenarios.,2,question/debrief
+obj_000739,les_paramedic_000370,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the PARAMEDIC level.,1,scenario/question
+obj_000740,les_paramedic_000370,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000741,les_paramedic_000371,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the PARAMEDIC level.,1,scenario/question
+obj_000742,les_paramedic_000371,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000743,les_paramedic_000372,apply,Apply a structured EMS assessment and management plan for bvm ventilation at the PARAMEDIC level.,1,scenario/question
+obj_000744,les_paramedic_000372,analyse,Identify red flags and common pitfalls in bvm ventilation scenarios.,2,question/debrief
+obj_000745,les_paramedic_000373,apply,Apply a structured EMS assessment and management plan for suctioning at the PARAMEDIC level.,1,scenario/question
+obj_000746,les_paramedic_000373,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000747,les_paramedic_000374,apply,Apply a structured EMS assessment and management plan for suctioning at the PARAMEDIC level.,1,scenario/question
+obj_000748,les_paramedic_000374,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000749,les_paramedic_000375,apply,Apply a structured EMS assessment and management plan for suctioning at the PARAMEDIC level.,1,scenario/question
+obj_000750,les_paramedic_000375,analyse,Identify red flags and common pitfalls in suctioning scenarios.,2,question/debrief
+obj_000751,les_paramedic_000376,apply,Apply a structured EMS assessment and management plan for adjuncts at the PARAMEDIC level.,1,scenario/question
+obj_000752,les_paramedic_000376,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000753,les_paramedic_000377,apply,Apply a structured EMS assessment and management plan for adjuncts at the PARAMEDIC level.,1,scenario/question
+obj_000754,les_paramedic_000377,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000755,les_paramedic_000378,apply,Apply a structured EMS assessment and management plan for adjuncts at the PARAMEDIC level.,1,scenario/question
+obj_000756,les_paramedic_000378,analyse,Identify red flags and common pitfalls in adjuncts scenarios.,2,question/debrief
+obj_000757,les_paramedic_000379,apply,Apply a structured EMS assessment and management plan for cpap at the PARAMEDIC level.,1,scenario/question
+obj_000758,les_paramedic_000379,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000759,les_paramedic_000380,apply,Apply a structured EMS assessment and management plan for cpap at the PARAMEDIC level.,1,scenario/question
+obj_000760,les_paramedic_000380,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000761,les_paramedic_000381,apply,Apply a structured EMS assessment and management plan for cpap at the PARAMEDIC level.,1,scenario/question
+obj_000762,les_paramedic_000381,analyse,Identify red flags and common pitfalls in cpap scenarios.,2,question/debrief
+obj_000763,les_paramedic_000382,apply,Apply a structured EMS assessment and management plan for respiratory distress at the PARAMEDIC level.,1,scenario/question
+obj_000764,les_paramedic_000382,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000765,les_paramedic_000383,apply,Apply a structured EMS assessment and management plan for respiratory distress at the PARAMEDIC level.,1,scenario/question
+obj_000766,les_paramedic_000383,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000767,les_paramedic_000384,apply,Apply a structured EMS assessment and management plan for respiratory distress at the PARAMEDIC level.,1,scenario/question
+obj_000768,les_paramedic_000384,analyse,Identify red flags and common pitfalls in respiratory distress scenarios.,2,question/debrief
+obj_000769,les_paramedic_000385,apply,Apply a structured EMS assessment and management plan for asthma copd at the PARAMEDIC level.,1,scenario/question
+obj_000770,les_paramedic_000385,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000771,les_paramedic_000386,apply,Apply a structured EMS assessment and management plan for asthma copd at the PARAMEDIC level.,1,scenario/question
+obj_000772,les_paramedic_000386,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000773,les_paramedic_000387,apply,Apply a structured EMS assessment and management plan for asthma copd at the PARAMEDIC level.,1,scenario/question
+obj_000774,les_paramedic_000387,analyse,Identify red flags and common pitfalls in asthma copd scenarios.,2,question/debrief
+obj_000775,les_paramedic_000388,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the PARAMEDIC level.,1,scenario/question
+obj_000776,les_paramedic_000388,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000777,les_paramedic_000389,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the PARAMEDIC level.,1,scenario/question
+obj_000778,les_paramedic_000389,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000779,les_paramedic_000390,apply,Apply a structured EMS assessment and management plan for pulmonary edema at the PARAMEDIC level.,1,scenario/question
+obj_000780,les_paramedic_000390,analyse,Identify red flags and common pitfalls in pulmonary edema scenarios.,2,question/debrief
+obj_000781,les_paramedic_000391,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the PARAMEDIC level.,1,scenario/question
+obj_000782,les_paramedic_000391,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000783,les_paramedic_000392,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the PARAMEDIC level.,1,scenario/question
+obj_000784,les_paramedic_000392,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000785,les_paramedic_000393,apply,Apply a structured EMS assessment and management plan for anaphylaxis airway at the PARAMEDIC level.,1,scenario/question
+obj_000786,les_paramedic_000393,analyse,Identify red flags and common pitfalls in anaphylaxis airway scenarios.,2,question/debrief
+obj_000787,les_paramedic_000394,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the PARAMEDIC level.,1,scenario/question
+obj_000788,les_paramedic_000394,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000789,les_paramedic_000395,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the PARAMEDIC level.,1,scenario/question
+obj_000790,les_paramedic_000395,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000791,les_paramedic_000396,apply,Apply a structured EMS assessment and management plan for ventilation monitoring at the PARAMEDIC level.,1,scenario/question
+obj_000792,les_paramedic_000396,analyse,Identify red flags and common pitfalls in ventilation monitoring scenarios.,2,question/debrief
+obj_000793,les_paramedic_000397,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the PARAMEDIC level.,1,scenario/question
+obj_000794,les_paramedic_000397,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000795,les_paramedic_000398,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the PARAMEDIC level.,1,scenario/question
+obj_000796,les_paramedic_000398,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000797,les_paramedic_000399,apply,Apply a structured EMS assessment and management plan for cardiac anatomy at the PARAMEDIC level.,1,scenario/question
+obj_000798,les_paramedic_000399,analyse,Identify red flags and common pitfalls in cardiac anatomy scenarios.,2,question/debrief
+obj_000799,les_paramedic_000400,apply,Apply a structured EMS assessment and management plan for chest pain at the PARAMEDIC level.,1,scenario/question
+obj_000800,les_paramedic_000400,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000801,les_paramedic_000401,apply,Apply a structured EMS assessment and management plan for chest pain at the PARAMEDIC level.,1,scenario/question
+obj_000802,les_paramedic_000401,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000803,les_paramedic_000402,apply,Apply a structured EMS assessment and management plan for chest pain at the PARAMEDIC level.,1,scenario/question
+obj_000804,les_paramedic_000402,analyse,Identify red flags and common pitfalls in chest pain scenarios.,2,question/debrief
+obj_000805,les_paramedic_000403,apply,Apply a structured EMS assessment and management plan for acs at the PARAMEDIC level.,1,scenario/question
+obj_000806,les_paramedic_000403,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000807,les_paramedic_000404,apply,Apply a structured EMS assessment and management plan for acs at the PARAMEDIC level.,1,scenario/question
+obj_000808,les_paramedic_000404,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000809,les_paramedic_000405,apply,Apply a structured EMS assessment and management plan for acs at the PARAMEDIC level.,1,scenario/question
+obj_000810,les_paramedic_000405,analyse,Identify red flags and common pitfalls in acs scenarios.,2,question/debrief
+obj_000811,les_paramedic_000406,apply,Apply a structured EMS assessment and management plan for heart failure at the PARAMEDIC level.,1,scenario/question
+obj_000812,les_paramedic_000406,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000813,les_paramedic_000407,apply,Apply a structured EMS assessment and management plan for heart failure at the PARAMEDIC level.,1,scenario/question
+obj_000814,les_paramedic_000407,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000815,les_paramedic_000408,apply,Apply a structured EMS assessment and management plan for heart failure at the PARAMEDIC level.,1,scenario/question
+obj_000816,les_paramedic_000408,analyse,Identify red flags and common pitfalls in heart failure scenarios.,2,question/debrief
+obj_000817,les_paramedic_000409,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the PARAMEDIC level.,1,scenario/question
+obj_000818,les_paramedic_000409,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000819,les_paramedic_000410,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the PARAMEDIC level.,1,scenario/question
+obj_000820,les_paramedic_000410,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000821,les_paramedic_000411,apply,Apply a structured EMS assessment and management plan for cardiac arrest at the PARAMEDIC level.,1,scenario/question
+obj_000822,les_paramedic_000411,analyse,Identify red flags and common pitfalls in cardiac arrest scenarios.,2,question/debrief
+obj_000823,les_paramedic_000412,apply,Apply a structured EMS assessment and management plan for bradycardia at the PARAMEDIC level.,1,scenario/question
+obj_000824,les_paramedic_000412,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000825,les_paramedic_000413,apply,Apply a structured EMS assessment and management plan for bradycardia at the PARAMEDIC level.,1,scenario/question
+obj_000826,les_paramedic_000413,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000827,les_paramedic_000414,apply,Apply a structured EMS assessment and management plan for bradycardia at the PARAMEDIC level.,1,scenario/question
+obj_000828,les_paramedic_000414,analyse,Identify red flags and common pitfalls in bradycardia scenarios.,2,question/debrief
+obj_000829,les_paramedic_000415,apply,Apply a structured EMS assessment and management plan for tachycardia at the PARAMEDIC level.,1,scenario/question
+obj_000830,les_paramedic_000415,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000831,les_paramedic_000416,apply,Apply a structured EMS assessment and management plan for tachycardia at the PARAMEDIC level.,1,scenario/question
+obj_000832,les_paramedic_000416,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000833,les_paramedic_000417,apply,Apply a structured EMS assessment and management plan for tachycardia at the PARAMEDIC level.,1,scenario/question
+obj_000834,les_paramedic_000417,analyse,Identify red flags and common pitfalls in tachycardia scenarios.,2,question/debrief
+obj_000835,les_paramedic_000418,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the PARAMEDIC level.,1,scenario/question
+obj_000836,les_paramedic_000418,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000837,les_paramedic_000419,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the PARAMEDIC level.,1,scenario/question
+obj_000838,les_paramedic_000419,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000839,les_paramedic_000420,apply,Apply a structured EMS assessment and management plan for shockable rhythms at the PARAMEDIC level.,1,scenario/question
+obj_000840,les_paramedic_000420,analyse,Identify red flags and common pitfalls in shockable rhythms scenarios.,2,question/debrief
+obj_000841,les_paramedic_000421,apply,Apply a structured EMS assessment and management plan for ecg basics at the PARAMEDIC level.,1,scenario/question
+obj_000842,les_paramedic_000421,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000843,les_paramedic_000422,apply,Apply a structured EMS assessment and management plan for ecg basics at the PARAMEDIC level.,1,scenario/question
+obj_000844,les_paramedic_000422,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000845,les_paramedic_000423,apply,Apply a structured EMS assessment and management plan for ecg basics at the PARAMEDIC level.,1,scenario/question
+obj_000846,les_paramedic_000423,analyse,Identify red flags and common pitfalls in ecg basics scenarios.,2,question/debrief
+obj_000847,les_paramedic_000424,apply,Apply a structured EMS assessment and management plan for twelve lead at the PARAMEDIC level.,1,scenario/question
+obj_000848,les_paramedic_000424,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000849,les_paramedic_000425,apply,Apply a structured EMS assessment and management plan for twelve lead at the PARAMEDIC level.,1,scenario/question
+obj_000850,les_paramedic_000425,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000851,les_paramedic_000426,apply,Apply a structured EMS assessment and management plan for twelve lead at the PARAMEDIC level.,1,scenario/question
+obj_000852,les_paramedic_000426,analyse,Identify red flags and common pitfalls in twelve lead scenarios.,2,question/debrief
+obj_000853,les_paramedic_000427,apply,Apply a structured EMS assessment and management plan for stemi recognition at the PARAMEDIC level.,1,scenario/question
+obj_000854,les_paramedic_000427,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000855,les_paramedic_000428,apply,Apply a structured EMS assessment and management plan for stemi recognition at the PARAMEDIC level.,1,scenario/question
+obj_000856,les_paramedic_000428,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000857,les_paramedic_000429,apply,Apply a structured EMS assessment and management plan for stemi recognition at the PARAMEDIC level.,1,scenario/question
+obj_000858,les_paramedic_000429,analyse,Identify red flags and common pitfalls in stemi recognition scenarios.,2,question/debrief
+obj_000859,les_paramedic_000430,apply,Apply a structured EMS assessment and management plan for post rosc at the PARAMEDIC level.,1,scenario/question
+obj_000860,les_paramedic_000430,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000861,les_paramedic_000431,apply,Apply a structured EMS assessment and management plan for post rosc at the PARAMEDIC level.,1,scenario/question
+obj_000862,les_paramedic_000431,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000863,les_paramedic_000432,apply,Apply a structured EMS assessment and management plan for post rosc at the PARAMEDIC level.,1,scenario/question
+obj_000864,les_paramedic_000432,analyse,Identify red flags and common pitfalls in post rosc scenarios.,2,question/debrief
+obj_000865,les_paramedic_000433,apply,Apply a structured EMS assessment and management plan for bleeding control at the PARAMEDIC level.,1,scenario/question
+obj_000866,les_paramedic_000433,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000867,les_paramedic_000434,apply,Apply a structured EMS assessment and management plan for bleeding control at the PARAMEDIC level.,1,scenario/question
+obj_000868,les_paramedic_000434,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000869,les_paramedic_000435,apply,Apply a structured EMS assessment and management plan for bleeding control at the PARAMEDIC level.,1,scenario/question
+obj_000870,les_paramedic_000435,analyse,Identify red flags and common pitfalls in bleeding control scenarios.,2,question/debrief
+obj_000871,les_paramedic_000436,apply,Apply a structured EMS assessment and management plan for shock trauma at the PARAMEDIC level.,1,scenario/question
+obj_000872,les_paramedic_000436,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000873,les_paramedic_000437,apply,Apply a structured EMS assessment and management plan for shock trauma at the PARAMEDIC level.,1,scenario/question
+obj_000874,les_paramedic_000437,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000875,les_paramedic_000438,apply,Apply a structured EMS assessment and management plan for shock trauma at the PARAMEDIC level.,1,scenario/question
+obj_000876,les_paramedic_000438,analyse,Identify red flags and common pitfalls in shock trauma scenarios.,2,question/debrief
+obj_000877,les_paramedic_000439,apply,Apply a structured EMS assessment and management plan for head injury at the PARAMEDIC level.,1,scenario/question
+obj_000878,les_paramedic_000439,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000879,les_paramedic_000440,apply,Apply a structured EMS assessment and management plan for head injury at the PARAMEDIC level.,1,scenario/question
+obj_000880,les_paramedic_000440,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000881,les_paramedic_000441,apply,Apply a structured EMS assessment and management plan for head injury at the PARAMEDIC level.,1,scenario/question
+obj_000882,les_paramedic_000441,analyse,Identify red flags and common pitfalls in head injury scenarios.,2,question/debrief
+obj_000883,les_paramedic_000442,apply,Apply a structured EMS assessment and management plan for spinal motion at the PARAMEDIC level.,1,scenario/question
+obj_000884,les_paramedic_000442,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000885,les_paramedic_000443,apply,Apply a structured EMS assessment and management plan for spinal motion at the PARAMEDIC level.,1,scenario/question
+obj_000886,les_paramedic_000443,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000887,les_paramedic_000444,apply,Apply a structured EMS assessment and management plan for spinal motion at the PARAMEDIC level.,1,scenario/question
+obj_000888,les_paramedic_000444,analyse,Identify red flags and common pitfalls in spinal motion scenarios.,2,question/debrief
+obj_000889,les_paramedic_000445,apply,Apply a structured EMS assessment and management plan for chest trauma at the PARAMEDIC level.,1,scenario/question
+obj_000890,les_paramedic_000445,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000891,les_paramedic_000446,apply,Apply a structured EMS assessment and management plan for chest trauma at the PARAMEDIC level.,1,scenario/question
+obj_000892,les_paramedic_000446,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000893,les_paramedic_000447,apply,Apply a structured EMS assessment and management plan for chest trauma at the PARAMEDIC level.,1,scenario/question
+obj_000894,les_paramedic_000447,analyse,Identify red flags and common pitfalls in chest trauma scenarios.,2,question/debrief
+obj_000895,les_paramedic_000448,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the PARAMEDIC level.,1,scenario/question
+obj_000896,les_paramedic_000448,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000897,les_paramedic_000449,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the PARAMEDIC level.,1,scenario/question
+obj_000898,les_paramedic_000449,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000899,les_paramedic_000450,apply,Apply a structured EMS assessment and management plan for abdominal trauma at the PARAMEDIC level.,1,scenario/question
+obj_000900,les_paramedic_000450,analyse,Identify red flags and common pitfalls in abdominal trauma scenarios.,2,question/debrief
+obj_000901,les_paramedic_000451,apply,Apply a structured EMS assessment and management plan for pelvic injury at the PARAMEDIC level.,1,scenario/question
+obj_000902,les_paramedic_000451,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000903,les_paramedic_000452,apply,Apply a structured EMS assessment and management plan for pelvic injury at the PARAMEDIC level.,1,scenario/question
+obj_000904,les_paramedic_000452,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000905,les_paramedic_000453,apply,Apply a structured EMS assessment and management plan for pelvic injury at the PARAMEDIC level.,1,scenario/question
+obj_000906,les_paramedic_000453,analyse,Identify red flags and common pitfalls in pelvic injury scenarios.,2,question/debrief
+obj_000907,les_paramedic_000454,apply,Apply a structured EMS assessment and management plan for extremity injury at the PARAMEDIC level.,1,scenario/question
+obj_000908,les_paramedic_000454,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000909,les_paramedic_000455,apply,Apply a structured EMS assessment and management plan for extremity injury at the PARAMEDIC level.,1,scenario/question
+obj_000910,les_paramedic_000455,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000911,les_paramedic_000456,apply,Apply a structured EMS assessment and management plan for extremity injury at the PARAMEDIC level.,1,scenario/question
+obj_000912,les_paramedic_000456,analyse,Identify red flags and common pitfalls in extremity injury scenarios.,2,question/debrief
+obj_000913,les_paramedic_000457,apply,Apply a structured EMS assessment and management plan for burns at the PARAMEDIC level.,1,scenario/question
+obj_000914,les_paramedic_000457,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000915,les_paramedic_000458,apply,Apply a structured EMS assessment and management plan for burns at the PARAMEDIC level.,1,scenario/question
+obj_000916,les_paramedic_000458,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000917,les_paramedic_000459,apply,Apply a structured EMS assessment and management plan for burns at the PARAMEDIC level.,1,scenario/question
+obj_000918,les_paramedic_000459,analyse,Identify red flags and common pitfalls in burns scenarios.,2,question/debrief
+obj_000919,les_paramedic_000460,apply,Apply a structured EMS assessment and management plan for crush injury at the PARAMEDIC level.,1,scenario/question
+obj_000920,les_paramedic_000460,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000921,les_paramedic_000461,apply,Apply a structured EMS assessment and management plan for crush injury at the PARAMEDIC level.,1,scenario/question
+obj_000922,les_paramedic_000461,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000923,les_paramedic_000462,apply,Apply a structured EMS assessment and management plan for crush injury at the PARAMEDIC level.,1,scenario/question
+obj_000924,les_paramedic_000462,analyse,Identify red flags and common pitfalls in crush injury scenarios.,2,question/debrief
+obj_000925,les_paramedic_000463,apply,Apply a structured EMS assessment and management plan for trauma triage at the PARAMEDIC level.,1,scenario/question
+obj_000926,les_paramedic_000463,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000927,les_paramedic_000464,apply,Apply a structured EMS assessment and management plan for trauma triage at the PARAMEDIC level.,1,scenario/question
+obj_000928,les_paramedic_000464,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000929,les_paramedic_000465,apply,Apply a structured EMS assessment and management plan for trauma triage at the PARAMEDIC level.,1,scenario/question
+obj_000930,les_paramedic_000465,analyse,Identify red flags and common pitfalls in trauma triage scenarios.,2,question/debrief
+obj_000931,les_paramedic_000466,apply,Apply a structured EMS assessment and management plan for special trauma at the PARAMEDIC level.,1,scenario/question
+obj_000932,les_paramedic_000466,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000933,les_paramedic_000467,apply,Apply a structured EMS assessment and management plan for special trauma at the PARAMEDIC level.,1,scenario/question
+obj_000934,les_paramedic_000467,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000935,les_paramedic_000468,apply,Apply a structured EMS assessment and management plan for special trauma at the PARAMEDIC level.,1,scenario/question
+obj_000936,les_paramedic_000468,analyse,Identify red flags and common pitfalls in special trauma scenarios.,2,question/debrief
+obj_000937,les_paramedic_000469,apply,Apply a structured EMS assessment and management plan for altered mental status at the PARAMEDIC level.,1,scenario/question
+obj_000938,les_paramedic_000469,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000939,les_paramedic_000470,apply,Apply a structured EMS assessment and management plan for altered mental status at the PARAMEDIC level.,1,scenario/question
+obj_000940,les_paramedic_000470,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000941,les_paramedic_000471,apply,Apply a structured EMS assessment and management plan for altered mental status at the PARAMEDIC level.,1,scenario/question
+obj_000942,les_paramedic_000471,analyse,Identify red flags and common pitfalls in altered mental status scenarios.,2,question/debrief
+obj_000943,les_paramedic_000472,apply,Apply a structured EMS assessment and management plan for stroke at the PARAMEDIC level.,1,scenario/question
+obj_000944,les_paramedic_000472,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000945,les_paramedic_000473,apply,Apply a structured EMS assessment and management plan for stroke at the PARAMEDIC level.,1,scenario/question
+obj_000946,les_paramedic_000473,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000947,les_paramedic_000474,apply,Apply a structured EMS assessment and management plan for stroke at the PARAMEDIC level.,1,scenario/question
+obj_000948,les_paramedic_000474,analyse,Identify red flags and common pitfalls in stroke scenarios.,2,question/debrief
+obj_000949,les_paramedic_000475,apply,Apply a structured EMS assessment and management plan for seizure at the PARAMEDIC level.,1,scenario/question
+obj_000950,les_paramedic_000475,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000951,les_paramedic_000476,apply,Apply a structured EMS assessment and management plan for seizure at the PARAMEDIC level.,1,scenario/question
+obj_000952,les_paramedic_000476,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000953,les_paramedic_000477,apply,Apply a structured EMS assessment and management plan for seizure at the PARAMEDIC level.,1,scenario/question
+obj_000954,les_paramedic_000477,analyse,Identify red flags and common pitfalls in seizure scenarios.,2,question/debrief
+obj_000955,les_paramedic_000478,apply,Apply a structured EMS assessment and management plan for diabetes at the PARAMEDIC level.,1,scenario/question
+obj_000956,les_paramedic_000478,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000957,les_paramedic_000479,apply,Apply a structured EMS assessment and management plan for diabetes at the PARAMEDIC level.,1,scenario/question
+obj_000958,les_paramedic_000479,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000959,les_paramedic_000480,apply,Apply a structured EMS assessment and management plan for diabetes at the PARAMEDIC level.,1,scenario/question
+obj_000960,les_paramedic_000480,analyse,Identify red flags and common pitfalls in diabetes scenarios.,2,question/debrief
+obj_000961,les_paramedic_000481,apply,Apply a structured EMS assessment and management plan for toxicology at the PARAMEDIC level.,1,scenario/question
+obj_000962,les_paramedic_000481,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000963,les_paramedic_000482,apply,Apply a structured EMS assessment and management plan for toxicology at the PARAMEDIC level.,1,scenario/question
+obj_000964,les_paramedic_000482,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000965,les_paramedic_000483,apply,Apply a structured EMS assessment and management plan for toxicology at the PARAMEDIC level.,1,scenario/question
+obj_000966,les_paramedic_000483,analyse,Identify red flags and common pitfalls in toxicology scenarios.,2,question/debrief
+obj_000967,les_paramedic_000484,apply,Apply a structured EMS assessment and management plan for sepsis at the PARAMEDIC level.,1,scenario/question
+obj_000968,les_paramedic_000484,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000969,les_paramedic_000485,apply,Apply a structured EMS assessment and management plan for sepsis at the PARAMEDIC level.,1,scenario/question
+obj_000970,les_paramedic_000485,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000971,les_paramedic_000486,apply,Apply a structured EMS assessment and management plan for sepsis at the PARAMEDIC level.,1,scenario/question
+obj_000972,les_paramedic_000486,analyse,Identify red flags and common pitfalls in sepsis scenarios.,2,question/debrief
+obj_000973,les_paramedic_000487,apply,Apply a structured EMS assessment and management plan for abdominal pain at the PARAMEDIC level.,1,scenario/question
+obj_000974,les_paramedic_000487,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000975,les_paramedic_000488,apply,Apply a structured EMS assessment and management plan for abdominal pain at the PARAMEDIC level.,1,scenario/question
+obj_000976,les_paramedic_000488,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000977,les_paramedic_000489,apply,Apply a structured EMS assessment and management plan for abdominal pain at the PARAMEDIC level.,1,scenario/question
+obj_000978,les_paramedic_000489,analyse,Identify red flags and common pitfalls in abdominal pain scenarios.,2,question/debrief
+obj_000979,les_paramedic_000490,apply,Apply a structured EMS assessment and management plan for renal at the PARAMEDIC level.,1,scenario/question
+obj_000980,les_paramedic_000490,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000981,les_paramedic_000491,apply,Apply a structured EMS assessment and management plan for renal at the PARAMEDIC level.,1,scenario/question
+obj_000982,les_paramedic_000491,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000983,les_paramedic_000492,apply,Apply a structured EMS assessment and management plan for renal at the PARAMEDIC level.,1,scenario/question
+obj_000984,les_paramedic_000492,analyse,Identify red flags and common pitfalls in renal scenarios.,2,question/debrief
+obj_000985,les_paramedic_000493,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the PARAMEDIC level.,1,scenario/question
+obj_000986,les_paramedic_000493,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000987,les_paramedic_000494,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the PARAMEDIC level.,1,scenario/question
+obj_000988,les_paramedic_000494,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000989,les_paramedic_000495,apply,Apply a structured EMS assessment and management plan for behavioral crisis at the PARAMEDIC level.,1,scenario/question
+obj_000990,les_paramedic_000495,analyse,Identify red flags and common pitfalls in behavioral crisis scenarios.,2,question/debrief
+obj_000991,les_paramedic_000496,apply,Apply a structured EMS assessment and management plan for ob delivery at the PARAMEDIC level.,1,scenario/question
+obj_000992,les_paramedic_000496,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000993,les_paramedic_000497,apply,Apply a structured EMS assessment and management plan for ob delivery at the PARAMEDIC level.,1,scenario/question
+obj_000994,les_paramedic_000497,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000995,les_paramedic_000498,apply,Apply a structured EMS assessment and management plan for ob delivery at the PARAMEDIC level.,1,scenario/question
+obj_000996,les_paramedic_000498,analyse,Identify red flags and common pitfalls in ob delivery scenarios.,2,question/debrief
+obj_000997,les_paramedic_000499,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the PARAMEDIC level.,1,scenario/question
+obj_000998,les_paramedic_000499,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_000999,les_paramedic_000500,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the PARAMEDIC level.,1,scenario/question
+obj_001000,les_paramedic_000500,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_001001,les_paramedic_000501,apply,Apply a structured EMS assessment and management plan for neonatal resuscitation at the PARAMEDIC level.,1,scenario/question
+obj_001002,les_paramedic_000501,analyse,Identify red flags and common pitfalls in neonatal resuscitation scenarios.,2,question/debrief
+obj_001003,les_paramedic_000502,apply,Apply a structured EMS assessment and management plan for pediatrics at the PARAMEDIC level.,1,scenario/question
+obj_001004,les_paramedic_000502,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_001005,les_paramedic_000503,apply,Apply a structured EMS assessment and management plan for pediatrics at the PARAMEDIC level.,1,scenario/question
+obj_001006,les_paramedic_000503,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_001007,les_paramedic_000504,apply,Apply a structured EMS assessment and management plan for pediatrics at the PARAMEDIC level.,1,scenario/question
+obj_001008,les_paramedic_000504,analyse,Identify red flags and common pitfalls in pediatrics scenarios.,2,question/debrief
+obj_001009,les_paramedic_000505,apply,Apply a structured EMS assessment and management plan for geriatrics at the PARAMEDIC level.,1,scenario/question
+obj_001010,les_paramedic_000505,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_001011,les_paramedic_000506,apply,Apply a structured EMS assessment and management plan for geriatrics at the PARAMEDIC level.,1,scenario/question
+obj_001012,les_paramedic_000506,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_001013,les_paramedic_000507,apply,Apply a structured EMS assessment and management plan for geriatrics at the PARAMEDIC level.,1,scenario/question
+obj_001014,les_paramedic_000507,analyse,Identify red flags and common pitfalls in geriatrics scenarios.,2,question/debrief
+obj_001015,les_paramedic_000508,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the PARAMEDIC level.,1,scenario/question
+obj_001016,les_paramedic_000508,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_001017,les_paramedic_000509,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the PARAMEDIC level.,1,scenario/question
+obj_001018,les_paramedic_000509,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_001019,les_paramedic_000510,apply,Apply a structured EMS assessment and management plan for allergy anaphylaxis at the PARAMEDIC level.,1,scenario/question
+obj_001020,les_paramedic_000510,analyse,Identify red flags and common pitfalls in allergy anaphylaxis scenarios.,2,question/debrief
+obj_001021,les_paramedic_000511,apply,Apply a structured EMS assessment and management plan for scene safety at the PARAMEDIC level.,1,scenario/question
+obj_001022,les_paramedic_000511,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_001023,les_paramedic_000512,apply,Apply a structured EMS assessment and management plan for scene safety at the PARAMEDIC level.,1,scenario/question
+obj_001024,les_paramedic_000512,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_001025,les_paramedic_000513,apply,Apply a structured EMS assessment and management plan for scene safety at the PARAMEDIC level.,1,scenario/question
+obj_001026,les_paramedic_000513,analyse,Identify red flags and common pitfalls in scene safety scenarios.,2,question/debrief
+obj_001027,les_paramedic_000514,apply,Apply a structured EMS assessment and management plan for ppe infection control at the PARAMEDIC level.,1,scenario/question
+obj_001028,les_paramedic_000514,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_001029,les_paramedic_000515,apply,Apply a structured EMS assessment and management plan for ppe infection control at the PARAMEDIC level.,1,scenario/question
+obj_001030,les_paramedic_000515,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_001031,les_paramedic_000516,apply,Apply a structured EMS assessment and management plan for ppe infection control at the PARAMEDIC level.,1,scenario/question
+obj_001032,les_paramedic_000516,analyse,Identify red flags and common pitfalls in ppe infection control scenarios.,2,question/debrief
+obj_001033,les_paramedic_000517,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the PARAMEDIC level.,1,scenario/question
+obj_001034,les_paramedic_000517,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_001035,les_paramedic_000518,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the PARAMEDIC level.,1,scenario/question
+obj_001036,les_paramedic_000518,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_001037,les_paramedic_000519,apply,Apply a structured EMS assessment and management plan for hazmat awareness at the PARAMEDIC level.,1,scenario/question
+obj_001038,les_paramedic_000519,analyse,Identify red flags and common pitfalls in hazmat awareness scenarios.,2,question/debrief
+obj_001039,les_paramedic_000520,apply,Apply a structured EMS assessment and management plan for mci triage at the PARAMEDIC level.,1,scenario/question
+obj_001040,les_paramedic_000520,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_001041,les_paramedic_000521,apply,Apply a structured EMS assessment and management plan for mci triage at the PARAMEDIC level.,1,scenario/question
+obj_001042,les_paramedic_000521,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_001043,les_paramedic_000522,apply,Apply a structured EMS assessment and management plan for mci triage at the PARAMEDIC level.,1,scenario/question
+obj_001044,les_paramedic_000522,analyse,Identify red flags and common pitfalls in mci triage scenarios.,2,question/debrief
+obj_001045,les_paramedic_000523,apply,Apply a structured EMS assessment and management plan for radio report at the PARAMEDIC level.,1,scenario/question
+obj_001046,les_paramedic_000523,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_001047,les_paramedic_000524,apply,Apply a structured EMS assessment and management plan for radio report at the PARAMEDIC level.,1,scenario/question
+obj_001048,les_paramedic_000524,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_001049,les_paramedic_000525,apply,Apply a structured EMS assessment and management plan for radio report at the PARAMEDIC level.,1,scenario/question
+obj_001050,les_paramedic_000525,analyse,Identify red flags and common pitfalls in radio report scenarios.,2,question/debrief
+obj_001051,les_paramedic_000526,apply,Apply a structured EMS assessment and management plan for documentation at the PARAMEDIC level.,1,scenario/question
+obj_001052,les_paramedic_000526,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_001053,les_paramedic_000527,apply,Apply a structured EMS assessment and management plan for documentation at the PARAMEDIC level.,1,scenario/question
+obj_001054,les_paramedic_000527,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_001055,les_paramedic_000528,apply,Apply a structured EMS assessment and management plan for documentation at the PARAMEDIC level.,1,scenario/question
+obj_001056,les_paramedic_000528,analyse,Identify red flags and common pitfalls in documentation scenarios.,2,question/debrief
+obj_001057,les_paramedic_000529,apply,Apply a structured EMS assessment and management plan for legal consent at the PARAMEDIC level.,1,scenario/question
+obj_001058,les_paramedic_000529,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_001059,les_paramedic_000530,apply,Apply a structured EMS assessment and management plan for legal consent at the PARAMEDIC level.,1,scenario/question
+obj_001060,les_paramedic_000530,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_001061,les_paramedic_000531,apply,Apply a structured EMS assessment and management plan for legal consent at the PARAMEDIC level.,1,scenario/question
+obj_001062,les_paramedic_000531,analyse,Identify red flags and common pitfalls in legal consent scenarios.,2,question/debrief
+obj_001063,les_paramedic_000532,apply,Apply a structured EMS assessment and management plan for refusal at the PARAMEDIC level.,1,scenario/question
+obj_001064,les_paramedic_000532,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_001065,les_paramedic_000533,apply,Apply a structured EMS assessment and management plan for refusal at the PARAMEDIC level.,1,scenario/question
+obj_001066,les_paramedic_000533,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_001067,les_paramedic_000534,apply,Apply a structured EMS assessment and management plan for refusal at the PARAMEDIC level.,1,scenario/question
+obj_001068,les_paramedic_000534,analyse,Identify red flags and common pitfalls in refusal scenarios.,2,question/debrief
+obj_001069,les_paramedic_000535,apply,Apply a structured EMS assessment and management plan for interfacility at the PARAMEDIC level.,1,scenario/question
+obj_001070,les_paramedic_000535,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_001071,les_paramedic_000536,apply,Apply a structured EMS assessment and management plan for interfacility at the PARAMEDIC level.,1,scenario/question
+obj_001072,les_paramedic_000536,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_001073,les_paramedic_000537,apply,Apply a structured EMS assessment and management plan for interfacility at the PARAMEDIC level.,1,scenario/question
+obj_001074,les_paramedic_000537,analyse,Identify red flags and common pitfalls in interfacility scenarios.,2,question/debrief
+obj_001075,les_paramedic_000538,apply,Apply a structured EMS assessment and management plan for wellness resilience at the PARAMEDIC level.,1,scenario/question
+obj_001076,les_paramedic_000538,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_001077,les_paramedic_000539,apply,Apply a structured EMS assessment and management plan for wellness resilience at the PARAMEDIC level.,1,scenario/question
+obj_001078,les_paramedic_000539,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_001079,les_paramedic_000540,apply,Apply a structured EMS assessment and management plan for wellness resilience at the PARAMEDIC level.,1,scenario/question
+obj_001080,les_paramedic_000540,analyse,Identify red flags and common pitfalls in wellness resilience scenarios.,2,question/debrief
+obj_001081,les_paramedic_000541,apply,Apply a structured EMS assessment and management plan for ambulance ops at the PARAMEDIC level.,1,scenario/question
+obj_001082,les_paramedic_000541,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_001083,les_paramedic_000542,apply,Apply a structured EMS assessment and management plan for ambulance ops at the PARAMEDIC level.,1,scenario/question
+obj_001084,les_paramedic_000542,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_001085,les_paramedic_000543,apply,Apply a structured EMS assessment and management plan for ambulance ops at the PARAMEDIC level.,1,scenario/question
+obj_001086,les_paramedic_000543,analyse,Identify red flags and common pitfalls in ambulance ops scenarios.,2,question/debrief
+obj_001087,les_paramedic_000544,apply,Apply a structured EMS assessment and management plan for quality improvement at the PARAMEDIC level.,1,scenario/question
+obj_001088,les_paramedic_000544,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_001089,les_paramedic_000545,apply,Apply a structured EMS assessment and management plan for quality improvement at the PARAMEDIC level.,1,scenario/question
+obj_001090,les_paramedic_000545,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_001091,les_paramedic_000546,apply,Apply a structured EMS assessment and management plan for quality improvement at the PARAMEDIC level.,1,scenario/question
+obj_001092,les_paramedic_000546,analyse,Identify red flags and common pitfalls in quality improvement scenarios.,2,question/debrief
+obj_001093,les_paramedic_000547,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the PARAMEDIC level.,1,scenario/question
+obj_001094,les_paramedic_000547,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_001095,les_paramedic_000548,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the PARAMEDIC level.,1,scenario/question
+obj_001096,les_paramedic_000548,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_001097,les_paramedic_000549,apply,Apply a structured EMS assessment and management plan for anatomy physiology at the PARAMEDIC level.,1,scenario/question
+obj_001098,les_paramedic_000549,analyse,Identify red flags and common pitfalls in anatomy physiology scenarios.,2,question/debrief
+obj_001099,les_paramedic_000550,apply,Apply a structured EMS assessment and management plan for medical terminology at the PARAMEDIC level.,1,scenario/question
+obj_001100,les_paramedic_000550,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_001101,les_paramedic_000551,apply,Apply a structured EMS assessment and management plan for medical terminology at the PARAMEDIC level.,1,scenario/question
+obj_001102,les_paramedic_000551,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_001103,les_paramedic_000552,apply,Apply a structured EMS assessment and management plan for medical terminology at the PARAMEDIC level.,1,scenario/question
+obj_001104,les_paramedic_000552,analyse,Identify red flags and common pitfalls in medical terminology scenarios.,2,question/debrief
+obj_001105,les_paramedic_000553,apply,Apply a structured EMS assessment and management plan for pathophysiology at the PARAMEDIC level.,1,scenario/question
+obj_001106,les_paramedic_000553,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_001107,les_paramedic_000554,apply,Apply a structured EMS assessment and management plan for pathophysiology at the PARAMEDIC level.,1,scenario/question
+obj_001108,les_paramedic_000554,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_001109,les_paramedic_000555,apply,Apply a structured EMS assessment and management plan for pathophysiology at the PARAMEDIC level.,1,scenario/question
+obj_001110,les_paramedic_000555,analyse,Identify red flags and common pitfalls in pathophysiology scenarios.,2,question/debrief
+obj_001111,les_paramedic_000556,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the PARAMEDIC level.,1,scenario/question
+obj_001112,les_paramedic_000556,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_001113,les_paramedic_000557,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the PARAMEDIC level.,1,scenario/question
+obj_001114,les_paramedic_000557,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_001115,les_paramedic_000558,apply,Apply a structured EMS assessment and management plan for pharmacology basics at the PARAMEDIC level.,1,scenario/question
+obj_001116,les_paramedic_000558,analyse,Identify red flags and common pitfalls in pharmacology basics scenarios.,2,question/debrief
+obj_001117,les_paramedic_000559,apply,Apply a structured EMS assessment and management plan for medication math at the PARAMEDIC level.,1,scenario/question
+obj_001118,les_paramedic_000559,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_001119,les_paramedic_000560,apply,Apply a structured EMS assessment and management plan for medication math at the PARAMEDIC level.,1,scenario/question
+obj_001120,les_paramedic_000560,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_001121,les_paramedic_000561,apply,Apply a structured EMS assessment and management plan for medication math at the PARAMEDIC level.,1,scenario/question
+obj_001122,les_paramedic_000561,analyse,Identify red flags and common pitfalls in medication math scenarios.,2,question/debrief
+obj_001123,les_paramedic_000562,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the PARAMEDIC level.,1,scenario/question
+obj_001124,les_paramedic_000562,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_001125,les_paramedic_000563,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the PARAMEDIC level.,1,scenario/question
+obj_001126,les_paramedic_000563,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_001127,les_paramedic_000564,apply,Apply a structured EMS assessment and management plan for ecg fundamentals at the PARAMEDIC level.,1,scenario/question
+obj_001128,les_paramedic_000564,analyse,Identify red flags and common pitfalls in ecg fundamentals scenarios.,2,question/debrief
+obj_001129,les_paramedic_000565,apply,Apply a structured EMS assessment and management plan for vital signs at the PARAMEDIC level.,1,scenario/question
+obj_001130,les_paramedic_000565,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_001131,les_paramedic_000566,apply,Apply a structured EMS assessment and management plan for vital signs at the PARAMEDIC level.,1,scenario/question
+obj_001132,les_paramedic_000566,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_001133,les_paramedic_000567,apply,Apply a structured EMS assessment and management plan for vital signs at the PARAMEDIC level.,1,scenario/question
+obj_001134,les_paramedic_000567,analyse,Identify red flags and common pitfalls in vital signs scenarios.,2,question/debrief
+obj_001135,les_paramedic_000568,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the PARAMEDIC level.,1,scenario/question
+obj_001136,les_paramedic_000568,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_001137,les_paramedic_000569,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the PARAMEDIC level.,1,scenario/question
+obj_001138,les_paramedic_000569,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_001139,les_paramedic_000570,apply,Apply a structured EMS assessment and management plan for assessment frameworks at the PARAMEDIC level.,1,scenario/question
+obj_001140,les_paramedic_000570,analyse,Identify red flags and common pitfalls in assessment frameworks scenarios.,2,question/debrief
+obj_001141,les_paramedic_000571,apply,Apply a structured EMS assessment and management plan for communication at the PARAMEDIC level.,1,scenario/question
+obj_001142,les_paramedic_000571,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_001143,les_paramedic_000572,apply,Apply a structured EMS assessment and management plan for communication at the PARAMEDIC level.,1,scenario/question
+obj_001144,les_paramedic_000572,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_001145,les_paramedic_000573,apply,Apply a structured EMS assessment and management plan for communication at the PARAMEDIC level.,1,scenario/question
+obj_001146,les_paramedic_000573,analyse,Identify red flags and common pitfalls in communication scenarios.,2,question/debrief
+obj_001147,les_paramedic_000574,apply,Apply a structured EMS assessment and management plan for ethics at the PARAMEDIC level.,1,scenario/question
+obj_001148,les_paramedic_000574,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_001149,les_paramedic_000575,apply,Apply a structured EMS assessment and management plan for ethics at the PARAMEDIC level.,1,scenario/question
+obj_001150,les_paramedic_000575,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief
+obj_001151,les_paramedic_000576,apply,Apply a structured EMS assessment and management plan for ethics at the PARAMEDIC level.,1,scenario/question
+obj_001152,les_paramedic_000576,analyse,Identify red flags and common pitfalls in ethics scenarios.,2,question/debrief

@@ -1,0 +1,130 @@
+taxonomy_id,parent_taxonomy_id,taxonomy_type,level_scope,code,display_name,description,sort_order,active
+tax_000001,,domain,shared,airway_resp_vent,"Airway, Respiration, and Ventilation","Major EMS curriculum domain: Airway, Respiration, and Ventilation",2,True
+tax_000002,tax_000001,topic,mixed,airway_anatomy,Airway Anatomy,"Topic within Airway, Respiration, and Ventilation: airway anatomy",2,True
+tax_000003,tax_000001,topic,mixed,airway_assessment,Airway Assessment,"Topic within Airway, Respiration, and Ventilation: airway assessment",3,True
+tax_000004,tax_000001,topic,mixed,oxygen_delivery,Oxygen Delivery,"Topic within Airway, Respiration, and Ventilation: oxygen delivery",4,True
+tax_000005,tax_000001,topic,mixed,bvm_ventilation,Bvm Ventilation,"Topic within Airway, Respiration, and Ventilation: bvm ventilation",5,True
+tax_000006,tax_000001,topic,mixed,suctioning,Suctioning,"Topic within Airway, Respiration, and Ventilation: suctioning",6,True
+tax_000007,tax_000001,topic,mixed,adjuncts,Adjuncts,"Topic within Airway, Respiration, and Ventilation: adjuncts",7,True
+tax_000008,tax_000001,topic,mixed,cpap,Cpap,"Topic within Airway, Respiration, and Ventilation: cpap",8,True
+tax_000009,tax_000001,topic,mixed,respiratory_distress,Respiratory Distress,"Topic within Airway, Respiration, and Ventilation: respiratory distress",9,True
+tax_000010,tax_000001,topic,mixed,asthma_copd,Asthma Copd,"Topic within Airway, Respiration, and Ventilation: asthma copd",10,True
+tax_000011,tax_000001,topic,mixed,pulmonary_edema,Pulmonary Edema,"Topic within Airway, Respiration, and Ventilation: pulmonary edema",11,True
+tax_000012,tax_000001,topic,mixed,anaphylaxis_airway,Anaphylaxis Airway,"Topic within Airway, Respiration, and Ventilation: anaphylaxis airway",12,True
+tax_000013,tax_000001,topic,mixed,ventilation_monitoring,Ventilation Monitoring,"Topic within Airway, Respiration, and Ventilation: ventilation monitoring",13,True
+tax_000014,,domain,shared,cardiology_resus_ecg,"Cardiology, Resuscitation, and ECG","Major EMS curriculum domain: Cardiology, Resuscitation, and ECG",15,True
+tax_000015,tax_000014,topic,mixed,cardiac_anatomy,Cardiac Anatomy,"Topic within Cardiology, Resuscitation, and ECG: cardiac anatomy",15,True
+tax_000016,tax_000014,topic,mixed,chest_pain,Chest Pain,"Topic within Cardiology, Resuscitation, and ECG: chest pain",16,True
+tax_000017,tax_000014,topic,mixed,acs,Acs,"Topic within Cardiology, Resuscitation, and ECG: acs",17,True
+tax_000018,tax_000014,topic,mixed,heart_failure,Heart Failure,"Topic within Cardiology, Resuscitation, and ECG: heart failure",18,True
+tax_000019,tax_000014,topic,mixed,cardiac_arrest,Cardiac Arrest,"Topic within Cardiology, Resuscitation, and ECG: cardiac arrest",19,True
+tax_000020,tax_000014,topic,mixed,bradycardia,Bradycardia,"Topic within Cardiology, Resuscitation, and ECG: bradycardia",20,True
+tax_000021,tax_000014,topic,mixed,tachycardia,Tachycardia,"Topic within Cardiology, Resuscitation, and ECG: tachycardia",21,True
+tax_000022,tax_000014,topic,mixed,shockable_rhythms,Shockable Rhythms,"Topic within Cardiology, Resuscitation, and ECG: shockable rhythms",22,True
+tax_000023,tax_000014,topic,mixed,ecg_basics,Ecg Basics,"Topic within Cardiology, Resuscitation, and ECG: ecg basics",23,True
+tax_000024,tax_000014,topic,mixed,twelve_lead,Twelve Lead,"Topic within Cardiology, Resuscitation, and ECG: twelve lead",24,True
+tax_000025,tax_000014,topic,mixed,stemi_recognition,Stemi Recognition,"Topic within Cardiology, Resuscitation, and ECG: stemi recognition",25,True
+tax_000026,tax_000014,topic,mixed,post_rosc,Post Rosc,"Topic within Cardiology, Resuscitation, and ECG: post rosc",26,True
+tax_000027,,domain,shared,trauma,Trauma,Major EMS curriculum domain: Trauma,28,True
+tax_000028,tax_000027,topic,mixed,bleeding_control,Bleeding Control,Topic within Trauma: bleeding control,28,True
+tax_000029,tax_000027,topic,mixed,shock_trauma,Shock Trauma,Topic within Trauma: shock trauma,29,True
+tax_000030,tax_000027,topic,mixed,head_injury,Head Injury,Topic within Trauma: head injury,30,True
+tax_000031,tax_000027,topic,mixed,spinal_motion,Spinal Motion,Topic within Trauma: spinal motion,31,True
+tax_000032,tax_000027,topic,mixed,chest_trauma,Chest Trauma,Topic within Trauma: chest trauma,32,True
+tax_000033,tax_000027,topic,mixed,abdominal_trauma,Abdominal Trauma,Topic within Trauma: abdominal trauma,33,True
+tax_000034,tax_000027,topic,mixed,pelvic_injury,Pelvic Injury,Topic within Trauma: pelvic injury,34,True
+tax_000035,tax_000027,topic,mixed,extremity_injury,Extremity Injury,Topic within Trauma: extremity injury,35,True
+tax_000036,tax_000027,topic,mixed,burns,Burns,Topic within Trauma: burns,36,True
+tax_000037,tax_000027,topic,mixed,crush_injury,Crush Injury,Topic within Trauma: crush injury,37,True
+tax_000038,tax_000027,topic,mixed,trauma_triage,Trauma Triage,Topic within Trauma: trauma triage,38,True
+tax_000039,tax_000027,topic,mixed,special_trauma,Special Trauma,Topic within Trauma: special trauma,39,True
+tax_000040,,domain,shared,medical_ob_special,"Medical, OB/GYN, and Special Populations","Major EMS curriculum domain: Medical, OB/GYN, and Special Populations",41,True
+tax_000041,tax_000040,topic,mixed,altered_mental_status,Altered Mental Status,"Topic within Medical, OB/GYN, and Special Populations: altered mental status",41,True
+tax_000042,tax_000040,topic,mixed,stroke,Stroke,"Topic within Medical, OB/GYN, and Special Populations: stroke",42,True
+tax_000043,tax_000040,topic,mixed,seizure,Seizure,"Topic within Medical, OB/GYN, and Special Populations: seizure",43,True
+tax_000044,tax_000040,topic,mixed,diabetes,Diabetes,"Topic within Medical, OB/GYN, and Special Populations: diabetes",44,True
+tax_000045,tax_000040,topic,mixed,toxicology,Toxicology,"Topic within Medical, OB/GYN, and Special Populations: toxicology",45,True
+tax_000046,tax_000040,topic,mixed,sepsis,Sepsis,"Topic within Medical, OB/GYN, and Special Populations: sepsis",46,True
+tax_000047,tax_000040,topic,mixed,abdominal_pain,Abdominal Pain,"Topic within Medical, OB/GYN, and Special Populations: abdominal pain",47,True
+tax_000048,tax_000040,topic,mixed,renal,Renal,"Topic within Medical, OB/GYN, and Special Populations: renal",48,True
+tax_000049,tax_000040,topic,mixed,behavioral_crisis,Behavioral Crisis,"Topic within Medical, OB/GYN, and Special Populations: behavioral crisis",49,True
+tax_000050,tax_000040,topic,mixed,ob_delivery,Ob Delivery,"Topic within Medical, OB/GYN, and Special Populations: ob delivery",50,True
+tax_000051,tax_000040,topic,mixed,neonatal_resuscitation,Neonatal Resuscitation,"Topic within Medical, OB/GYN, and Special Populations: neonatal resuscitation",51,True
+tax_000052,tax_000040,topic,mixed,pediatrics,Pediatrics,"Topic within Medical, OB/GYN, and Special Populations: pediatrics",52,True
+tax_000053,tax_000040,topic,mixed,geriatrics,Geriatrics,"Topic within Medical, OB/GYN, and Special Populations: geriatrics",53,True
+tax_000054,tax_000040,topic,mixed,allergy_anaphylaxis,Allergy Anaphylaxis,"Topic within Medical, OB/GYN, and Special Populations: allergy anaphylaxis",54,True
+tax_000055,,domain,shared,operations_safety_doc,"Operations, Safety, and Documentation","Major EMS curriculum domain: Operations, Safety, and Documentation",56,True
+tax_000056,tax_000055,topic,mixed,scene_safety,Scene Safety,"Topic within Operations, Safety, and Documentation: scene safety",56,True
+tax_000057,tax_000055,topic,mixed,ppe_infection_control,Ppe Infection Control,"Topic within Operations, Safety, and Documentation: ppe infection control",57,True
+tax_000058,tax_000055,topic,mixed,hazmat_awareness,Hazmat Awareness,"Topic within Operations, Safety, and Documentation: hazmat awareness",58,True
+tax_000059,tax_000055,topic,mixed,mci_triage,Mci Triage,"Topic within Operations, Safety, and Documentation: mci triage",59,True
+tax_000060,tax_000055,topic,mixed,radio_report,Radio Report,"Topic within Operations, Safety, and Documentation: radio report",60,True
+tax_000061,tax_000055,topic,mixed,documentation,Documentation,"Topic within Operations, Safety, and Documentation: documentation",61,True
+tax_000062,tax_000055,topic,mixed,legal_consent,Legal Consent,"Topic within Operations, Safety, and Documentation: legal consent",62,True
+tax_000063,tax_000055,topic,mixed,refusal,Refusal,"Topic within Operations, Safety, and Documentation: refusal",63,True
+tax_000064,tax_000055,topic,mixed,interfacility,Interfacility,"Topic within Operations, Safety, and Documentation: interfacility",64,True
+tax_000065,tax_000055,topic,mixed,wellness_resilience,Wellness Resilience,"Topic within Operations, Safety, and Documentation: wellness resilience",65,True
+tax_000066,tax_000055,topic,mixed,ambulance_ops,Ambulance Ops,"Topic within Operations, Safety, and Documentation: ambulance ops",66,True
+tax_000067,tax_000055,topic,mixed,quality_improvement,Quality Improvement,"Topic within Operations, Safety, and Documentation: quality improvement",67,True
+tax_000068,,domain,shared,foundations,Foundations and Preparatory,Major EMS curriculum domain: Foundations and Preparatory,69,True
+tax_000069,tax_000068,topic,mixed,anatomy_physiology,Anatomy Physiology,Topic within Foundations and Preparatory: anatomy physiology,69,True
+tax_000070,tax_000068,topic,mixed,medical_terminology,Medical Terminology,Topic within Foundations and Preparatory: medical terminology,70,True
+tax_000071,tax_000068,topic,mixed,pathophysiology,Pathophysiology,Topic within Foundations and Preparatory: pathophysiology,71,True
+tax_000072,tax_000068,topic,mixed,pharmacology_basics,Pharmacology Basics,Topic within Foundations and Preparatory: pharmacology basics,72,True
+tax_000073,tax_000068,topic,mixed,medication_math,Medication Math,Topic within Foundations and Preparatory: medication math,73,True
+tax_000074,tax_000068,topic,mixed,ecg_fundamentals,Ecg Fundamentals,Topic within Foundations and Preparatory: ecg fundamentals,74,True
+tax_000075,tax_000068,topic,mixed,vital_signs,Vital Signs,Topic within Foundations and Preparatory: vital signs,75,True
+tax_000076,tax_000068,topic,mixed,assessment_frameworks,Assessment Frameworks,Topic within Foundations and Preparatory: assessment frameworks,76,True
+tax_000077,tax_000068,topic,mixed,communication,Communication,Topic within Foundations and Preparatory: communication,77,True
+tax_000078,tax_000068,topic,mixed,ethics,Ethics,Topic within Foundations and Preparatory: ethics,78,True
+tax_000079,,age_group,shared,neonate,Neonate,Patient age group: neonate,79,True
+tax_000080,,age_group,shared,infant,Infant,Patient age group: infant,80,True
+tax_000081,,age_group,shared,toddler,Toddler,Patient age group: toddler,81,True
+tax_000082,,age_group,shared,preschool,Preschool,Patient age group: preschool,82,True
+tax_000083,,age_group,shared,school_age,School Age,Patient age group: school_age,83,True
+tax_000084,,age_group,shared,adolescent,Adolescent,Patient age group: adolescent,84,True
+tax_000085,,age_group,shared,adult,Adult,Patient age group: adult,85,True
+tax_000086,,age_group,shared,older_adult,Older Adult,Patient age group: older_adult,86,True
+tax_000087,,setting,shared,home,Home,Scenario setting: home,87,True
+tax_000088,,setting,shared,public_place,Public Place,Scenario setting: public_place,88,True
+tax_000089,,setting,shared,roadway,Roadway,Scenario setting: roadway,89,True
+tax_000090,,setting,shared,industrial,Industrial,Scenario setting: industrial,90,True
+tax_000091,,setting,shared,school,School,Scenario setting: school,91,True
+tax_000092,,setting,shared,long_term_care,Long Term Care,Scenario setting: long_term_care,92,True
+tax_000093,,setting,shared,clinic,Clinic,Scenario setting: clinic,93,True
+tax_000094,,setting,shared,hospital,Hospital,Scenario setting: hospital,94,True
+tax_000095,,setting,shared,wilderness,Wilderness,Scenario setting: wilderness,95,True
+tax_000096,,setting,shared,water,Water,Scenario setting: water,96,True
+tax_000097,,setting,shared,aircraft,Aircraft,Scenario setting: aircraft,97,True
+tax_000098,,setting,shared,interfacility,Interfacility,Scenario setting: interfacility,98,True
+tax_000099,,setting,shared,mass_gathering,Mass Gathering,Scenario setting: mass_gathering,99,True
+tax_000100,,phase,shared,dispatch,Dispatch,Scenario phase: dispatch,100,True
+tax_000101,,phase,shared,en_route,En Route,Scenario phase: en_route,101,True
+tax_000102,,phase,shared,arrival,Arrival,Scenario phase: arrival,102,True
+tax_000103,,phase,shared,scene_size_up,Scene Size Up,Scenario phase: scene_size_up,103,True
+tax_000104,,phase,shared,primary,Primary,Scenario phase: primary,104,True
+tax_000105,,phase,shared,immediate_interventions,Immediate Interventions,Scenario phase: immediate_interventions,105,True
+tax_000106,,phase,shared,secondary,Secondary,Scenario phase: secondary,106,True
+tax_000107,,phase,shared,differential,Differential,Scenario phase: differential,107,True
+tax_000108,,phase,shared,ongoing_management,Ongoing Management,Scenario phase: ongoing_management,108,True
+tax_000109,,phase,shared,reassessment,Reassessment,Scenario phase: reassessment,109,True
+tax_000110,,phase,shared,transport,Transport,Scenario phase: transport,110,True
+tax_000111,,phase,shared,handoff,Handoff,Scenario phase: handoff,111,True
+tax_000112,,phase,shared,debrief,Debrief,Scenario phase: debrief,112,True
+tax_000113,,special_population,mixed,pediatric,Pediatric,Overlay tag: pediatric,113,True
+tax_000114,,special_population,mixed,geriatric,Geriatric,Overlay tag: geriatric,114,True
+tax_000115,,special_population,mixed,obstetric,Obstetric,Overlay tag: obstetric,115,True
+tax_000116,,special_population,mixed,neonatal,Neonatal,Overlay tag: neonatal,116,True
+tax_000117,,special_population,mixed,bariatric,Bariatric,Overlay tag: bariatric,117,True
+tax_000118,,special_population,mixed,developmental_disability,Developmental Disability,Overlay tag: developmental_disability,118,True
+tax_000119,,special_population,mixed,behavioral_crisis,Behavioral Crisis,Overlay tag: behavioral_crisis,119,True
+tax_000120,,special_population,mixed,hospice_palliative,Hospice Palliative,Overlay tag: hospice_palliative,120,True
+tax_000121,,special_population,mixed,technology_dependence,Technology Dependence,Overlay tag: technology_dependence,121,True
+tax_000122,,special_population,mixed,language_barrier,Language Barrier,Overlay tag: language_barrier,122,True
+tax_000123,,special_population,mixed,immunocompromised,Immunocompromised,Overlay tag: immunocompromised,123,True
+tax_000124,,special_population,mixed,intoxication,Intoxication,Overlay tag: intoxication,124,True
+tax_000125,,special_population,mixed,custody_law_enforcement,Custody Law Enforcement,Overlay tag: custody_law_enforcement,125,True
+tax_000126,,special_population,mixed,mci,Mci,Overlay tag: mci,126,True
+tax_000127,,special_population,mixed,hazmat,Hazmat,Overlay tag: hazmat,127,True
+tax_000128,,special_population,mixed,violent_scene,Violent Scene,Overlay tag: violent_scene,128,True
+tax_000129,,special_population,mixed,traffic_incident,Traffic Incident,Overlay tag: traffic_incident,129,True

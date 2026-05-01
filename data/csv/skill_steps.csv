@@ -1,0 +1,67 @@
+skill_step_id,skill_id,step_order,action_text,must_complete,branch_if_failed,media_hint
+skstep_000001,skl_000001,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000002,skl_000001,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000003,skl_000001,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000004,skl_000001,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000005,skl_000001,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000006,skl_000001,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000007,skl_000002,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000008,skl_000002,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000009,skl_000002,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000010,skl_000002,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000011,skl_000002,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000012,skl_000002,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000013,skl_000003,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000014,skl_000003,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000015,skl_000003,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000016,skl_000003,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000017,skl_000003,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000018,skl_000003,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000019,skl_000004,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000020,skl_000004,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000021,skl_000004,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000022,skl_000004,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000023,skl_000004,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000024,skl_000004,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000025,skl_000005,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000026,skl_000005,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000027,skl_000005,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000028,skl_000005,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000029,skl_000005,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000030,skl_000005,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000031,skl_000006,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000032,skl_000006,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000033,skl_000006,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000034,skl_000006,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000035,skl_000006,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000036,skl_000006,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000037,skl_000007,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000038,skl_000007,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000039,skl_000007,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000040,skl_000007,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000041,skl_000007,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000042,skl_000007,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000043,skl_000008,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000044,skl_000008,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000045,skl_000008,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000046,skl_000008,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000047,skl_000008,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000048,skl_000008,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000049,skl_000009,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000050,skl_000009,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000051,skl_000009,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000052,skl_000009,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000053,skl_000009,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000054,skl_000009,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000055,skl_000010,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000056,skl_000010,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000057,skl_000010,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000058,skl_000010,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000059,skl_000010,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000060,skl_000010,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available
+skstep_000061,skl_000011,1,Confirm indication and scene safety,True,remediate_or_stop,attach demonstration media when available
+skstep_000062,skl_000011,2,Explain procedure when possible,False,,attach demonstration media when available
+skstep_000063,skl_000011,3,Prepare equipment and PPE,False,,attach demonstration media when available
+skstep_000064,skl_000011,4,Perform procedure using correct sequence,True,remediate_or_stop,attach demonstration media when available
+skstep_000065,skl_000011,5,Confirm effectiveness and reassess,True,remediate_or_stop,attach demonstration media when available
+skstep_000066,skl_000011,6,"Document findings, treatment, and patient response",False,,attach demonstration media when available

@@ -1,0 +1,16 @@
+glossary_id,term,expansion,definition,preferred_term_flag,level_scope,notes
+gls_000001,ABC,"Airway, breathing, circulation",Primary assessment priority order.,True,shared,Core EMS terminology
+gls_000002,AVPU,"Alert, verbal, pain, unresponsive",Rapid mental status scale.,True,shared,Core EMS terminology
+gls_000003,BVM,Bag-valve mask,Ventilation device for assisted ventilations.,True,shared,Core EMS terminology
+gls_000004,CPAP,Continuous positive airway pressure,Noninvasive pressure support for selected breathing problems.,True,shared,Core EMS terminology
+gls_000005,ROSC,Return of spontaneous circulation,Pulse/perfusion returns after cardiac arrest.,True,shared,Core EMS terminology
+gls_000006,SAMPLE,"Signs/symptoms, allergies, meds, past history, last intake, events",History-taking framework.,True,shared,Core EMS terminology
+gls_000007,OPQRST,"Onset, provocation, quality, radiation, severity, time",Pain/symptom assessment framework.,True,shared,Core EMS terminology
+gls_000008,DCAP-BTLS,"Deformities, contusions, abrasions, punctures/penetrations, burns, tenderness, lacerations, swelling",Trauma inspection mnemonic.,True,shared,Core EMS terminology
+gls_000009,PEARRL,"Pupils equal and round, reactive to light",Pupil assessment descriptor.,True,shared,Core EMS terminology
+gls_000010,ETCO2,End-tidal carbon dioxide,Measure of exhaled CO2 used for ventilation/perfusion trends.,True,shared,Core EMS terminology
+gls_000011,STEMI,ST elevation myocardial infarction,ECG pattern suggesting acute coronary occlusion.,True,shared,Core EMS terminology
+gls_000012,MCI,Mass casualty incident,Incident where patients/resources are imbalanced.,True,shared,Core EMS terminology
+gls_000013,MIST,"Mechanism/medical complaint, injuries/info, signs, treatment",Trauma handoff format.,True,shared,Core EMS terminology
+gls_000014,SBAR,"Situation, background, assessment, recommendation",Structured handoff format.,True,shared,Core EMS terminology
+gls_000015,PMS,"Pulse, motor, sensation",Extremity neurovascular assessment.,True,shared,Core EMS terminology
